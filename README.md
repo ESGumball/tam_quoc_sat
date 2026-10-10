@@ -6,4 +6,6 @@ Card gallery hay thư viện thẻ bài là nơi hiện tất cả thẻ bài ch
 
 Dự án sử dụng công nghệ react + vite, kèm theo eslint và prettier
 
+# Sử dụng trang web
 
+https://esgumball.github.io/tam_quoc_sat/
