@@ -1,0 +1,225 @@
+import React from "react";
+
+// Khung chung: nền tối, header, nút đóng, ảnh bên trái
+const Khung = ({ title, badge, img, onClose, children }) => (
+  <div
+    className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/70 p-4 sm:p-8"
+    onClick={onClose}
+  >
+    <div
+      className="relative my-auto w-full max-w-4xl overflow-hidden rounded-xl bg-[#013951] text-white shadow-2xl"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <div className="bg-[#2F6178] px-6 py-5 pr-20 sm:px-10">
+        {badge && (
+          <span className="mb-2 inline-block rounded-full border border-amber-400/60 bg-amber-400/10 px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-amber-300">
+            {badge}
+          </span>
+        )}
+        <h2 className="text-xl font-bold uppercase tracking-wide sm:text-3xl md:text-4xl">
+          {title}
+        </h2>
+      </div>
+
+      <button
+        onClick={onClose}
+        className="absolute right-3 top-3 flex h-9 w-9 cursor-pointer items-center justify-center rounded-md bg-white text-xl font-bold text-slate-900 transition hover:bg-slate-200 sm:right-4 sm:top-4 sm:h-10 sm:w-10"
+      >
+        ✕
+      </button>
+
+      <div className="grid gap-8 p-6 sm:p-10 md:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)]">
+        <div className="mx-auto w-full max-w-[16rem] md:max-w-none">
+          <img
+            src={img}
+            alt={title}
+            className="aspect-5/7 w-full rounded-2xl bg-black object-cover"
+          />
+        </div>
+        <div className="flex flex-col">{children}</div>
+      </div>
+    </div>
+  </div>
+);
+
+const Muc = ({ label, children, last }) => (
+  <div className={`py-4 ${last ? "" : "border-b border-slate-500/60"}`}>
+    <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300">
+      {label}
+    </h3>
+    <div className="mt-2">{children}</div>
+  </div>
+);
+
+/* ================= THẺ TƯỚNG ================= */
+const Mo_ta = ({ text }) => {
+  const parts = String(text ?? "").split(/(\[[^\]]+\])/g);
+  return (
+    <>
+      {parts.map((p, i) =>
+        /^\[[^\]]+\]$/.test(p) ? (
+          <span
+            key={i}
+            className="mx-0.5 inline-block rounded bg-amber-400/15 px-1.5 font-semibold text-amber-300 ring-1 ring-amber-400/50"
+          >
+            {p.slice(1, -1)}
+          </span>
+        ) : (
+          p
+        ),
+      )}
+    </>
+  );
+};
+const Tim = ({ half }) => (
+  <span className="relative inline-block text-2xl leading-none">
+    <span className="text-slate-600">♥</span>
+    <span
+      className="absolute left-0 top-0 overflow-hidden whitespace-nowrap text-red-500"
+      style={{ width: half ? "50%" : "100%" }}
+    >
+      ♥
+    </span>
+  </span>
+);
+
+const Sinh_luc = ({ value }) => {
+  const n = Number(value);
+  if (value === undefined || value === null || Number.isNaN(n)) return "-";
+  const full = Math.floor(n);
+  const half = n - full >= 0.5;
+  return (
+    <div className="mt-2 flex flex-wrap items-center gap-1" title={`${n} máu`}>
+      {Array.from({ length: full }, (_, i) => (
+        <Tim key={i} />
+      ))}
+      {half && <Tim half />}
+      <span className="ml-1 text-sm font-bold text-red-300">{n}</span>
+    </div>
+  );
+};
+
+export const Modal_tuong = ({ card, onClose }) => (
+  <Khung
+    title={card.title ?? card.name}
+    badge={[].concat(card.the_luc ?? []).join(" / ")}
+    img={card.img}
+    onClose={onClose}
+  >
+    <div className="grid grid-cols-2 gap-4 border-b border-slate-500/60 pb-4">
+      <div>
+        <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300">
+          Sinh lực
+        </h3>
+        <Sinh_luc value={card.sinh_luc} />
+      </div>
+      <div>
+        <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300">
+          Danh hiệu
+        </h3>
+        <p className="mt-2 font-semibold text-amber-300">
+          {card.danh_hieu ?? "-"}
+        </p>
+      </div>
+    </div>
+
+    <Muc label="Kĩ năng">
+      {card.ky_nang.map((kn, i) => (
+        <div
+          key={i}
+          className="rounded-lg border border-slate-600 bg-[#082D3D] p-3"
+        >
+          <div className="flex flex-wrap items-center gap-2">
+            {kn.loai && (
+              <span className="rounded bg-amber-400 px-2 py-0.5 text-xs font-bold uppercase text-slate-950">
+                {kn.loai}
+              </span>
+            )}
+            <p className="font-bold text-amber-300">{kn.ten}</p>
+          </div>
+
+          <p className="mt-2 whitespace-pre-line leading-7">
+            <Mo_ta text={kn.mo_ta} />
+          </p>
+        </div>
+      ))}
+    </Muc>
+
+    {card.cau_noi && (
+      <Muc label="Câu nói">
+        <p className="border-l-4 border-amber-400 pl-3 italic text-slate-200">
+          “{card.cau_noi}”
+        </p>
+      </Muc>
+    )}
+
+    <Muc label="Hảo tướng">
+      {card.hao_tuong?.length ? (
+        <div className="flex flex-wrap gap-2">
+          {card.hao_tuong.map((t) => (
+            <span
+              key={t}
+              className="rounded-full border border-slate-500 bg-[#082D3D] px-3 py-1 text-sm"
+            >
+              {t}
+            </span>
+          ))}
+        </div>
+      ) : (
+        "-"
+      )}
+    </Muc>
+
+    <Muc label="Thuộc bản mở rộng" last>
+      {card.ban_mo_rong ?? "-"}
+    </Muc>
+  </Khung>
+);
+
+/* ================= THẺ BÀI ĐÁNH ================= */
+const PHAN_LOAI = {
+  co_ban: "Cơ bản",
+  cam_nang: "Cẩm nang",
+  trang_bi: "Trang bị",
+};
+const CHAT = {
+  ro: { icon: "♦", ten: "Rô", do: true },
+  co: { icon: "♥", ten: "Cơ", do: true },
+  chuon: { icon: "♣", ten: "Chuồn", do: false },
+  bich: { icon: "♠", ten: "Bích", do: false },
+};
+
+export const Modal_bai_danh = ({ card, onClose }) => {
+  const chat = CHAT[card.chat];
+  return (
+    <Khung
+      title={card.title ?? card.name}
+      badge={PHAN_LOAI[card.phan_loai]}
+      img={card.img}
+      onClose={onClose}
+    >
+      <Muc label="Mô tả hiệu ứng">
+        <p className="leading-7">{card.mo_ta ?? "-"}</p>
+      </Muc>
+
+      <Muc label="Chất bài / Số">
+        {chat ? (
+          <span
+            className={`inline-flex items-center gap-2 rounded-lg bg-white px-4 py-1 text-2xl font-bold ${
+              chat.do ? "text-red-600" : "text-slate-900"
+            }`}
+          >
+            {card.so} {chat.icon}
+            <span className="text-sm font-semibold">{chat.ten}</span>
+          </span>
+        ) : (
+          "-"
+        )}
+      </Muc>
+
+      <Muc label="Thuộc bản mở rộng" last>
+        {card.ban_mo_rong ?? "-"}
+      </Muc>
+    </Khung>
+  );
+};
