@@ -210,7 +210,6 @@ export const Modal_bai_danh = ({ card, onClose }) => {
             }`}
           >
             {card.so} {chat.icon}
-            <span className="text-sm font-semibold">{chat.ten}</span>
           </span>
         ) : (
           "-"

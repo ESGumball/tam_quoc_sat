@@ -18,7 +18,7 @@ const Luat_khai_niem = () => {
     .map((g) => ({
       ...g,
       items: g.items.filter(
-        (it) => !q || bo_dau(`${it.ten} ${it.mo_ta}`).includes(q)
+        (it) => !q || bo_dau(`${it.ten} ${it.mo_ta}`).includes(q),
       ),
     }))
     .filter((g) => g.items.length > 0);
@@ -78,7 +78,11 @@ const Luat_khai_niem = () => {
         {/* Nội dung */}
         <div className="flex min-w-0 flex-col gap-8">
           {ds.map((g) => (
-            <section key={g.id} id={g.id} className="scroll-mt-20 lg:scroll-mt-6">
+            <section
+              key={g.id}
+              id={g.id}
+              className="scroll-mt-20 lg:scroll-mt-6"
+            >
               <h2 className="border-l-4 border-amber-400 pl-3 text-lg font-bold uppercase tracking-wide text-white sm:text-xl">
                 {g.title}
               </h2>
