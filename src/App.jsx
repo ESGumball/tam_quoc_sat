@@ -5,10 +5,12 @@ import Danh_sach_tuong from "./pages/Danh_sach_tuong";
 import Danh_sach_bai_danh from "./pages/Danh_sach_bai_danh";
 import Luat_khai_niem from "./pages/Luat_khai_niem";
 import MainLayout from "./layouts/MainLayout";
+import { HashRouter } from "react-router-dom";
+
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/tuong" element={<Danh_sach_tuong />} />
@@ -16,7 +18,7 @@ const App = () => {
           <Route path="/luat_khai_niem" element={<Luat_khai_niem />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
