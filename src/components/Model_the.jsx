@@ -52,7 +52,7 @@ const Muc = ({ label, children, last }) => (
 );
 
 /* ================= THẺ TƯỚNG ================= */
-const Mo_ta = ({ text }) => {
+export const Mo_ta = ({ text }) => {
   const parts = String(text ?? "").split(/(\[[^\]]+\])/g);
   return (
     <>
