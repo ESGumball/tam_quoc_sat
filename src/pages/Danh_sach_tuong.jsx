@@ -87,7 +87,10 @@ const Danh_sach_tuong = () => {
         {/* Tìm kiếm */}
         <div className="flex flex-col gap-2">
           <h2 className="border-l-4 border-amber-400 pl-3 text-base font-bold tracking-wide">
-            TÌM KIẾM
+            TÌM KIẾM{" "}
+            <span className="text-sm font-normal text-slate-300">
+              ({ds.length}/{bai_tuong.length} tướng)
+            </span>
           </h2>
 
           <div className="flex items-center gap-2 rounded-lg border border-slate-600 bg-[#013951] p-1.5 transition focus-within:border-amber-400">

@@ -53,26 +53,45 @@ const Muc = ({ label, children, last }) => (
 
 /* ================= THẺ TƯỚNG ================= */
 export const Mo_ta = ({ text }) => {
-  const parts = String(text ?? "").split(/(\[[^\]]+\])/g);
+  const parts = String(text ?? "").split(
+    /(\[[^\]]+\]|\([-+−–]\s*\d+(?:[.,]\d+)?\s*sinh lực\))/g,
+  );
   return (
     <>
-      {parts.map((p, i) =>
-        /^\[[^\]]+\]$/.test(p) ? (
-          <span
-            key={i}
-            className="mx-0.5 inline-block rounded bg-amber-400/15 px-1.5 font-semibold text-amber-300 ring-1 ring-amber-400/50"
-          >
-            {p.slice(1, -1)}
-          </span>
-        ) : (
-          p
-        ),
-      )}
+      {parts.map((p, i) => {
+        if (/^\[[^\]]+\]$/.test(p)) {
+          return (
+            <span
+              key={i}
+              className="mx-0.5 inline-block rounded bg-amber-400/15 px-1.5 font-semibold text-amber-300 ring-1 ring-amber-400/50"
+            >
+              {p.slice(1, -1)}
+            </span>
+          );
+        }
+        if (/^\([-+−–]/.test(p)) {
+          const so = p.replace(/[()]/g, "").replace(/\s*sinh lực/, "");
+          return (
+            <span
+              key={i}
+              className="mr-1 inline-flex items-center gap-1 rounded-full bg-red-500/20 px-2 py-0.5 text-sm font-bold text-red-300 ring-1 ring-red-400/60"
+            >
+              <Tim half small />
+              {so}
+            </span>
+          );
+        }
+        return p;
+      })}
     </>
   );
 };
-const Tim = ({ half }) => (
-  <span className="relative inline-block text-2xl leading-none">
+const Tim = ({ half, small }) => (
+  <span
+    className={`relative inline-block leading-none ${
+      small ? "text-base" : "text-2xl"
+    }`}
+  >
     <span className="text-slate-600">♥</span>
     <span
       className="absolute left-0 top-0 overflow-hidden whitespace-nowrap text-red-500"
