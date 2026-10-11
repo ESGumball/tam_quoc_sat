@@ -55,9 +55,9 @@ const Luat_khai_niem = () => {
         )}
       </div>
 
-      <div className="mt-6 grid gap-6 lg:grid-cols-[220px_minmax(0,1fr)]">
+      <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-[220px_minmax(0,1fr)]">
         {/* Mục lục: thanh ngang trên điện thoại, cột dọc trên máy tính */}
-        <nav className="sticky top-2 z-20 -mx-4 bg-[#082D3D]/95 px-4 py-2 backdrop-blur lg:top-4 lg:mx-0 lg:self-start lg:rounded-xl lg:border lg:border-slate-600 lg:p-3">
+        <nav className="min-w-0 sticky top-2 z-20 -mx-4 bg-[#082D3D]/95 px-4 py-2 backdrop-blur lg:top-4 lg:mx-0 lg:self-start lg:rounded-xl lg:border lg:border-slate-600 lg:p-3">
           <p className="mb-2 hidden border-l-4 border-amber-400 pl-3 text-sm font-bold uppercase tracking-wide text-white lg:block">
             Mục lục
           </p>
@@ -100,7 +100,7 @@ const Luat_khai_niem = () => {
                         ▼
                       </span>
                     </summary>
-                    <div className="border-t border-slate-600 px-3 py-3 leading-7 text-slate-100 whitespace-pre-line sm:px-4">
+                    <div className="border-t border-slate-600 px-3 py-3 leading-7 text-slate-100 whitespace-pre-line wrap-break-words sm:px-4">
                       <Mo_ta text={it.mo_ta} />
                     </div>
                   </details>
