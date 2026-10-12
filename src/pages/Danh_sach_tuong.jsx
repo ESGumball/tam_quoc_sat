@@ -30,7 +30,6 @@ const Chip = ({ on, onClick, children }) => (
 const Danh_sach_tuong = () => {
   const [selected, setSelected] = useState(null);
   const [keyword, setKeyword] = useState("");
-  const [query, setQuery] = useState("");
   const [openLoc, setOpenLoc] = useState(false);
   const [chonPhe, setChonPhe] = useState([]);
   const [chonMau, setChonMau] = useState([]);
@@ -40,14 +39,14 @@ const Danh_sach_tuong = () => {
     setList(list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
 
   const soLoc = chonPhe.length + chonMau.length + chonBan.length;
-
+  const q = keyword.trim();
   const ds = bai_tuong.filter((item) => {
     const phe = [].concat(item.the_luc ?? []);
     if (chonPhe.length && !phe.some((p) => chonPhe.includes(p))) return false;
     if (chonMau.length && !chonMau.includes(Number(item.sinh_luc)))
       return false;
     if (chonBan.length && !chonBan.includes(item.ban_mo_rong)) return false;
-    if (query) {
+    if (q) {
       const text = bo_dau(
         [
           item.title ?? item.name,
@@ -55,7 +54,7 @@ const Danh_sach_tuong = () => {
           ...(item.ky_nang ?? []).map((k) => k.ten),
         ].join(" "),
       );
-      if (!text.includes(bo_dau(query))) return false;
+      if (!text.includes(bo_dau(q))) return false;
     }
     return true;
   });
@@ -98,17 +97,19 @@ const Danh_sach_tuong = () => {
               type="text"
               value={keyword}
               onChange={(e) => setKeyword(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && setQuery(keyword.trim())}
               placeholder="Nhập tên tướng, phe, kĩ năng..."
               className="min-w-0 flex-1 bg-transparent px-2 py-1.5 text-sm text-white outline-none placeholder:text-slate-400"
             />
 
-            <button
-              onClick={() => setQuery(keyword.trim())}
-              className="cursor-pointer rounded-md bg-amber-400 px-3 py-1.5 text-sm font-semibold text-slate-950 transition hover:bg-amber-300"
-            >
-              Tìm
-            </button>
+            {keyword && (
+              <button
+                type="button"
+                onClick={() => setKeyword("")}
+                className="cursor-pointer rounded-md px-3 py-1.5 text-sm font-semibold text-slate-300 transition hover:text-white"
+              >
+                ✕
+              </button>
+            )}
           </div>
         </div>
         {openLoc && (

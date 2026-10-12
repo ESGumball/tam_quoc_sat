@@ -6,25 +6,15 @@ const modules = import.meta.glob("../assets/bai_tuong/*.{png,jpg,jpeg,webp}", {
   import: "default",
 });
 
-const list = Object.entries(modules).map(([path, img], index) => {
-  const name = path
-    .split("/")
-    .pop()
-    .replace(/\.\w+$/, "");
-  return {
-    id: index + 1,
-    name,
-    img: img || defaultImg,
-    ...details[name],
-  };
+// { "Trinh_Pho": "/assets/Trinh_Pho-xxxx.png", ... }
+const anh = {};
+Object.entries(modules).forEach(([path, img]) => {
+  anh[path.split("/").pop().replace(/\.\w+$/, "")] = img;
 });
 
-// Nếu thư mục chưa có ảnh nào thì hiện 8 thẻ mặc định
-export const bai_tuong =
-  list.length > 0
-    ? list
-    : Array.from({ length: 8 }, (_, i) => ({
-        id: i + 1,
-        name: `Thẻ ${i + 1}`,
-        img: defaultImg,
-      }));
+export const bai_tuong = Object.entries(details).map(([name, d], index) => ({
+  id: index + 1,
+  name,
+  img: anh[name] || defaultImg,
+  ...d,
+}));

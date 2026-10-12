@@ -149,11 +149,14 @@ export const Modal_tuong = ({ card, onClose }) => (
           className="rounded-lg border border-slate-600 bg-[#082D3D] p-3"
         >
           <div className="flex flex-wrap items-center gap-2">
-            {kn.loai && (
-              <span className="rounded bg-amber-400 px-2 py-0.5 text-xs font-bold uppercase text-slate-950">
-                {kn.loai}
-              </span>
-            )}
+            {[].concat(kn.loai ?? []).map((l) => (
+                  <span
+                    key={l}
+                    className="rounded bg-amber-400 px-2 py-0.5 text-xs font-bold uppercase text-slate-950"
+                  >
+                    {l}
+                  </span>
+                ))}
             <p className="font-bold text-amber-300">{kn.ten}</p>
           </div>
 

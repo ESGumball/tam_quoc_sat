@@ -38,7 +38,6 @@ const Chip = ({ on, onClick, children }) => (
 );
 const Danh_sach_bai_danh = () => {
   const [keyword, setKeyword] = useState("");
-  const [query, setQuery] = useState("");
   const [openLoc, setOpenLoc] = useState(false);
   const [chonLoai, setChonLoai] = useState([]);
   const [chonChat, setChonChat] = useState([]);
@@ -50,14 +49,14 @@ const Danh_sach_bai_danh = () => {
 
   const soLoc =
     chonLoai.length + chonChat.length + chonSo.length + chonBan.length;
-
+  const q = keyword.trim();
   const ds = bai_danh.filter((item) => {
     const ten = item.title ?? item.name;
     if (chonLoai.length && !chonLoai.includes(item.phan_loai)) return false;
     if (chonChat.length && !chonChat.includes(item.chat)) return false;
     if (chonSo.length && !chonSo.includes(String(item.so))) return false;
     if (chonBan.length && !chonBan.includes(item.ban_mo_rong)) return false;
-    if (query && !bo_dau(ten).includes(bo_dau(query))) return false;
+    if (q && !bo_dau(ten).includes(bo_dau(q))) return false;
     return true;
   });
   return (
@@ -98,17 +97,19 @@ const Danh_sach_bai_danh = () => {
               type="text"
               value={keyword}
               onChange={(e) => setKeyword(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && setQuery(keyword.trim())}
               placeholder="Nhập tên bài..."
               className="min-w-0 flex-1 bg-transparent px-2 py-1.5 text-sm text-white outline-none placeholder:text-slate-400"
             />
 
-            <button
-              onClick={() => setQuery(keyword.trim())}
-              className="cursor-pointer rounded-md bg-amber-400 px-3 py-1.5 text-sm font-semibold text-slate-950 transition hover:bg-amber-300"
-            >
-              Tìm
-            </button>
+            {keyword && (
+              <button
+                type="button"
+                onClick={() => setKeyword("")}
+                className="cursor-pointer rounded-md px-3 py-1.5 text-sm font-semibold text-slate-300 transition hover:text-white"
+              >
+                ✕
+              </button>
+            )}
           </div>
         </div>
         {openLoc && (
