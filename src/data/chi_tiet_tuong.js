@@ -2403,7 +2403,7 @@ export const details = {
   },
   Tu_Ma_Chieu_2: {
     title: "Tư Mã Chiêu",
-    the_luc: ["Dã"],
+    the_luc: ["Dã tâm gia"],
     sinh_luc: 1.5,
     danh_hieu: "Trào Phong Khai Thiên",
     ky_nang: [

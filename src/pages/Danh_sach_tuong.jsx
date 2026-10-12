@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { bai_tuong } from "../data/bai_tuong";
 import defaultImg from "../assets/default-card.png";
 import { Modal_tuong } from "../components/Model_the";
-const PHE = ["Tấn", "Hán", "Ngô", "Quần", "Thục", "Ngụy", "Dã tâm"];
+const PHE = ["Tấn", "Hán", "Ngô", "Quần", "Thục", "Ngụy", "Dã tâm gia"];
 const MAU = [1.5, 2, 2.5];
 const BAN = ["A", "B", "C"];
 
