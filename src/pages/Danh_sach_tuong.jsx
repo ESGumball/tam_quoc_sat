@@ -4,7 +4,7 @@ import defaultImg from "../assets/default-card.png";
 import { Modal_tuong } from "../components/Model_the";
 const PHE = ["Tấn", "Hán", "Ngô", "Quần", "Thục", "Ngụy", "Dã tâm gia"];
 const MAU = [1.5, 2, 2.5];
-const BAN = ["Bản gốc", "Special Pack", "Cửu Biến Thiên", "Binh Tình Thiên","Thập Niên", "Thế Bị Thiên", "Bất Thần Thiên", "Nhị Thần Thiên","Khánh Lệ Tình Thâm", "Sea Pack", "Ẩn Thế Diệu Tiên", "Tung Hoành Bãi Nạp", "Quần Hùng Cát Cứ"];
+const BAN = ["Bản gốc", "Special Pack", "Cửu Biến Thiên","Mặc Tử Thiên", "Binh Tình Thiên","Thập Niên", "Thế Bị Thiên", "Bất Thần Thiên", "Nhị Thần Thiên","Khánh Lệ Tình Thâm", "Sea Pack", "Ẩn Thế Diệu Tiên", "Tung Hoành Bãi Nạp", "Quần Hùng Cát Cứ"];
 
 // bỏ dấu để gõ "trinh pho" vẫn tìm ra "Trình Phổ"
 const bo_dau = (s) =>

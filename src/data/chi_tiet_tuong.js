@@ -417,25 +417,6 @@ export const details = {
     hao_tuong: ["Ngụy Diên"],
     ban_mo_rong: "Bản gốc",
   },
-  ten_tuong: {
-    title: "",
-    the_luc: [""],
-    sinh_luc: 1.5,
-    danh_hieu: "",
-    ky_nang: [
-      {
-        ten: "",
-        mo_ta: "",
-      },
-      {
-        ten: "",
-        mo_ta: "",
-      },
-    ],
-    cau_noi: "",
-    hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
-  },
   Gioi_Tuong: {
     title: "Giới Tượng",
     the_luc: ["Ngô", "Quần"],
@@ -577,7 +558,7 @@ export const details = {
       {
         ten: "Hãm Tự",
         mo_ta:
-          'Giai đoạn chuẩn bị, bạn có thể chọn tối đa hai người chơi đem mỗi người một thẻ của họ đặt lên trên võ tướng này, gọi là "Nghịch". Người chơi khác có thể bỏ đi hai thê "Nghịch", xem như sử dụng 1 thẻ [Sát) đôi với bạn.',
+          'Giai đoạn chuẩn bị, bạn có thể chọn tối đa hai người chơi đem mỗi người một thẻ của họ đặt lên trên võ tướng này, gọi là [Nghịch]. Người chơi khác có thể bỏ đi hai thê [Nghịch], xem như sử dụng 1 thẻ [Sát] đối với bạn.',
       },
     ],
     cau_noi: "Cha muốn con chết, hài nhi chỉ còn cách tự tận!",
@@ -617,7 +598,7 @@ export const details = {
           "Bắt đầu giai đoạn bỏ bài, bạn có thể tự giảm 1 sinh lực, sau khi kết thúc giai đoạn này, nếu trong giai đoạn này bạn có bỏ bài, bạn lệnh toàn bộ người chơi khác lần lượt chọn 1 mục: \n1. Đem X thẻ đặt vào chồng bài bỏ (X là số thẻ bạn bỏ); \n2. Lệnh bạn gây 1 sát thương lên họ.",
       },
       {
-        loại: "Trận Pháp Kỹ",
+        loai: "Trận Pháp Kỹ",
         ten: "Phương Viên",
         mo_ta:
           "Nếu bạn là người vây công, người có quan hệ vây công cùng với bạn có giới hạn trữ bài +1, người bị vây công có giới hạn trữ bài -1. Giai đoạn kết thúc, nêu bạn là người bị vây công, bạn có thể chọn 1 người đang trong quan hệ vây công bạn, xem như sử dụng 1 thẻ [Sát] lên họ.",
@@ -849,27 +830,6 @@ export const details = {
     cau_noi: "Kẻ sĩ ba ngày không gặp nhau thì nên rửa mắt mà nhìn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
-  },
-  Truong_Lo_2: {
-    title: "Trương Lỗ",
-    the_luc: ["Ngụy", "Quần"],
-    sinh_luc: 1.5,
-    danh_hieu: "Chính Khoan Giáo Huệ",
-    ky_nang: [
-      {
-        ten: "Bố Thí",
-        mo_ta:
-          "Sau khi bạn nhận 1 sát thương, bạn có thể rút 1 thẻ. Khi bạn gây sát thương cho người khác thế lực, họ có thể rút 1 thẻ, sau đó bạn rút 1 thẻ",
-      },
-      {
-        ten: "Mễ Đạo",
-        mo_ta:
-          "Giai đoạn hành động người cùng thế lực với bạn 1 lần, khi họ dùng thẻ Sát hoặc Cẩm Nang loại gây sát thương (không chuyển hoá) chỉ định mục tiêu đầu tiên, họ có thể giao cho bạn 1 thê trên tay, nếu là bạn bỏ qua bước này, rồi lệnh bạn gọi tên 1 chất bài và 1 loại thuộc tính. Sau đó thẻ bài họ dùng có chất và thuộc tính bạn đã gọi tên.",
-      },
-    ],
-    cau_noi: "Bố thí thành thiện, nãi đạo nghĩa chi bổn!",
-    hao_tuong: ["Không có"],
-    ban_mo_rong: "Bất Thần Thiên",
   },
   Ma_Sieu: {
     title: "Mã Siêu",
@@ -1431,7 +1391,7 @@ export const details = {
       {
         ten: "Khuyến Nhiếp",
         mo_ta:
-          "Giai đoạn hành động hạn 1 lần, bạn có thế chọn 1 người khác thế lực có [trang bị vũ khí], xem như dùng 1 thẻ [Tá Đao Sát Nhân] lên họ. Sau khi họ dùng [Sát] và gây ra sát thương, bạn giao cho họ 1 thẻ\nTung Hoành: Người đó nhận kỹ năng [Khuyến Nhiếp] đến khi kết thúc lượt sau của họ, đồng thời kỹ năng thay đổi mô tả ... .",
+          "Giai đoạn hành động hạn 1 lần, bạn có thế chọn 1 người khác thế lực có [trang bị vũ khí], xem như dùng 1 thẻ [Tá Đao Sát Nhân] lên họ. Sau khi họ dùng [Sát] và gây ra sát thương, bạn giao cho họ 1 thẻ\nTung Hoành: Người đó nhận kỹ năng [Khuyến Nhiếp] đến khi kết thúc lượt sau của họ, đồng thời kỹ năng thay đổi mô tả [có thể] thành [bỏ 1 thẻ] .",
       },
       {
         ten: "Ngụy Báo",
@@ -1452,7 +1412,7 @@ export const details = {
       {
         ten: "Phiên Lục",
         mo_ta:
-          "Sau khi bạn sử dụng thẻ bài loại gây sát thương chỉ định mục tiêu, bạn có thế chọn bỏ 1 thẻ ... của bạn/mục tiêu, lệnh cho sát thương gây lên họ +1.",
+          "Sau khi bạn sử dụng thẻ bài loại gây sát thương chỉ định mục tiêu, bạn có thế chọn bỏ 1 thẻ [Tọa Kỵ]/[Bảo Vật] của bạn/mục tiêu, lệnh cho sát thương gây lên họ +1.",
       },
       {
         ten: "Sát Tuyệt",
@@ -2819,7 +2779,7 @@ export const details = {
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
   },
-  Ton_Lam: {
+  Ton_Lam_1: {
     title: "Tôn Lâm",
     the_luc: ["Dã tâm gia"],
     sinh_luc: 2,
@@ -3756,7 +3716,7 @@ export const details = {
       {
         ten: "Kinh Hợp",
         mo_ta:
-          "Giai đoạn hành động 1 lần, bạn có thể phát động [Thiên Thư]. Sau đó lệnh 1 người nhận Kỹ năng đó trong ... đến khi bạn bắt đầu lượt tiếp theo.",
+          "Giai đoạn hành động 1 lần, bạn có thể phát động [Thiên Thư]. Sau đó lệnh 1 người nhận Kỹ năng đó trong [Tà Mãn Kỹ Năng Đích Thiên Thư] đến khi bạn bắt đầu lượt tiếp theo.",
       },
       {
         loai: "Tỏa Định Kỹ",
@@ -4010,6 +3970,27 @@ export const details = {
     cau_noi: "Bố thí hành thiện, nãi đạo nghĩa chi bổn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+  },
+  Truong_Lo_2: {
+    title: "Trương Lỗ",
+    the_luc: ["Ngụy", "Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Chính Khoan Giáo Huệ",
+    ky_nang: [
+      {
+        ten: "Bố Thí",
+        mo_ta:
+          "Khi kết thúc lượt, bạn nhận số tiêu ký [Nghĩa Xá] bằng số sinh lực của bạn. Giai đoạn chuẩn bị của 1 người, nếu lượt này không phải của bạn, bạn có thể bỏ 1 [Nghĩa Xá] sau đó giao cho họ 1 thẻ và bạn rút 2 thẻ; nếu là lượt của bạn, bạn bỏ đi [X-2] thẻ và bỏ đi toàn bộ [Nghĩa Xá] ([X] là số người chơi con sống trừ đi số sinh lực của bạn)",
+      },
+      {
+        ten: "Mễ Đạo",
+        mo_ta:
+          "Giai đoạn kết thúc, nếu bạn không có [Mễ], bạn có thể rút 2 thẻ, sau đó đem 2 thẻ đặt ngửa lên tướng này, gọi là [Mễ], trước khi thẻ phán xét của 1 người có hiệu lực, bạn có thể đánh ra 1 [Mễ] để hoán đổi thẻ phán xét đó",
+      },
+    ],
+    cau_noi: "Bố thí hành thiện, nãi đạo nghĩa chi bổn!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Luu_Yen: {
     title: "Lưu Yên",
@@ -4780,7 +4761,7 @@ export const details = {
     hao_tuong: ["Vương Đào & Vương Duyệt"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
   },
-  Vuong_Lang: {
+  Vuong_Lang_1: {
     title: "Vương Lăng",
     the_luc: ["Ngụy"],
     sinh_luc: 2,
@@ -4965,7 +4946,7 @@ export const details = {
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
   },
-  Luu_Tan: {
+  Luu_Tan_1: {
     title: "Lưu Tấn",
     the_luc: ["Hán", "Ngô"],
     sinh_luc: 2,
@@ -5096,5 +5077,658 @@ export const details = {
     cau_noi: "Hễ có hung cát, Hiền suy số mà tỏ bày!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+  },
+    Vuong_Lang: {
+    title: "Vương Lãng",
+    the_luc: ["Ngụy"],
+    sinh_luc: 1.5,
+    danh_hieu: "Họa Sách Tùy Ngênh",
+    ky_nang: [
+      {
+        ten: "Cổ Thiệt",
+        mo_ta:
+          "Giai đoạn hành động giới hạn 1 lần, bạn có thể đấu điểm với 1 người khác: \nNếu bạn thắng, bạn xem như sử dụng [Dĩ Dật Đãi Lao];\nNếu bạn không thắng, bạn thu 1 thẻ của 1 người chơi.",
+      },
+      {
+        loai: "Toả Định Kỹ",
+        ten: "Kích Từ",
+        mo_ta:
+          "Khi bạn đấu điểm mà không thắng, nếu bạn phát động kỹ năng này:\n 1. Trong lượt của bạn, bạn nhận 1 sát thương từ người đấu điểm còn lại, sau đó rút 3 thẻ bài;\n 2. Ngoài lượt của bạn, bạn chọn thu 1 thẻ [Cẩm Nang] trong chồng bài bỏ có điểm số nhỏ hơn thẻ đấu điểm của bạn.",
+      },
+    ],
+    cau_noi:
+      "Lưỡi ta, từng nếm trăm vị, từng quát lui nghìn quân!",
+    hao_tuong: ["Hoa Hâm"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Chu_Tuyen: {
+    title: "Chu Tuyên",
+    the_luc: ["Ngụy"],
+    sinh_luc: 1.5,
+    danh_hieu: "Dạ Hoa Thanh Ô",
+    ky_nang: [
+      {
+        loai: "Luân Thứ Kỹ",
+        ten: "Ngộ Mị",
+        mo_ta:
+          "Trước khi bắt đầu lượt của bạn, bạn có thể chọn 1 người đang có bài trên tay, tiến hành đi 1 lượt bổ sung. Lượt bổ sung có hiệu ứng sau:\n 1. Giai đoạn chuẩn bị, họ buộc tự bỏ 2 thẻ trên tay;\n2. Giai đoạn rút bài, họ rút thêm 1 thẻ;\n3. Giai đoạn hành động, tất cả người cùng thế lực với họ xem như rời khỏi bàn chơi;\n4. Giai đoạn bỏ bài, họ giảm 1 giới hạn trữ bài trong lượt này. bạn thu lấy 2 tiêu ký [Kỳ Nhân] ngẫu nhiên.",
+      },
+    ],
+    cau_noi:
+      "Ngân hà của kẻ ấy, chính là trang sử của ta!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Ẩn Thế Diệu Tiên",
+  },
+  Ton_Lam: {
+    title: "Tôn Lâm",
+    the_luc: ["Ngô"],
+    sinh_luc: 2,
+    danh_hieu: "Hung Thụ Doanh Dật",
+    ky_nang: [
+      {
+        ten: "Chuyên Hành",
+        mo_ta:
+          "Giai đoạn chuẩn bị của người cùng thế lực, bạn có thể chọn 1 mục:\n1. Bạn sử dụng 1 thẻ [Sát] lên họ, sau kết toán bạn chọn 1 người chơi và gây 1 điểm sát thương lên họ.\n2. Bạn đem 1 thẻ [Phi Cẩm Nang sắc đen] xem như [Binh Lương Thốn Đoạn] đặt lên [vùng phán xét] của họ, sau đó rút 3 thẻ.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Bạo Thí",
+        mo_ta:
+          "Nếu bạn chấp hành qua 1 lần kích sát:\n- Thưởng, thẻ [Sát] do bạn sử dụng xuyên tầm.\n- Phạt, thẻ [Sát] do bạn sử dụng không hạn chế số mục tiêu.",
+      },
+    ],
+    cau_noi:
+      "Sao ta nghe mùi máu không thuần khiết, người đâu đem đi chém cho ta",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Binh Tình Thiên",
+  },
+  Hoa_Man: {
+    title: "Hoa Man",
+    the_luc: ["Thục"],
+    sinh_luc: 1.5,
+    danh_hieu: "Man Địa Kiều Hoa",
+    ky_nang: [
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Man Tự",
+        mo_ta:
+          "[Nam Man Nhập Xâm] vô hiệu đối với bạn; Nếu 1 thẻ [Nam Man Nhập Xâm] được sử dụng và có gây sát thương, sau kết toán bạn rút 3 thẻ; Sau khi bạn lần đầu lật mở tướng này, xem như bạn sử dụng 1 thẻ [Nam Man Nhập Xâm].",
+      },
+      {
+        ten: "Hỉ Chiến",
+        mo_ta:
+          "Mỗi lượt giới hạn 1 lần, sau khi chỉ định mục tiêu cho thẻ [Sát], bạn có thể bỏ 1 thẻ cùng chất với thẻ [Sát], sửa thành bạn xem như sử dụng 1 thẻ [Nam Man Nhập Xâm] lên cùng mục tiêu đó. (thẻ [Sát] này có tính vào giới hạn sử dụng).",
+      },
+    ],
+    cau_noi:
+      "Sức mạnh của Cự Tượng, đừng tưởng ta nữ nhi mà không biết nhé!",
+    hao_tuong: ["Quan Sách"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Luc_Khai: {
+    title: "Lục Khải",
+    the_luc: ["Ngô"],
+    sinh_luc: 1.5,
+    danh_hieu: "Tiết Khái Ngạnh Ngạnh",
+    ky_nang: [
+      {
+        ten: "Huyền Chú",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, nếu trên tướng bạn không có [Chú], bạn có thể chọn 1 người khác, bạn thu lấy 1 thẻ của họ và đặt lên tướng, gọi là thẻ [Chú], sau đó bạn xem như sử dụng 1 thẻ [Cơ Bản] tuỳ ý (tính vào giới hạn sử dụng trong lượt), sau kết toán bạn tự bỏ 2 thẻ bài.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Kiển Ngạc",
+        mo_ta:
+          " Nếu trên tướng bạn có [Chú], thẻ bài cùng chất với [Chú] do bạn sử dụng trong lượt của bạn không thể hưởng ứng; Sau khi người cùng thế lực nhận sát thương, bạn lệnh họ thu lấy thẻ [Chú].",
+      },
+    ],
+    cau_noi:
+      "Quân giả, chưa chết thì chiến, dùng chết thí luyện!",
+    hao_tuong: ["Lục Kháng"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Pho_Dung: {
+    title: "Phó Dung",
+    the_luc: ["Thục"],
+    sinh_luc: 2,
+    danh_hieu: "Đại Chung Trí Chính",
+    ky_nang: [
+      {
+        ten: "Hiệu Thủ",
+        mo_ta:
+          "Giai đoạn kết thúc của 1 người chơi, nếu trong lượt này bạn đã từng hưởng ứng qua thẻ bài được sử dụng bởi người khác, bạn có thể chọn 1 mục:\n1. Bạn rút 1 thẻ;\n2. Bạn lật mở 1 thẻ [Cẩm Nang] trên tay, sau đó rút 2 thẻ và đặt thẻ vừa lật mở lên đỉnh chồng bài rút.",
+      },
+    ],
+    cau_noi:
+      "Từ xưa đến nay chỉ có chiến đấu đến chết, chứ không có kẻ quỳ gối đầu hàng",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Ngot_Dot_Cot: {
+    title: "Ngột Đột Cốt",
+    the_luc: ["Quần"],
+    sinh_luc: 2,
+    danh_hieu: "Mệnh Vẫn Bản Xà",
+    ky_nang: [
+      {
+        ten: "Hãn Dũng",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể bỏ [X] thẻ trên tay đồng thời chỉ định [X] người khác trên bàn chơi thành mục tiêu (mỗi thế lực chỉ định tối đa được 1 người), xem như bạn sử dụng [Nam Man] lên tất cả mục tiêu đó, nếu thẻ này gây ra sát thương, bạn có thể giao 1 thẻ cho 1 người khác, chọn rút 3 thẻ hoặc hồi phục 1 sinh lực.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Nhiên Thương",
+        mo_ta:
+          " Nếu bạn chưa trang bị [Đằng Giáp], sát thương hệ [Hoả] bạn nhận +1; Khi bạn nhận sát thương từ [Nam Man], sát thương bạn nhận -1. Sau khi thẻ [Đằng Giáp] rời khỏi vùng chơi của người khác và tiến vào chồng bài bỏ, bạn thu nó lên tay và rút 2 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Đao thương không thủng, chỉ sợ lửa dữ!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Truong_So: {
+    title: "Trương Sở",
+    the_luc: ["Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Hoàng Thiên Duệ Viên",
+    ky_nang: [
+      {
+        ten: "Tập Chúng",
+        mo_ta:
+          "Sau khi bạn hưởng ứng thẻ bài từ người chơi khác, nếu trên tướng này chưa có [Chúng], bạn có thể đặt 1 thẻ [Phi Cẩm Nang sắc Đen] lên thẻ tướng này, gọi là [Chúng], sau đó bạn rút 2 thẻ.",
+      },
+      {
+        ten: "Hoặc Chúng",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể bỏ đi 1 thẻ, đem 1 thẻ [Chúng] sử dụng như [Binh Lương] không giới hạn khoảng cách.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Nhật Tuệ",
+        mo_ta:
+          " Bạn sử dụng bài lên người khác có thẻ trong [vùng phán xét] không giới hạn khoảng cách; Sau khi bạn gây ra sát thương từ thẻ [Sát], lệnh 1 người khác có bài trong vùng phán xét rút 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Đại hiền chi duệ, hoàng thiên độ chúng!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Ma_Nguyen_Nghia: {
+    title: "Mã Nguyên Nghĩa",
+    the_luc: ["Quần"],
+    sinh_luc: 2,
+    danh_hieu: "Hoàng Thiên Kinh Cự",
+    ky_nang: [
+      {
+        ten: "Tập Binh",
+        mo_ta:
+          "Kết thúc giai đoạn bỏ bài của 1 người khác, bạn có thể bỏ 1 thẻ trên tay, sau đó thu lấy 1 thẻ trong số bài bị bỏ đi giai đoạn này có điểm số nhỏ hơn thẻ bạn bỏ, sau đó đặt lên tướng này gọi là [Binh] (tối đa 4 thẻ, mỗi thẻ 1 chất); Bạn có thể sử dụng hoặc đánh ra thẻ [Binh] như bài trên tay.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Vãng Kinh",
+        mo_ta:
+          " Khi bạn sử dụng hoặc đánh ra thẻ [Binh], nếu bạn không phải là người có sinh lực lớn nhất bàn chơi, bạn rút 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Tướng quân yên tâm, việc trù bị cho khởi nghĩa cứ để ta lo!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Bach_Linh_Quan: {
+    title: "Bách Linh Quân",
+    the_luc: ["Ngụy"],
+    sinh_luc: 1.5,
+    danh_hieu: "Linh Lung Tâm Khiếu",
+    ky_nang: [
+      {
+        ten: "Linh Tuệ",
+        mo_ta:
+          "Mỗi lượt tối đa 2 lần, khi có 1 người chơi rơi vào trạng thái hấp hối, bạn có thể xem 3 thẻ dưới đáy chồng bài rút, sau đó thu lấy 1 thẻ lên tay, 2 thẻ còn lại đưa vào chồng bài bỏ.",
+      },
+      {
+        ten: "Hiệt Sách",
+        mo_ta:
+          "Sau khi bạn nhận 1 điểm sát thương, bạn có thể chọn 1 người khác, lệnh 1 kỹ năng [Phi Toả Định Kỹ] của họ bị vô hiệu cho đến hết lượt.",
+      },
+    ],
+    cau_noi:
+      "Người trí khó qua sông ái tình, gươm tuệ chẳng thèm đứt tơ tình!",
+    hao_tuong: ["Tư Mã Ý"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Vuong_Song: {
+    title: "Vương Song",
+    the_luc: ["Ngụy"],
+    sinh_luc: 2,
+    danh_hieu: "Biên Thành Mãnh Binh",
+    ky_nang: [
+      {
+        ten: "Thiện Giới",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể bỏ 1 thẻ sau đó thu lấy 1 thẻ [Vũ Khí] của 1 người khác, sau đó nếu bạn sử dụng vũ khí thu được bằng cách này, sát thương đầu tiên bạn gây ra cho 1 người không trang bị [Vũ Khí] +1.",
+      },
+      {
+        loai:"Tỏa Định Kỹ",
+        ten: "Dị Dũng",
+        mo_ta:
+          " Trong lượt của bạn, \n1. Nếu sinh lực của bạn nhỏ hơn 3, bạn lệnh tất cả phòng cụ trên bàn chơi đều vô hiệu;\n2. Nếu sinh lực của bạn nhỏ hơn 2, thẻ [Sát] của bạn cần 2 [Né] để triệt tiêu.",
+      },
+    ],
+    cau_noi:
+      "Chút sức lực cỡ người mầ đòi đối phó với đại gia ta đây, còn chưa đủ đâu!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Quach_Chieu: {
+    title: "Quách Chiếu",
+    the_luc: ["Ngụy"],
+    sinh_luc: 1.5,
+    danh_hieu: "Tư Ngữ Thanh Hoa",
+    ky_nang: [
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Thiên Sủng",
+        mo_ta:
+          " Giai đoạn rút bài, bạn sửa thành lật mở 4 thẻ từ đỉnh chồng bài rút, sau đó lựa chọn 1 mục: \n1.Bạn thu lấy 1 thẻ [sắc Đỏ] và 1 thẻ [sắc Đen], thẻ còn lại tiến vào chồng bài bỏ; \n2. Bạn chọn 1 màu và thu lấy tất cả thẻ cùng màu đó.",
+      },
+      {
+        ten: "Tôn Vị",
+        mo_ta:
+          "Khi kết thúc lượt của bạn, nếu bạn không có bỏ bài ở giai đoạn bỏ bài lượt này, bạn có thể hô tên 1 màu, cho đến khi bắt đầu lượt tiếp theo của bạn, khi bạn trong 1 lần mất đi thẻ bài trên tay, nếu thẻ đó cùng màu với thẻ bạn đọc, bạn rút 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Ba nghìn giai lệ hậu cung, chỉ mình ta độc hưởng thành sủng!",
+    hao_tuong: ["Tào Phi"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Tao_Hong: {
+    title: "Tào Hồng",
+    the_luc: ["Ngụy"],
+    sinh_luc: 2,
+    danh_hieu: "Ngụy Chi Phúc Tướng",
+    ky_nang: [
+      {
+        ten: "Hộ Viện",
+        mo_ta:
+          "Khi 1 người cùng thế lực với bạn trở thành mục tiêu của thẻ [Sát], bạn có thể đem 1 thẻ để sử dụng như [Điệu Hổ Ly Sơn] chỉ định người chơi khác thế lực làm mục tiêu (ngoại trừ người đang có lượt).",
+      },
+      {
+        loai:"Trận Pháp Kỹ",
+        ten: "Hạc Dực",
+        mo_ta:
+          " Bạn và tất cả người chơi khác có cùng quan hệ đội hình với bạn đều xem như có kỹ năng [Kháng Khái].",
+      },
+      {
+        ten: "Khảng Khái",
+        mo_ta:
+          "Sau khi 1 người chơi trở thành mục tiêu của [Sát], nếu bạn tính toán khoảng cách đến họ là 1, bạn có thể rút 1 thẻ, sau đó giao 1 thẻ cho họ và lật mở thẻ đó. Nếu thẻ này là bài [Trang Bị], người đó có thể sử dụng thẻ này.",
+      },
+    ],
+    cau_noi:
+      "Thí hạ tính mệnh, cũng phải bảo hộ chủ công an toàn!",
+    hao_tuong: ["Tào Nhân"],
+    ban_mo_rong: "Cửu Biến Thiên",
+  },
+  Dong_Bach: {
+    title: "Đổng Bạch",
+    the_luc: ["Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Tuyết Ly Hỷ Mộng",
+    ky_nang: [
+      {
+        ten: "Liên Tru",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể lật mở và giao 1 thẻ trên tay cho 1 người khác, nếu thẻ bài bạn giao là: \n1. [sắc Đen], bạn xem như sử dụng [Quá Hà Sách Kiều] lên tất cả người cùng thế lực có quan hệ đội hình liền kề với người đó;\n 2. [sắc Đỏ], bạn xem như sử dụng [Hoả Công] lên tất cả người cùng thế lực có quan hệ đội hình liền kề với người đó, sau kết toán có gây sát thương bạn rút 2 thẻ.",
+      },
+      {
+        loai:"Chuyển Hoán Kỹ",
+        ten: "Thị Sủng",
+        mo_ta:
+          " [Dương]: sau khi bạn bị chỉ định thành mục tiêu duy nhất bởi thẻ bài do người khác sử dụng, bạn có thể lệnh họ giao bạn 1 thẻ trên tay; \n [Âm]: sau khi bạn sử dụng bài chỉ định 1 mục tiêu duy nhất, bạn có thể thu của họ 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Khai mau đổng đảng ra, thì tội vẫn chưa đến mức phải chết!!",
+    hao_tuong: ["Đổng Trác"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Quan_Lo: {
+    title: "Quản Lộ",
+    the_luc: ["Tấn", "Ngụy"],
+    sinh_luc: 1.5,
+    danh_hieu: "Di Phục Mộ Đức",
+    ky_nang: [
+      {
+        ten: "Suy Diễn",
+        mo_ta:
+          "Khi bắt đầu lượt của 1 người cùng thế lực, họ có thể giao cho bạn 1 thẻ (nếu là chính bạn thì bỏ qua bước này), sau đó bạn lệnh người đang có lượt [chiêm bốc] 2 (xem 2 thẻ trên đầu chồng bài rút, sau đó tuỳ ý thay đổi trình tự thẻ này đặt úp trên đỉnh/đáy chồng bài rút), sau đó rút 1 thẻ.",
+      },
+      {
+        ten: "Mệnh Giới",
+        mo_ta:
+          "Giai đoạn kết thúc, nếu trong lượt này bạn đã thực hiện tối thiểu 1 lần phán xét từ thẻ [Cẩm Nang có thời gian]. Bạn có thể tiến hành [chiêm bốc] 3 thẻ, sau đó rút 3 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Rùa để bói, thẻ để đoán, chỉ một phép tính là rõ thiên cơ!",
+    hao_tuong: ["Vương Cơ"],
+    ban_mo_rong: "Ẩn Thế Diệu Tiên",
+  },
+  Tu_Thi: {
+    title: "Từ Thị",
+    the_luc: ["Ngô"],
+    sinh_luc: 1.5,
+    danh_hieu: "Kiên Trí Tráng Tuyệt",
+    ky_nang: [
+      {
+        ten: "Vấn Quái",
+        mo_ta:
+          "Giai đoạn chuẩn bị của người cùng thế lực, họ có thể đặt 1 thẻ của họ xuống đáy chồng bài rút, sau đó họ tiến hành lật phán xét, nếu thẻ phán xét là: \n1. [sắc Đen], họ thu lấy thẻ phán xét đó;\n2. [sắc Đỏ], bạn và họ rút 1 thẻ.",
+      },
+      {
+        ten: "Phục Chu",
+        mo_ta:
+          "Giai đoạn kết thúc của người khác không cùng thế lực, nếu trong lượt này họ có gây sát thương, bạn có thể lật mở [X] thẻ từ đáy chồng bài rút đồng thời sử dụng tất cả thẻ [Sát] được mở ra lên họ, các thẻ không phải [Sát] tiến vào chồng bài bỏ ([X] là số sát thương họ gây ra trong lượt, tối đa là 3).",
+      },
+    ],
+    cau_noi:
+      "Mối thù sát phu, chu sát phản tặc!",
+    hao_tuong: ["Tôn Dực"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Truong_On: {
+    title: "Trương Ôn",
+    the_luc: ["Ngô"],
+    sinh_luc: 1.5,
+    danh_hieu: "Xung Thiên Cô Vụ",
+    ky_nang: [
+      {
+        ten: "Tụng Thục",
+        mo_ta:
+          "Giai đoạn hành động giới hạn 1 lần, bạn có thể đấu điểm cùng 1 người khác, nếu bạn không thắng, bạn xem như sử dụng 1 thẻ [Vô Trung Sinh Hữu], nếu bạn thắng, bạn có thể giao 1 thẻ cho 1 người khác.",
+      },
+      {
+        ten: "Tư Biện",
+        mo_ta:
+          "Giai đoạn rút bài, bạn có thể bỏ qua rút bài, sửa thành lật mở 4 thẻ trên đỉnh chồng bài, sau đó thu lấy 2 thẻ (1 thẻ điểm cao nhất và 1 thẻ điểm thấp nhất), sau đó bạn có thể giao 1 thẻ trong số thẻ dư cho 1 người khác, thẻ còn lại đưa vào chồng bài bỏ.",
+      },
+    ],
+    cau_noi:
+      "Đất Thục quân minh dân lạc, thật là thái bình chi trị!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Chu_Thien: {
+    title: "Chu Thiện",
+    the_luc: ["Ngô"],
+    sinh_luc: 2,
+    danh_hieu: "Mãng Ngô Hình Thiên",
+    ky_nang: [
+      {
+        ten: "Kiếp Giang",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể di chuyển 1 thẻ trong [vùng trang bị] của 1 người chơi đến [vùng trang bị] tương ứng đang trống của 1 người khác đang ngồi liền kề họ hoặc 1 người trong trạng thái liên hoàn. Sau đó, người mất đi trang bị có thể sử dụng 1 thẻ [Sát], nếu thẻ đó gây sát thương lên bạn, họ thu hồi trang bị đó lên tay.",
+      },
+      {
+        ten: "Đảm Nghênh",
+        mo_ta:
+          "Khi thẻ tướng [Ngô] của 1 người chơi rời khỏi bàn chơi, nếu thẻ tướng này không phải là tướng bị di trừ, bạn có thể di trừ thẻ tướng này và thay thế bằng tướng [Ngô] bị di trừ đó, sau đó bạn thu được 1 tiêu ký [Tiên Phong].",
+      },
+    ],
+    cau_noi:
+      "Sóng giận nấu vàng, khí phách ngút trời, sóng dữ dẹp trong tay!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Nguu_Kim: {
+    title: "Ngưu Kim",
+    the_luc: ["Ngụy"],
+    sinh_luc: 2,
+    danh_hieu: "Độc Tiến Đích Binh Đảm",
+    ky_nang: [
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Liệt Vị",
+        mo_ta:
+          " Khi bạn sử dụng 1 thẻ [Vũ Khí]/ [Toạ Kỵ], bạn rút 1 thẻ; Khi người khác cùng thế lực sử dụng 1 thẻ [Vũ Khí]/[Toạ Kỵ], bạn và họ rút 1 thẻ. Sau khi bạn nhận sát thương, nếu số sát thương bạn nhận hơn 1, bạn lật úp tướng này.",
+      },
+      {
+        ten: "Tỏa Nhuệ",
+        mo_ta:
+          "Bắt đầu lượt của 1 người chơi khác, bạn có thể lật mở thẻ tướng này, bạn gây 1 điểm sát thương đồng thời thu lấy [X] thẻ bài của họ ([X] là sinh lực hiện tại của họ).",
+      },
+    ],
+    cau_noi:
+      "Có nhiêu đều giao ra hết cho ta, cẩn thận ta lấy mạng ngươi!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Nghiem_Nhan: {
+    title: "Nghiêm Nhan",
+    the_luc: ["Thục"],
+    sinh_luc: 2,
+    danh_hieu: "Đoạn Đầu Tướng Quân",
+    ky_nang: [
+      {
+        loai:"Chuyển Hoán Kỹ",
+        ten: "Cự Chiến",
+        mo_ta:
+          " [Dương], Sau khi bạn trở thành mục tiêu của [Sát], bạn có thể cùng người sử dụng rút [X] thẻ bài, sau đó nếu họ đang có tướng lật mở, bạn có thể úp 1 thẻ tướng của họ, lượt này họ không thể lật mở thẻ tướng đó. [Âm], Sau khi bạn sử dụng [Sát] chỉ định mục tiêu, bạn có thể thu lấy [X] thẻ bài của mục tiêu ([X] là số sinh lực đã mất của người dùng [Sát], tối thiểu là 1). Sau đó nếu thẻ tướng bạn đang lật mở, họ có thể úp 1 thẻ tướng của bạn, lượt này bạn không thể lật mở thẻ tướng đó.",
+      },
+    ],
+    cau_noi:
+      "Đóng cửa thành tạ chiến, tìm kiếm lương cơ!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Thập Niên",
+  },
+  Ly_Mat: {
+    title: "Lý Mật",
+    the_luc: ["Thục"],
+    sinh_luc: 1.5,
+    danh_hieu: "Tình Thiết Bổ Ô",
+    ky_nang: [
+      {
+        ten: "Từ Ứng",
+        mo_ta:
+          "Giai đoạn hành động 2 lần, nếu bài trên tay của bạn lớn hơn 4 thẻ, bạn có thể bỏ hết bài trên tay. Nếu bạn làm thế, bạn có thể lệnh 1 người khác thu lấy 1 thẻ có điểm số cao nhất trong số thẻ bạn bỏ, sau đó bạn bổ sung bài trên tay sao cho đạt đủ 4 thẻ.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Trần Tình",
+        mo_ta:
+          " Khi bạn trận vong, bạn lệnh cho thưởng phạt của người giết bạn sửa thành họ [Trọng Chú] tất cả bài trên tay, sau đó bạn chọn bỏ đi tối thiểu 1 thẻ trong [vùng trang bị] của họ.",
+      },
+    ],
+    cau_noi:
+      "Bí mật theo dõi, tựa quạ giám quân!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Luu_Tan: {
+    title: "Lưu Tán",
+    the_luc: ["Hán", "Ngô"],
+    sinh_luc: 2,
+    danh_hieu: "Chí Tháo Thù Dị",
+    ky_nang: [
+      {
+        ten: "Chủy Nghĩa",
+        mo_ta:
+          "Giai đoạn kết thúc của 1 người chơi khác, bạn có thể tự giảm 1 sinh lực, rồi sử dụng 1 thẻ bài như bất kỳ thẻ gây sát thương nào trong lượt đó từng bị triệt tiêu/ vô hiệu. Sau đó, nếu thẻ bạn dùng theo cách này gây được sát thương, bạn hồi 1 sinh lực.",
+      },
+    ],
+    cau_noi:
+      "Xông pha không ngớt, bước bước theo kịp quân hàng!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Bất Thần Thiên",
+  },
+  Ta_Tu_The_Than: {
+    title: "Tả Từ thế thân",
+    the_luc: ["Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Mê Chi Tiên Nhân",
+    ky_nang: [
+      {
+        ten: "Hóa Thân",
+        mo_ta:
+          "Giai đoạn chuẩn bị, bạn có thể thu lấy thẻ [Hoá Thân] (chọn tối đa hai thẻ từ năm thẻ tướng từ chồng tướng dư; nếu bạn đã có hai [Hóa Thân], thì sửa thành di trừ 1 thẻ cũ và thu một thẻ mới). Bạn có thể di trừ một thẻ [Hóa Thân] và phát động 1 kỹ năng không có nhãn kĩ năng của thẻ đó.",
+      },
+      {
+        ten: "Tân Sinh",
+        mo_ta:
+          "Sau khi bạn nhận sát thương, bạn có thể thu từ chồng tướng lấy 1 thẻ [Hoá Thân].",
+      },
+    ],
+    cau_noi:
+      "Thần quang bất diệt, tiên lực bất tuyệt!",
+    hao_tuong: ["Vu Cát"],
+    ban_mo_rong: "Special Pack",
+  },
+  Ton_Han_Hoa: {
+    title: "Tôn Hàn Hoa",
+    the_luc: ["Ngô", "Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Thanh Ti Tuệ Kiếm",
+    ky_nang: [
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Xung Hư",
+        mo_ta:
+          " Khi bạn lật mở thẻ tướng này, bạn rút thêm 2 thẻ; đồng thời giới hạn trữ bài của bạn +2; Nếu bài trên tay của bạn ít hơn sinh lực của bạn, bạn không thể sử dụng bài.",
+      },
+      {
+        ten: "Hội Lĩnh",
+        mo_ta:
+          "Giai đoạn hành động của người cùng thế lực giới hạn 1 lần, nếu thế lực của bạn: \n1. Thế lực [Ngô], họ có thể sử dụng 1 thẻ như [Vô Trung Sinh Hữu];\n2. Thế lực [Quần], họ có thể chỉ định 1 người khác, bỏ đi 1 thẻ của người đó và lệnh người đó rút 2 thẻ",
+      },
+    ],
+    cau_noi:
+      "Tinh thì ẩn tu cầu đạo, động thì thành thiện tích đức!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Ẩn Thế Diệu Tiên",
+  },
+  Gia_Nam_Phong: {
+    title: "Giả Nam Phong",
+    the_luc: ["Dã tâm gia"],
+    sinh_luc: 1.5,
+    danh_hieu: "Soán Đỉnh Đích Ty Thần Hùng",
+    ky_nang: [
+      {
+        ten: "Liễu Dã",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể lệnh 1 người khác chỉ định tuỳ ý mục tiêu, sau đó bạn chọn: gây 1 điểm sát thương cho tất cả mục tiêu (được/ không được) chỉ định.",
+      },
+      {
+        ten: "Phóng Tứ",
+        mo_ta:
+          "Giai đoạn kết thúc, bạn có thể thay đổi [Phó Tướng], sau đó thu 1 thẻ trên tay của các người thuộc thế lực của phó tướng ban đầu.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Lưu Độc",
+        mo_ta:
+          " Khi bạn trận vong, trò chơi tiến vào [Ao/Ác Chiến].",
+      },
+    ],
+    cau_noi:
+      "Nắm lấy long thủ, do ta mà quyết!",
+    hao_tuong: ["Tướng Nam bất kỳ"],
+    ban_mo_rong: "Quần Lâm Thiên Hạ",
+  },
+  Ngo_Hien: {
+    title: "Ngô Hiện",
+    the_luc: ["Thục"],
+    sinh_luc: 1.5,
+    danh_hieu: "Kim Ngọc Mãn Đường",
+    ky_nang: [
+      {
+        ten: "Phúc Miên",
+        mo_ta:
+          "Giai đoạn hành động, bạn có thể bỏ đi tùy ý số thẻ bài có mang ký hiệu [Hợp/Liên], sau đó lệnh 1 người rút số lượng bài bằng đúng số thẻ đã bỏ; Mỗi lượt 1 lần, khi 1 người cùng thế lực với bạn thu được ít nhất 2 thẻ cùng một lúc ngoài lượt của họ, bạn có thể rút 1 thẻ bài.",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Quý Tướng",
+        mo_ta:
+          "Nếu thẻ tướng này đang lật mở, giới hạn trữ bài của người chơi cùng thế lực +1.",
+      },
+    ],
+    cau_noi:
+      "Kéo vàng cắt bùa đào, phượng rực rỡ bay đôi điểm trang lầu các!",
+    hao_tuong: ["Lưu Bị"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Ton_Duc: {
+    title: "Tôn Dực",
+    the_luc: ["Ngô"],
+    sinh_luc: 2,
+    danh_hieu: "Hào Phong Khoái Ý",
+    ky_nang: [
+      {
+        ten: "Tháp Lịch",
+        mo_ta:
+          "Sau khi bạn lần đầu lật mở hết các thẻ tướng, bạn thu lấy 1 kỹ năng bạn chưa sở hữu: [Anh Hồn] (Tôn Kiên), [Kích Ngang] (Tôn Sách). Khi bạn trận vong, bạn có thể lệnh 1 người chơi thu lấy kỹ năng [Kích Tiếu] (Tôn Dực).",
+      },
+      {
+        ten: "Kích Tiếu",
+        mo_ta:
+          "Giai đoạn hành động giới hạn 1 lần, bạn có thể đấu điểm với 1 người khác, người thắng gây 1 điểm sát thương lên người không thắng, sau đó bạn có thể thu lấy 1 thẻ đấu điểm lên tay, nếu bạn làm thế, bạn đem 1 thẻ trên tay đặt dưới đáy chồng bài rút.",
+      },
+    ],
+    cau_noi:
+      "Quẻ bói nhảm nhí, ta sẽ sớm về, nàng đừng lo!",
+    hao_tuong: ["Từ Thị"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Luu_Kham: {
+    title: "Lưu Kham",
+    the_luc: ["Thục"],
+    sinh_luc: 2,
+    danh_hieu: "Tử Nghĩa Duy Thành",
+    ky_nang: [
+      {
+        ten: "Chiến Tuyệt",
+        mo_ta:
+          "Giai đoạn hành động 1 lần, bạn có thể đem tất cả bài trên tay xem như [Quyết Đấu] để sử dụng. Sau khi thẻ [Quyết Đấu] này được kết toán, bạn có thể rút 1 thẻ, nếu bằng cách này không có ai nhận sát thương từ [Quyết Đấu], bạn có thể rút 1 thẻ.",
+      },
+      {
+        loai:"Tỏa Định Kỹ",
+        ten: "Cần Vương",
+        mo_ta:
+          " Sát thương bạn nhận từ thẻ [Sát]/[Quyết Đầu] sửa thành bạn tự giảm 1 sinh lực; Sau khi bạn tự giảm sinh lực, bạn có thể lệnh 1 người rút 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Đấng nam nhi bảy thước, có chiến chứ không hàng!",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
+  },
+  Truong_Ninh: {
+    title: "Trương Ninh",
+    the_luc: ["Quần"],
+    sinh_luc: 1.5,
+    danh_hieu: "Hoàng Thiên Duệ Viên",
+    ky_nang: [
+      {
+        ten: "Thiên Tắc",
+        mo_ta:
+          "Khi 1 người cùng thế lực với bạn gây ra sát thương thứ 2 trong lượt của họ, bạn có thể lệnh họ tiến hành phán xét (nếu là bạn thì bỏ qua bước thực hiện phán xét). Nếu thẻ phán xét là [sắc Đen], bạn lệnh cho sát thương này mang thuộc tính [Lôi].",
+      },
+      {
+        loai:"Toả Định Kỹ",
+        ten: "Địa Pháp",
+        mo_ta:
+          " Mỗi lượt 1 lần, sau khi 1 người chơi nhận sát thương hệ [Lôi], bạn rút 1 thẻ; Sau khi thẻ phán xét [sắc Đen] tiến vào chống bài bỏ, bạn có thể bỏ 1 thẻ và rút 1 thẻ.",
+      },
+    ],
+    cau_noi:
+      "Thuận theo ý trời thì sống, nghịch ý trời thì vong",
+    hao_tuong: ["Không có"],
+    ban_mo_rong: "Mặc Tử Thiên",
   },
 };
