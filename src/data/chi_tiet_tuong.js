@@ -545,7 +545,7 @@ export const details = {
     ],
     cau_noi: "Địch nhân thế lớn, kỵ binh hậu triệt!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Duong_Ho: {
     title: "Dương Hỗ",
@@ -566,7 +566,7 @@ export const details = {
     ],
     cau_noi: "Lấy mạnh đánh yếu, dễ như trở tay, ai dám  giở trò quỷ!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Tung Hoành Bãi Nạp",
   },
   Luu_Phong: {
     title: "Lưu Phong",
@@ -934,7 +934,7 @@ export const details = {
     ],
     cau_noi: "Di lễ đãi nhân,  huệ cập hữu bang!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Han_Toai: {
     title: "Hàn Toại",
@@ -977,7 +977,7 @@ export const details = {
     ],
     cau_noi: "Đại quân thiết phục như thế, quân địch có đi không về!",
     hao_tuong: ["Tào Phi"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Vo_Khau_Kiem: {
     title: "Vô Khâu Kiệm",
@@ -1042,7 +1042,7 @@ export const details = {
     ],
     cau_noi: "Thân chinh không sợ ảnh tử tà!",
     hao_tuong: ["Lưu Thiện"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Binh Tình Thiên",
   },
     Luc_Ton: {
     title: "Lục Tốn",
@@ -1137,7 +1137,7 @@ export const details = {
       {
         ten: "Chấn Tập",
         mo_ta:
-          "Sau khi bạn xác định mục tiêu thẻ [Sát], ứng với mỗi mục tiêu, bạn chọn 1 mục: \n1. Bạn bỏ 1 thẻ của họ; \n2. Bạn sử dụng chuyển hoá 1 thẻ [phi Cẩm Nang] chất ... thành [Bình Lương Thốn Đoạn]/[Lạc Bất Tư Thục] không giới hạn khoảng cách với họ; \nNếu bạn mở 2 tướng và họ có tướng úp, bạn có thế chấp hành 2 mục với thứ tự tuỳ ý.",
+          "Sau khi bạn xác định mục tiêu thẻ [Sát], ứng với mỗi mục tiêu, bạn chọn 1 mục: \n1. Bạn bỏ 1 thẻ của họ; \n2. Bạn sử dụng chuyển hoá 1 thẻ [phi Cẩm Nang] [chất ♣]/[chất ♦] thành [Binh Lương Thốn Đoạn]/[Lạc Bất Tư Thục] không giới hạn khoảng cách với họ; \nNếu bạn mở 2 tướng và họ có tướng úp, bạn có thế chấp hành 2 mục với thứ tự tuỳ ý.",
       },
       {
         loai:["Phó Tướng Kỹ"],
@@ -1149,7 +1149,7 @@ export const details = {
     cau_noi:
       "Trần binh bách vạn, nhiếp địch tâm đảm!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Truong_Lieu: {
     title: "Trương Liêu",
@@ -1166,7 +1166,7 @@ export const details = {
     cau_noi:
       "A ! Dám không phòng bị với ta sao!",
     hao_tuong: ["Tang Bá"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Tuan_Uc: {
     title: "Tuân Úc",
@@ -1539,7 +1539,7 @@ export const details = {
     cau_noi:
       "Hợp tung liên hoành, chỉ vì thiên hạ chúng sanh!",
     hao_tuong: ["Tôn Quyền"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Sea Pack",
   },
   Khoai_Luong_Khoai_Viet: {
     title: "Khoái Lương & Khoái Việt",
@@ -1607,7 +1607,7 @@ export const details = {
     cau_noi:
       "Xin chủ công hãy thoái lui, để chúng tôi đoạn hậu!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Cửu Biến Thiên",
   },
   Dong_Trac: {
     title: "Đổng Trác",
@@ -1698,7 +1698,7 @@ export const details = {
     cau_noi:
       "Hào lệnh thiên hạ, ai dám bất tuân!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Binh Tình Thiên",
   },
   Tan_Hien_Anh: {
     title: "Tân Hiến Anh",
@@ -1784,7 +1784,7 @@ export const details = {
     cau_noi:
       "Vết thương ?Đó cũng chỉ là huân chương của người đàn ông!",
     hao_tuong: ["Trương Liêu"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Thế Bị Thiên",
   },
   Ma_Dai: {
     title: "Mã Đại",
@@ -1807,7 +1807,7 @@ export const details = {
     cau_noi:
       "Cầm tặc tiên cầm vương, đả xà đả thất thước!",
     hao_tuong: ["Mã Siêu"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Thế Bị Thiên",
   },
   Vuong_Binh: {
     title: "Vương Bình",
@@ -1962,13 +1962,13 @@ export const details = {
     cau_noi:
       "Lấy lui làm tiến, lấy lợi ngừa hại!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Banh_Dang: {
     title: "Bành Dạng",
     the_luc: ["Thục", "Quần"],
     sinh_luc: 1.5,
-    danh_hieu: "Ngô Thân Đích Cuồng Sĩ",
+    danh_hieu: "Ngộ Thân Đích Cuồng Sĩ",
     ky_nang: [
       {
         ten: "Thông Lệnh",
@@ -1984,7 +1984,7 @@ export const details = {
     cau_noi:
       "Đợi khách đi rồi sẽ cùng anh nói chuyện!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Ton_Lo_Ban: {
     title: "Tôn Lỗ Ban",
@@ -2004,9 +2004,9 @@ export const details = {
       },
     ],
     cau_noi:
-      "Muốn ta tha cho, hỏi con mèo của ta có cho phép không",
-    hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+      "Muốn ta tha cho, hỏi con mèo con của ta có cho phép không!",
+    hao_tuong: ["Toàn Tông"],
+    ban_mo_rong: "Special Pack",
   },
   Ton_Kien: {
     title: "Tôn Kiên",
@@ -2238,7 +2238,7 @@ export const details = {
     cau_noi:
       "Dĩ chân chân giả giả chi kế, loạn tâm trí địch! ",
     hao_tuong: ["Tôn Sách", "Tiểu Kiều", "Hoàng Cái"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Hoang_Nguyet_Anh: {
     title: "Hoàng Nguyệt Anh",
@@ -2261,7 +2261,7 @@ export const details = {
     cau_noi:
       "Bác lãm quần thư, tập trí tuệ chi đại thành!",
     hao_tuong: ["Khổng Minh", "Gia Cát Lượng"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Tuan_Tham: {
     title: "Tuân Thầm",
@@ -2669,7 +2669,7 @@ export const details = {
     cau_noi:
       "Đúc tiền giá một trăm, điều hòa giá trị mọi vật, dùng thư lại kiểm soát! ",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Chung_Hoi: {
     title: "Chung Hội",
@@ -2793,7 +2793,7 @@ export const details = {
     cau_noi:
       "Nhất tiễn xuyên tâm, chạy làm sao thoát, haha!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Cửu Biến Thiên",
   },
   Cam_Ninh: {
     title: "Cam Ninh",
@@ -2839,7 +2839,7 @@ export const details = {
     cau_noi:
       "Trương Dực Đức, bọn ta đến báo thù đây!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Nhị Thần Thiên",
   },
   Manh_Dat: {
     title: "Mạnh Đạt",
@@ -3026,7 +3026,7 @@ export const details = {
     cau_noi:
       "Đến đây, sợ kế ngươi không thế thành đấy!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Ngo_Canh: {
     title: "Ngô Cảnh",
@@ -3100,13 +3100,13 @@ export const details = {
       {
         ten: "Chú Truyền",
         mo_ta:
-          "Giai đoạn hành động mỗi chất giới hạn 1 lần, bạn có thể bỏ 1 thẻ, sau đó căn cứ vào chất của thẻ này lệnh thẻ [Cơ Bản] hoặc [Cẩm Nang] phổ thông tiếp theo bạn sử dụng trong giai đoạn này gia tăng hiệu quả cường hoá tương ứng:\n\nchất...Trợ Chiến - Mục tiêu +1\\tchất...Không Sào - Sát thương+1;\n\nchất...Phú Giáp - Không thế hưởng ứng;\n\\tchất...Tàn Khu. - Rút 1 thẻ.",
+          "Giai đoạn hành động mỗi chất giới hạn 1 lần, bạn có thể bỏ 1 thẻ, sau đó căn cứ vào chất của thẻ này lệnh thẻ [Cơ Bản] hoặc [Cẩm Nang] phổ thông tiếp theo bạn sử dụng trong giai đoạn này gia tăng hiệu quả cường hoá tương ứng:\n[chất ♥] Trợ Chiến -> Mục tiêu +1\n[chất ♦] Không Sào -> Sát thương +1;\n[chất ♣] Phú Giáp -> Không thế hưởng ứng;\n[chất ♠] Tàn Khu -> Rút 1 thẻ.",
       },
     ],
     cau_noi:
       " Kim âu thượng khuyết, tử bất minh mục!",
     hao_tuong: ["Dương Hỗ"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Quần Hùng Cát Cứ",
   },
   Ta_Tu_Hon: {
     title: "Tả Từ Hồn",
@@ -3145,7 +3145,7 @@ export const details = {
     cau_noi:
       "Hổ  báo thống kỵ, giáp binh tự đương thiên hạ!",
     hao_tuong: ["Tào Nhân"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Binh Tình Thiên",
   },
   Mi_Phu_Nhan: {
     title: "Mi Phu Nhân",
@@ -3189,7 +3189,7 @@ export const details = {
     cau_noi:
       "Vãn cung như nguyệt, khắc định giang hạ",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Li_Dien: {
     title: "Lí Điển",
@@ -3211,7 +3211,7 @@ export const details = {
     cau_noi:
       "Muốn thành đại sự, chớ câu tiểu tiết!",
     hao_tuong: ["Nhạc Tiến"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Thế Bị Thiên",
   },
   Lo_Chi: {
     title: "Lỗ Chi",
@@ -3380,7 +3380,7 @@ export const details = {
     cau_noi:
       "Muốn định hoàng cân, buộc thay đổi binh chi lực!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Lu_Bo: {
     title: "Lữ Bố",
@@ -3398,7 +3398,7 @@ export const details = {
     cau_noi:
       "Hmm, Tay cầm họa kích, chân cưỡi xích thố, ai dám đến gần ta!",
     hao_tuong: ["Điêu Thuyền"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Gia_Cat_Khac: {
     title: "Gia Cát Khác",
@@ -3602,7 +3602,7 @@ export const details = {
     cau_noi:
       "Cầm lấy cầm lấy, chớ có khách khí với ca ca",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Ton_Tu_Luu_Phong: {
     title: "Tôn Tư & Lưu Phóng",
@@ -3641,13 +3641,13 @@ export const details = {
       {
         ten: "Trung Tiết",
         mo_ta:
-          "Khi thẻ [Hiệp Thiên Tử Di Lệnh Chư Hầu] tiến vào chồng bài bỏ ngoài lượt của bạn, bạn có thế tự giảm 1 sinh lực hoặc bỏ 1 thẻ [chất Cơ] trên tay, sau đó bạn thu lấy thẻ đó. Khi bạn sử dụng [Hiệp Thiên Tử Di Lệnh Chư Hầu], bạn bỏ qua điều kiện [Đại Thế Lực] và bạn lệnh những người cùng thế lực rút 1 thẻ.",
+          "Khi thẻ [Hiệp Thiên Tử Di Lệnh Chư Hầu] tiến vào chồng bài bỏ ngoài lượt của bạn, bạn có thế tự giảm 1 sinh lực hoặc bỏ 1 thẻ [chất ♥] trên tay, sau đó bạn thu lấy thẻ đó. Khi bạn sử dụng [Hiệp Thiên Tử Di Lệnh Chư Hầu], bạn bỏ qua điều kiện [Đại Thế Lực] và bạn lệnh những người cùng thế lực rút 1 thẻ.",
       },
     ],
     cau_noi:
       "Quần lang họa loạn thế, nghĩa sĩ định giang sơn!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Dong_Chieu: {
     title: "Đổng Chiêu",
@@ -3686,7 +3686,7 @@ export const details = {
     cau_noi:
       "Chủ động xuất kích giả sống, khiếp đảm giả, chết!",
     hao_tuong: ["Lưu Thiện"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Tran_Dao: {
     title: "Trần Đáo",
@@ -3835,7 +3835,7 @@ export const details = {
     cau_noi:
       "Tư Mã thị, định bất công nhỉ tự bại dã!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Binh Tình Thiên",
   },
   Lu_Linh_Ky: {
     title: "Lữ Linh Kỳ",
@@ -3863,7 +3863,7 @@ export const details = {
     cau_noi:
       "Vãn thao võ lược, tá phụ xuất chinh",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Nam_Hoa_Lao_Tien: {
     title: "Nam Hoa Lão Tiên",
@@ -3930,7 +3930,7 @@ export const details = {
     cau_noi:
       "Đãi mạt tướng bố hạ nghi thành, dĩ thoái Tào tặc!",
     hao_tuong: ["Đinh Phụng"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Cửu Biến Thiên",
   },
   Bien_Phu_Nhan: {
     title: "Biện Phu Nhân",
@@ -3953,7 +3953,7 @@ export const details = {
     cau_noi:
       "Thiên mệnh ở họ Tào, ắt có thế gặp dữ hóa lành!",
     hao_tuong: ["Tào Tháo"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Cửu Biến Thiên",
   },
   Tao_Phi: {
     title: "Tào Phi",
@@ -3997,7 +3997,7 @@ export const details = {
     cau_noi:
       "Gân gà, muốn ăn thì không có thịt, bỏ thì lại tiếc, Haha!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Sea Pack",
   },
   Hoang_Quyen: {
     title: "Hoàng Quyền",
@@ -4042,7 +4042,7 @@ export const details = {
     cau_noi:
       "Nội tu ngoại nhưỡng, cố chính an bang",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Dien_Vi: {
     title: "Điển Vi",
@@ -4122,7 +4122,7 @@ export const details = {
     cau_noi:
       "Trừ đi cân  tuyết trên người, thiên hạ ai có thế xứng với bộ y phục này!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Truong_Lo_1: {
     title: "Trương Lỗ",
@@ -4167,7 +4167,7 @@ export const details = {
     cau_noi:
       "Cứ thổ dưỡng long khí, phong quyển tam thiên lý!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Binh Tình Thiên",
   },
   Do_Du_2: {
     title: "Đỗ Dự",
@@ -4183,13 +4183,13 @@ export const details = {
       {
         ten: "Khuynh Thế",
         mo_ta:
-          "Sau khi bạn sử dụng [Sát] hoặc bài [Cẩm Nang] chỉ định người khác trở thành mục tiêu, nếu bài này là thẻ lần thứ [X] bạn sử dụng trong lượt hiện tại, bạn có thể gây ra 1 sát thương lên 1 người trong số người chơi trở thành mục tiêu \n([X] là số thẻ bài trên tay của bạn)",
+          "Sau khi bạn sử dụng [Sát] hoặc bài [Cẩm Nang] chỉ định người khác trở thành mục tiêu, nếu bài này là thẻ lần thứ [X] bạn sử dụng trong lượt hiện tại, bạn có thể gây ra 1 sát thương lên 1 người trong số người chơi trở thành mục tiêu ([X] là số thẻ bài trên tay của bạn)",
       },
     ],
     cau_noi:
-      "Khiến rồng nuốt sông thành bình địa, kiếm chỉ đông nam định Giang Đông!",
+      "Khiển rồng nuốt sông thành bình địa, kiếm chỉ đông nam định Giang Đông!",
     hao_tuong: ["Dương Hỗ"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Truong_Phi: {
     title: "Trương Phi",
@@ -4207,7 +4207,7 @@ export const details = {
     cau_noi:
       "Hổ lao tiêu yên khởi, trường bản thủy nghịch lưu!",
     hao_tuong: ["Lưu Bị"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Sa_Ma_Kha: {
     title: "Sa Ma Kha",
@@ -4224,7 +4224,7 @@ export const details = {
     cau_noi:
       "Đoạt lấy vũ khí, thay Hán Hoàng đánh chúng thành dã nhân!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Vu_Cat: {
     title: "Vu Cát",
@@ -4364,7 +4364,7 @@ export const details = {
     cau_noi:
       "Kẻ nào có gan dám tổn thương ta, ta hoàn trả gấp 10 lần!",
     hao_tuong: ["Hạ Hầu Uyên", "Vu Cấm"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Dao_Hoang: {
     title: "Đào Hoàng",
@@ -4403,7 +4403,7 @@ export const details = {
     cau_noi:
       "Thế địch hung hãn, chỉ có thế dũng cảm đương đấu!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Thai_Mao_Truong_Doan: {
     title: "Thái Mạo & Trương Doãn",
@@ -4449,7 +4449,7 @@ export const details = {
     cau_noi:
       "Hồi kỳ tri, an kỳ dân, nhi hậu quy tâm!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Special Pack",
   },
   Duong_Uyen: {
     title: "Dương Uyển",
@@ -4482,13 +4482,13 @@ export const details = {
       {
         ten: "Song Nhận",
         mo_ta:
-          "Bắt đầu giai đoạn hành động, bạn có thế đấu điểm với 1 người khác. Nếu bạn thắng, xem như bạn đã sử dụng 1 thẻ [Sát] Ào lên tuỳ ý người chơi có cùng thế lực với người đó làm mục tiêu (thẻ [Sát] này không tính vào giới hạn sử dụng [Sát] trong lượt); Nếu không thắng, lượt này bạn không thế sử dụng bài lên người khác.",
+          "Bắt đầu giai đoạn hành động, bạn có thế đấu điểm với 1 người khác. Nếu bạn thắng, xem như bạn đã sử dụng 1 thẻ [Sát] ảo lên tuỳ ý người chơi có cùng thế lực với người đó làm mục tiêu (thẻ [Sát] này không tính vào giới hạn sử dụng [Sát] trong lượt); Nếu không thắng, lượt này bạn không thế sử dụng bài lên người khác.",
       },
     ],
     cau_noi:
       "Trọng quốc đại tướng Kỷ Linh tại đây, nếm thử tam tiêm lưỡng nhận đao!",
     hao_tuong: ["Viên Thuật"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Cửu Biến Thiên",
   },
   Nguyen_Tich: {
     title: "Nguyễn Tịch",
@@ -4533,7 +4533,7 @@ export const details = {
     cau_noi:
       "Phàm gặp nữ tử, tuyệt bất lưu tình!",
     hao_tuong: ["Viên Thiệu"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Ma_Huu_Ma_Thiet: {
     title: "Mã Hưu & Mã Thiết",
@@ -4606,23 +4606,23 @@ export const details = {
     title: "Thái Sử Từ",
     the_luc: ["Ngô"],
     sinh_luc: 2,
-    danh_hieu: "Đốc Liệt Chí Sĩ",
+    danh_hieu: "Đốc Liệt Chi Sĩ",
     ky_nang: [
       {
         ten: "Thiên Nghĩa",
         mo_ta:
-          "Giai đoạn hành động 1 lần, Bạn có thế đầu điểm với 1 người khác. Nếu bạn thắng, lượt này bạn sử dụng thẻ [Sát] không giới hạn khoảng cách, giới hạn số lần sử dụng và số mục tiêu của thẻ [Sát] +1; nếu bạn không thắng, bạn không thể sử dụng thẻ [Sát] cho đến khi kết thúc lượt.",
+          "Giai đoạn hành động 1 lần, Bạn có thể đấu điểm với 1 người khác. Nếu bạn thắng, lượt này bạn sử dụng thẻ [Sát] không giới hạn khoảng cách, giới hạn số lần sử dụng và số mục tiêu của thẻ [Sát] +1; nếu bạn không thắng, bạn không thể sử dụng thẻ [Sát] cho đến khi kết thúc lượt.",
       },
       {
         ten: "Hàm Chiến",
         mo_ta:
-          "Sau khi bạn đấu điểm, người không tắng có thể thu lấy 1 thẻ trong vùng trang bị của người còn lại.",
+          "Sau khi bạn đấu điểm, người không thắng có thể thu lấy 1 thẻ trong [vùng trang bị] của người còn lại.",
       },
     ],
     cau_noi:
-      "Tín nghĩa vi tiên, báo ân vi tắc",
+      "Tin nghĩa vi tiên, báo ân vi tắc",
     hao_tuong: ["Tôn Sách"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bản gốc",
   },
   Khuong_Duy: {
     title: "Khương Duy",
@@ -4734,8 +4734,8 @@ export const details = {
     ],
     cau_noi:
       "Quốc thái dân an, mưa thuận gió hòa!",
-    hao_tuong: ["Gia Cát Lượng & Vương Bình"],
-    ban_mo_rong: "Chưa cập nhật",
+    hao_tuong: ["Gia Cát Lượng", "Vương Bình"],
+    ban_mo_rong: "Special Pack",
   },
   Toan_Tong: {
     title: "Toàn Tông",
@@ -4871,7 +4871,7 @@ export const details = {
     cau_noi:
       "Gió thoảng mang hương phấn, bóng nàng soi hoa bên nước!",
     hao_tuong: ["Chu Cư"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Khánh Lệ Tình Thâm",
   },
   Tao_Thuc: {
     title: "Tào Thực",
@@ -5113,7 +5113,7 @@ export const details = {
     cau_noi:
       "Một pháp dẫn thiên khí, một lòng mộ tiên hiền, một tay điểm hóa muôn linh!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Ẩn Thế Diệu Tiên",
   },
   Gia_Cat_Qua: {
     title: "Gia Cát Quả",
@@ -5170,13 +5170,13 @@ export const details = {
         loai:"Trận Pháp Kỹ",
         ten: "Ứng Thụ",
         mo_ta:
-          "Nếu bạn và một người cùng thế lực với bạn tạo thành trận pháp, thì mỗi lượt, khi bạn hoặc người đó sử dụng thẻ [Sát] đầu tiên, người sử dụng rút 1 lá. Nếu không tạo thành trận pháp, thì các thẻ chất ... của bạn xem như [Sát].",
+          "1. Nếu bạn và một người cùng thế lực với bạn tạo thành trận pháp, thì mỗi lượt, khi bạn hoặc người đó sử dụng thẻ [Sát] đầu tiên, người sử dụng rút 1 lá. \n2.Nếu không tạo thành trận pháp, thì các thẻ [chất ♥] của bạn xem như [Sát].",
       },
     ],
     cau_noi:
       "Kháng địch nghìn quân, ứng tiếp thụ mệnh!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Truong_The_Binh_To_Song: {
     title: "Trương Thế Bình & Tô Song",
@@ -5198,7 +5198,7 @@ export const details = {
     cau_noi:
       "Ngàn vàng đổi ngựa báu, muốn mua thì phải nhanh!",
     hao_tuong: ["Không có"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Ve_Tu: {
     title: "Vệ Tư",
@@ -5256,7 +5256,7 @@ export const details = {
     cau_noi:
       "Sinh tử quyết chiến, mở cho Mạnh Đức một đường sống!",
     hao_tuong: ["Vu Cấm"],
-    ban_mo_rong: "Chưa cập nhật",
+    ban_mo_rong: "Bất Thần Thiên",
   },
   Ngo_Pham: {
     title: "Ngô Phạm",
