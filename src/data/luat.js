@@ -21,6 +21,10 @@ export const luat = [
         mo_ta: "",
       },
       {
+        ten: "Hợp/ Liên",
+        mo_ta: "",
+      },
+      {
         ten: "Khoảng cách",
         mo_ta: "",
       },
