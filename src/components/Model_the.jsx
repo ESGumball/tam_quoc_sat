@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // Khung chung: nền tối, header, nút đóng, ảnh bên trái
-const Khung = ({ title, badge, img, onClose, bookmark, children }) => (
+const Khung = ({ title, badge, img, onClose, bookmark, wide, children }) => (
   <div
     className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/70 p-4 sm:p-8"
     onClick={onClose}
@@ -10,7 +10,11 @@ const Khung = ({ title, badge, img, onClose, bookmark, children }) => (
       className="relative my-auto w-full max-w-4xl overflow-hidden rounded-xl bg-[#013951] text-white shadow-2xl"
       onClick={(e) => e.stopPropagation()}
     >
-      <div className="bg-[#2F6178] py-5 pl-6 pr-32 sm:pl-10 sm:pr-40">
+      <div
+        className={`bg-[#2F6178] py-5 pl-6 sm:pl-10 ${
+          wide ? "pr-52 sm:pr-64" : "pr-32 sm:pr-40"
+        }`}
+      >
         {badge && (
           <span className="mb-2 inline-block rounded-full border border-amber-400/60 bg-amber-400/10 px-3 py-0.5 text-xs font-semibold uppercase tracking-wider text-amber-300">
             {badge}
@@ -45,16 +49,18 @@ const Khung = ({ title, badge, img, onClose, bookmark, children }) => (
 );
 
 // Kẹp sách: treo từ mép trên của modal, đáy có khía chữ V
-const Bookmark = ({ on, onClick }) => (
+const Bookmark = ({ vi_tri, icon, label, active, onClick }) => (
   <button
     type="button"
     onClick={onClick}
-    title={on ? "Xem thông tin" : "Xem cách chơi"}
-    className="absolute right-14 top-0 z-10 flex h-24 w-14 cursor-pointer flex-col items-center gap-1 bg-amber-400 pt-3 text-slate-950 transition-all duration-200 hover:h-28 sm:right-20 [clip-path:polygon(0_0,100%_0,100%_100%,50%_82%,0_100%)]"
+    title={label}
+    className={`absolute top-0 z-10 flex w-14 cursor-pointer flex-col items-center gap-1 pt-3 text-slate-950 transition-all duration-200 [clip-path:polygon(0_0,100%_0,100%_100%,50%_82%,0_100%)] ${vi_tri} ${
+      active ? "h-28 bg-white" : "h-24 bg-amber-400 hover:h-28"
+    }`}
   >
-    <span className="text-lg leading-none">{on ? "ℹ️" : "📖"}</span>
+    <span className="text-lg leading-none">{icon}</span>
     <span className="px-1 text-center text-[10px] font-bold uppercase leading-tight">
-      {on ? "Thông tin" : "Cách chơi"}
+      {label}
     </span>
   </button>
 );
@@ -138,7 +144,9 @@ const Sinh_luc = ({ value }) => {
 
 /* ================= THẺ TƯỚNG ================= */
 export const Modal_tuong = ({ card, onClose }) => {
-  const [xemCachChoi, setXemCachChoi] = useState(false);
+  const [tab, setTab] = useState("thong_tin");
+  const chon = (t) => setTab(tab === t ? "thong_tin" : t);
+  const coChieuThuc = card.chieu_thuc?.length > 0;
 
   return (
     <Khung
@@ -147,13 +155,28 @@ export const Modal_tuong = ({ card, onClose }) => {
       img={card.img}
       onClose={onClose}
       bookmark={
-        <Bookmark
-          on={xemCachChoi}
-          onClick={() => setXemCachChoi(!xemCachChoi)}
-        />
+        <>
+          <Bookmark
+            vi_tri="right-14 sm:right-20"
+            icon="📖"
+            label="Cách chơi"
+            active={tab === "cach_choi"}
+            onClick={() => chon("cach_choi")}
+          />
+          {coChieuThuc && (
+            <Bookmark
+              vi_tri="right-[7.5rem] sm:right-36"
+              icon="⚔️"
+              label="Thiên Thư"
+              active={tab === "chieu_thuc"}
+              onClick={() => chon("chieu_thuc")}
+            />
+          )}
+        </>
       }
+      wide={coChieuThuc}
     >
-      {xemCachChoi ? (
+      {tab === "cach_choi" ? (
         <div className="py-2">
           <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300">
             Cách chơi
@@ -176,6 +199,30 @@ export const Modal_tuong = ({ card, onClose }) => {
               </p>
             </div>
           )}
+        </div>
+      ) : tab === "chieu_thuc" ? (
+        <div className="py-2">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-slate-300">
+            Chiêu thức
+          </h3>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2">
+            {card.chieu_thuc.map((ct, i) => (
+              <div
+                key={i}
+                className="rounded-lg border border-slate-600 bg-[#082D3D] p-3"
+              >
+                <div className="flex items-center gap-2">
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-amber-400 text-sm font-bold text-slate-950">
+                    {i + 1}
+                  </span>
+                  <p className="font-bold text-amber-300">{ct.ten}</p>
+                </div>
+                <p className="mt-2 whitespace-pre-line text-sm leading-6">
+                  <Mo_ta text={ct.mo_ta} />
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       ) : (
         <>

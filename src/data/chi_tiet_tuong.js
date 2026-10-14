@@ -4087,6 +4087,10 @@ export const details = {
     ban_mo_rong: "Special Pack",
     cach_choi: "Chưa có thông tin",
     pro_tip: "Chưa có thông tin",
+    chieu_thuc: [
+      { ten: "Chiêu 1", mo_ta: "Mô tả chiêu 1..." },
+      { ten: "Chiêu 2", mo_ta: "Mô tả chiêu 2..." },
+    ],
   },
   Dinh_Phung: {
     title: "Đinh Phụng",
