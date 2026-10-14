@@ -758,7 +758,7 @@ export const details = {
       {
         ten: "Loạn Kích",
         mo_ta:
-          "Giai đoạn hành động, bạn có thể đem 2 thẻ bài trên tay xem như sử dụng thẻ [Vạn Tiến Tổ Phát] (không thể sử dụng với những thẻ có chất mà bạn đã dùng theo cách này trong lượt này). Khi người chơi cùng thể lực với bạn đánh ra [Né] để hưởng ứng thẻ này, sau khi kết toán, họ có thể rút 1 thẻ bài.",
+          "Giai đoạn hành động, bạn có thể đem 2 thẻ bài trên tay xem như sử dụng thẻ [Vạn Tiến Tề Phát] (không thể sử dụng với những thẻ có chất mà bạn đã dùng theo cách này trong lượt này). Khi người chơi cùng thể lực với bạn đánh ra [Né] để hưởng ứng thẻ này, sau khi kết toán, họ có thể rút 1 thẻ bài.",
       },
     ],
     cau_noi: "Trẫm là khai quốc chi quân, hahahaha!",

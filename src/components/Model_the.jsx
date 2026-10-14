@@ -335,7 +335,30 @@ export const Modal_bai_danh = ({ card, onClose }) => {
           <Mo_ta text={card.mo_ta ?? "-"} />
         </p>
       </Muc>
-
+      {[].concat(card.hieu_ung ?? []).length > 0 && (
+        <Muc label="Hiệu ứng lá bài">
+          <div className="flex flex-col gap-2">
+            {[].concat(card.hieu_ung).map((h, i) => {
+              const hu = typeof h === "string" ? { ten: h } : h;
+              return (
+                <div
+                  key={i}
+                  className="rounded-lg border border-slate-600 bg-[#082D3D] p-3"
+                >
+                  <span className="rounded bg-amber-400 px-2 py-0.5 text-xs font-bold uppercase text-slate-950">
+                    {hu.ten}
+                  </span>
+                  {hu.mo_ta && (
+                    <p className="mt-2 whitespace-pre-line text-sm leading-6">
+                      <Mo_ta text={hu.mo_ta} />
+                    </p>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </Muc>
+      )}
       <Muc label="Chất bài / Số">
         {chat ? (
           <span
