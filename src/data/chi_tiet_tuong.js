@@ -1501,7 +1501,7 @@ export const details = {
   Nghiem_Bach_Ho: {
     title: "Nghiêm Bạch Hổ",
     the_luc: ["Quần"],
-    sinh_luc: 0,
+    sinh_luc: 2,
     danh_hieu: "Sài Nha Lạc Giản",
     ky_nang: [
       {
@@ -1672,7 +1672,7 @@ export const details = {
   Dang_Ngai: {
     title: "Đặng Ngải",
     the_luc: ["Ngụy"],
-    sinh_luc: 0,
+    sinh_luc: 2,
     danh_hieu: "Kiểu Nhiên Đích Tráng Sĩ",
     ky_nang: [
       {
@@ -2583,7 +2583,7 @@ export const details = {
   Luc_Khang: {
     title: "Lục Kháng",
     the_luc: ["Ngô"],
-    sinh_luc: 0,
+    sinh_luc: 1.5,
     danh_hieu: "Cô Trú Phù Hạ",
     ky_nang: [
       {
@@ -2636,7 +2636,7 @@ export const details = {
   Tu_Thu: {
     title: "Từ Thứ",
     the_luc: ["Thục"],
-    sinh_luc: 0,
+    sinh_luc: 2,
     danh_hieu: "Nan Vi Hoàn Thần",
     ky_nang: [
       {
@@ -2978,7 +2978,7 @@ export const details = {
     ban_mo_rong: "Quần Hùng Cát Cứ",
   },
   Ta_Tu_Hon: {
-    title: "Tả Từ Hồn",
+    title: "Tả Từ",
     the_luc: ["Quần"],
     sinh_luc: 1.5,
     danh_hieu: "Quỷ Ảnh Thần Đạo",
@@ -3123,7 +3123,7 @@ export const details = {
   Ly_Nghiem: {
     title: "Lý Nghiêm",
     the_luc: ["Thục"],
-    sinh_luc: 0,
+    sinh_luc: 2,
     danh_hieu: "Long Lý Toàn Vân",
     ky_nang: [
       {
@@ -3132,9 +3132,10 @@ export const details = {
           "Bắt đầu giai đoạn hành động, bạn có thế lệnh bản thân chấp hành 1 [Quân Lệnh), nếu chấp hành, bạn xem như 1 thẻ [Sát], nếu không, bạn kết thúc giai đoạn hành động.",
       },
       {
+        loai: "Chủ Tướng Kỹ",
         ten: "Trúc Khoa",
         mo_ta:
-          "Chủ Tướng Ký. (-) Khi bạn chấp hành [Quân Lệnh), bạn có thế tiến hành chọn lại [Quân Lệnh). Khi bạn tiền vào trạng thái liên hoàn/ chồng tướng, bạn có thế lệnh 1 người cùng thế lực hồi phục 1 sinh lực.",
+          "(-0.5 sinh lực) Khi bạn chấp hành [Quân Lệnh], bạn có thế tiến hành chọn lại [Quân Lệnh]. Khi bạn tiền vào trạng thái liên hoàn/ chồng tướng, bạn có thế lệnh 1 người cùng thế lực hồi phục 1 sinh lực.",
       },
       {
         loai: "Phó Tướng Kỹ",
@@ -4453,7 +4454,7 @@ export const details = {
   Khuong_Duy: {
     title: "Khương Duy",
     the_luc: ["Thục"],
-    sinh_luc: 0,
+    sinh_luc: 2,
     danh_hieu: "Long Đích Y Bát",
     ky_nang: [
       {
@@ -5568,7 +5569,7 @@ export const details = {
     ban_mo_rong: "Bất Thần Thiên",
   },
   Ta_Tu_The_Than: {
-    title: "Tả Từ thế thân",
+    title: "Tả Từ",
     the_luc: ["Quần"],
     sinh_luc: 1.5,
     danh_hieu: "Mê Chi Tiên Nhân",
