@@ -37,8 +37,19 @@ const Header = () => {
         >
           Luật chơi và khái niệm
         </Link>
+        <Link
+          to="/boc_tuong"
+          className="relative px-4 py-2 hover:bg-gray-700
+      after:absolute after:bottom-0 after:left-0
+      after:h-0.5 after:w-full after:scale-x-0
+      after:bg-gray-400 after:transition-transform
+      hover:after:scale-x-100"
+        >
+          Bốc tướng
+        </Link>
       </nav>
     </div>
+    
   );
 };
 

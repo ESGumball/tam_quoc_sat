@@ -21,6 +21,8 @@ export const details = {
     cau_noi: "Phàm quân tử giá, chết trên sa trường quyết không hối hận!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ha_Thai_Hau: {
     title: "Hà Thái Hậu",
@@ -43,6 +45,8 @@ export const details = {
       "Đường đến suối vàng lạnh lắm, hãy uống chút rượu, làm ấm cơ thể nha!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Tu: {
     title: "Trương Tú",
@@ -65,6 +69,8 @@ export const details = {
     cau_noi: "Loạn thế vương giả bá nghiệp, làm sao thiếu được ta!",
     hao_tuong: ["Giả Hủ"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Ky: {
     title: "Lưu Kỳ",
@@ -86,6 +92,8 @@ export const details = {
     cau_noi: "Vọng tiên sinh bất lận chỉ giáo!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Hoan: {
     title: "Tôn Hoàn",
@@ -102,6 +110,8 @@ export const details = {
     cau_noi: "Tướng giả nghênh chiến, mưu định gỉa tiên liệu hậu binh qua!",
     hao_tuong: ["Lục Tốn"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Van_Uong: {
     title: "Văn Ương",
@@ -124,6 +134,8 @@ export const details = {
     cau_noi: "Khi ta ra trận, vạn quân bất dương!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hua_Cong: {
     title: "Hứa Cống",
@@ -146,6 +158,8 @@ export const details = {
     cau_noi: "Mồi thù hôm nay, ta nhất định sẽ chiến cùng ngươi!",
     hao_tuong: ["Nghiêm Bạch Hổ"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Bang_Thong: {
     title: "Bàng Thống",
@@ -168,6 +182,8 @@ export const details = {
     cau_noi: "Thiếc tác liên chu, như lý bình địa!",
     hao_tuong: ["Khổng Minh"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tieu_Kieu: {
     title: "Tiểu Kiều",
@@ -190,6 +206,8 @@ export const details = {
     cau_noi: "Trong tâm có tà, làm sao hiểu được thiên hương!",
     hao_tuong: ["Chu Du", "Đại Kiều"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Van_Kham: {
     title: "Văn Khâm",
@@ -206,6 +224,8 @@ export const details = {
     cau_noi: "Sống chỉ để chiến phạt địch, chỉ ra công lao của ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   //2
   Hua_Tinh: {
@@ -229,6 +249,8 @@ export const details = {
     cau_noi: "Trọng yếu Hứa Tĩnh, di huyễn viễn cận!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Hao: {
     title: "Tôn Hạo",
@@ -250,6 +272,8 @@ export const details = {
     cau_noi: "Thù hận mới khiến cho người ta thức tỉnh. Đến đây!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Diem_Nhu: {
     title: "Diêm Nhu",
@@ -272,6 +296,8 @@ export const details = {
     cau_noi: "Đại hận thâm thù, dùng kiếm để luận!",
     hao_tuong: ["Lưu Ngu"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Trau_Thi: {
     title: "Trâu Thị",
@@ -294,6 +320,8 @@ export const details = {
     cau_noi: "Tự thân kinh qua nỗi sợ, người xoay lưng lại đi nà!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Tuan: {
     title: "Chu Tuấn",
@@ -316,6 +344,8 @@ export const details = {
     cau_noi: "Loạn thế hoàng cân, phá địch vạn quân!",
     hao_tuong: ["Tôn Kiên"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Co: {
     title: "Lưu Cơ",
@@ -337,6 +367,8 @@ export const details = {
     cau_noi: "Tuân thủ lễ nghi, duy trì khoảng cách!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Chuong: {
     title: "Tào Chương",
@@ -358,6 +390,8 @@ export const details = {
     cau_noi: "Số tòng chinh phát, tri chi khảng khái!",
     hao_tuong: ["Điền Dự"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Co_Ung: {
     title: "Cố Ung",
@@ -379,6 +413,8 @@ export const details = {
     cau_noi: "Gìn giữ tâm tính, tâm khẩu như một!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quach_Gia: {
     title: "Quách Gia",
@@ -400,6 +436,8 @@ export const details = {
     cau_noi: "Nước cờ tiếp theo, ta đã lên kế hoạch hết rồi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Trung: {
     title: "Hoàng Trung",
@@ -416,6 +454,8 @@ export const details = {
     cau_noi: "Coi thử ngươi nhanh, hay là tiễn của ta nhanh!",
     hao_tuong: ["Ngụy Diên"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gioi_Tuong: {
     title: "Giới Tượng",
@@ -438,6 +478,8 @@ export const details = {
     cau_noi: "Yến hội điều ngư, tiên nhân thần ẩn",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Dang: {
     title: "Trần Đăng",
@@ -459,6 +501,8 @@ export const details = {
     cau_noi: "Xuất thân danh tộc, danh vọng tứ phương!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Si_Nhiep: {
     title: "Sĩ Nhiếp",
@@ -482,6 +526,8 @@ export const details = {
     cau_noi: "Tiên sinh hiền tài, lão phu trữ thực bội phục!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   To_Phi: {
     title: "Tô Phi",
@@ -498,6 +544,8 @@ export const details = {
     cau_noi: "Cứ quyết tâm cố gắng bỏ ra, ắt có hồi báo!",
     hao_tuong: ["Cam Ninh"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cong_Ton_Toan: {
     title: "Công Tôn Toản",
@@ -527,6 +575,8 @@ export const details = {
     cau_noi: "Địch nhân thế lớn, kỵ binh hậu triệt!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Duong_Ho: {
     title: "Dương Hỗ",
@@ -548,6 +598,8 @@ export const details = {
     cau_noi: "Lấy mạnh đánh yếu, dễ như trở tay, ai dám  giở trò quỷ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Phong: {
     title: "Lưu Phong",
@@ -564,6 +616,8 @@ export const details = {
     cau_noi: "Cha muốn con chết, hài nhi chỉ còn cách tự tận!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Quan: {
     title: "Trần Quần",
@@ -585,6 +639,8 @@ export const details = {
     cau_noi: "Pháp ngoại chi ân, khoan hành đại lượng!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Linh: {
     title: "Chu Linh",
@@ -607,6 +663,8 @@ export const details = {
     cau_noi: "Dĩ chiến dưỡng  chiến, thị địch nhi chiến!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Cai: {
     title: "Hoàng Cái",
@@ -623,6 +681,8 @@ export const details = {
     cau_noi: "Khinh thân vi quốc, tử diệc vô oán",
     hao_tuong: ["Chu Du"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dang_Chi: {
     title: "Đặng Chi",
@@ -645,6 +705,8 @@ export const details = {
       "Thế trận thiên hạ như lửa nước, chỉ hi vọng giữ liên minh thật tốt!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Phan_Phung: {
     title: "Phan Phụng",
@@ -661,6 +723,8 @@ export const details = {
     cau_noi: "Thiên hạ chi tri tấn tật giả mạc nhược vô kỉ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngu_Phien: {
     title: "Ngu Phiên",
@@ -682,6 +746,8 @@ export const details = {
     cau_noi: "Tất cả cũng chỉ là thiên cơ diệu kế!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vien_Thieu: {
     title: "Viên Thiệu",
@@ -698,6 +764,8 @@ export const details = {
     cau_noi: "Trẫm là khai quốc chi quân, hahahaha!",
     hao_tuong: ["Nhan Lương & Văn Xú"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nhac_Tien: {
     title: "Nhạc Tiến",
@@ -715,6 +783,8 @@ export const details = {
       "Không được rút lui! Xem ta lấy thủ cấp tướng thủ thành,  lập công đầu!",
     hao_tuong: ["Lí Điển"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Anh: {
     title: "Tào Anh",
@@ -732,6 +802,8 @@ export const details = {
       "Ta đã đặt sẵn kế thiên la địa võng, địch dù mọc cánh cũng khó thoát!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Cat_Luong: {
     title: "Gia Cát Lượng",
@@ -754,6 +826,8 @@ export const details = {
     cau_noi: "Quan tinh định trung nguyên, tất kỳ cóng vu nhất địch!",
     hao_tuong: ["Hoàng Nguyệt Anh", "Khương Duy", "Tưởng Uyển & Phí Y"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Y_Tich: {
     title: "Y Tịch",
@@ -775,6 +849,8 @@ export const details = {
     cau_noi: "Hỡi minh quân, hãy mau động thủ đi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lang_Thao: {
     title: "Lăng Tháo",
@@ -791,6 +867,8 @@ export const details = {
     cau_noi: "Khinh chu độc tiến, phá địch tiên phong!",
     hao_tuong: ["Lăng Thống"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   My_Phuong_Pho_Si_Nhiep: {
     title: "My Phương & Phó Sĩ Nhiếp",
@@ -807,6 +885,8 @@ export const details = {
     cau_noi: "Nay phát binh viện Vũ, dám hỏi là họa hay công?",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   //5
   Lu_Mong: {
@@ -830,6 +910,8 @@ export const details = {
     cau_noi: "Kẻ sĩ ba ngày không gặp nhau thì nên rửa mắt mà nhìn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Sieu: {
     title: "Mã Siêu",
@@ -851,6 +933,8 @@ export const details = {
     cau_noi: "Thiết giáp thiết kỵ, đạp quá địch doanh!",
     hao_tuong: ["Mã Đại"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thai_Van_Co: {
     title: "Thái Văn Cơ",
@@ -873,6 +957,8 @@ export const details = {
     cau_noi: "Khúc phổ này viết để giải ưu, cớ sao khúc thành tâm lại sầu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Khong_Dung: {
     title: "Khổng Dung",
@@ -895,6 +981,8 @@ export const details = {
     cau_noi: "Di lễ đãi nhân,  huệ cập hữu bang!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Han_Toai: {
     title: "Hàn Toại",
@@ -917,6 +1005,8 @@ export const details = {
     cau_noi: "Thắng làm vua, thua làm giặc!",
     hao_tuong: ["Mã Đằng"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Trinh_Duc: {
     title: "Trình Dục",
@@ -938,6 +1028,8 @@ export const details = {
     cau_noi: "Đại quân thiết phục như thế, quân địch có đi không về!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vo_Khau_Kiem: {
     title: "Vô Khâu Kiệm",
@@ -961,6 +1053,8 @@ export const details = {
     cau_noi: "Đông chinh Cao Câu Ly, bảo vệ Yên Đông yên ổn!",
     hao_tuong: ["Văn Khâm"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cam_Phu_Nhan: {
     title: "Cam Phu Nhân",
@@ -982,6 +1076,8 @@ export const details = {
     cau_noi: "Đại trượng phu đại nghiệp chưa thành, ta cũng không thể bỏ cuộc!",
     hao_tuong: ["Lưu Bị"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dong_Doan: {
     title: "Đổng Doãn",
@@ -1003,6 +1099,8 @@ export const details = {
     cau_noi: "Thân chinh không sợ ảnh tử tà!",
     hao_tuong: ["Lưu Thiện"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luc_Ton: {
     title: "Lục Tốn",
@@ -1025,6 +1123,8 @@ export const details = {
     cau_noi: "Quốc Chi Đại Kế, thẩm thế cục vi tiên",
     hao_tuong: ["Lục Kháng"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Co: {
     title: "Vương Cơ",
@@ -1046,6 +1146,8 @@ export const details = {
     cau_noi: "Dụng kế kỳ lược, chế địch phục tâm!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Nhan: {
     title: "Tào Nhân",
@@ -1062,6 +1164,8 @@ export const details = {
     cau_noi: "Kiên thủ chớ xuất, nghiêm trận dĩ đãi!",
     hao_tuong: ["Tào Hồng"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Ma_Chieu_1: {
     title: "Tư Mã Chiêu",
@@ -1083,6 +1187,8 @@ export const details = {
     cau_noi: "Ngô tâm chiêu chiêu, hà cụ thiên hạ chí khẩu!",
     hao_tuong: ["Tư Mã Ý"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dien_Du: {
     title: "Điền Dự",
@@ -1105,6 +1211,8 @@ export const details = {
     cau_noi: "Trần binh bách vạn, nhiếp địch tâm đảm!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Lieu: {
     title: "Trương Liêu",
@@ -1121,6 +1229,8 @@ export const details = {
     cau_noi: "A ! Dám không phòng bị với ta sao!",
     hao_tuong: ["Tang Bá"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuan_Uc: {
     title: "Tuân Úc",
@@ -1142,6 +1252,8 @@ export const details = {
     cau_noi: "Tự đương kiến công lập nghiệp, tiết khí vi tiên!",
     hao_tuong: ["Tuân Du"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Xuan_Hoa: {
     title: "Trương Xuân Hoa",
@@ -1163,6 +1275,8 @@ export const details = {
     cau_noi: "Cái chết của ngươi, có liên quan gì đến ta!",
     hao_tuong: ["Tư Mã Ý"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Chan: {
     title: "Tào Chân",
@@ -1179,6 +1293,8 @@ export const details = {
     cau_noi: "Chính trực đa sự, cần phải nghiêm tăng phòng thủ!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Duong_Tu_2: {
     title: "Đường Tư",
@@ -1196,6 +1312,8 @@ export const details = {
     cau_noi: "Tinh thao ti tuyển, phương nãn thành bách niên chi kế!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cong_Ton_Uyen_2: {
     title: "Công Tôn Uyên",
@@ -1212,6 +1330,8 @@ export const details = {
     cau_noi: "Bắt đầu từ ngày hôm nay, ta chính là Yến Vương!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thoi_Diem_Mao_Gioi: {
     title: "Thôi Diễm & Mao Giới",
@@ -1235,6 +1355,8 @@ export const details = {
       "Khi xã tắc dùng người tài, không đến phụng mệnh, chờ đến khi nào!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ne_Hanh: {
     title: "Nễ Hành",
@@ -1257,6 +1379,8 @@ export const details = {
     cau_noi: "Công danh vi trần, quang âm vi kim!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Lam: {
     title: "Trần Lâm",
@@ -1278,6 +1402,8 @@ export const details = {
     cau_noi: "Thuận thiên ứng nhân, di chiến quyết thắng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Ngang: {
     title: "Tào Ngang",
@@ -1304,6 +1430,8 @@ export const details = {
     cau_noi: "Phụ vương hãy mau cưỡi ngựa, hài nhi ở lại đoạn hậu !",
     hao_tuong: ["Điển Vi"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ha_Hau_Uyen: {
     title: "Hạ Hầu Uyên",
@@ -1320,6 +1448,8 @@ export const details = {
     cau_noi: "Thần tốc tiến kích, công địch bất bị!",
     hao_tuong: ["Hạ Hầu Đôn"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chuc_Dung: {
     title: "Chúc Dung",
@@ -1342,6 +1472,8 @@ export const details = {
     cau_noi: "Liệt nhận chi hỏa, hoành tảo thiên quân!",
     hao_tuong: ["Mạnh Hoạch"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Dang: {
     title: "Mã Đằng",
@@ -1364,6 +1496,8 @@ export const details = {
     cau_noi: "Ta tập hợp 1 đám quân cùng đánh, thiết kỵ này ai cản được ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ly_Giac_Quach_Ty: {
     title: "Lý Giác & Quách Tỷ",
@@ -1381,6 +1515,8 @@ export const details = {
     cau_noi: "Không phải ngươi chết, thì là ta sống!",
     hao_tuong: ["Giả Hủ"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuong_Te: {
     title: "Tưởng Tế",
@@ -1402,6 +1538,8 @@ export const details = {
     cau_noi: "Mượn lực kẻ khác để dùng, một đẩy tiến tận mây xanh!",
     hao_tuong: ["Tư Mã Ý"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Vinh: {
     title: "Từ Vinh",
@@ -1423,6 +1561,8 @@ export const details = {
     cau_noi: "Hung đao ký xuất, bất lưu hoạt khẩu!",
     hao_tuong: ["Đổng Trác"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ly_Nho: {
     title: "Lý Nho",
@@ -1450,6 +1590,8 @@ export const details = {
     cau_noi: "Để ta cho người nếm thử, mùi vị của tuyệt vọng nha!",
     hao_tuong: ["Đổng Trác"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Cat_Can: {
     title: "Gia Cát Cẩn",
@@ -1476,6 +1618,8 @@ export const details = {
     cau_noi: "Hợp tung liên hoành, chỉ vì thiên hạ chúng sanh!",
     hao_tuong: ["Tôn Quyền"],
     ban_mo_rong: "Sea Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Khoai_Luong_Khoai_Viet: {
     title: "Khoái Lương & Khoái Việt",
@@ -1497,6 +1641,8 @@ export const details = {
     cau_noi: "Cảm Tào công chi ngộ, đi thành tâm chi hàng! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nghiem_Bach_Ho: {
     title: "Nghiêm Bạch Hổ",
@@ -1520,6 +1666,8 @@ export const details = {
     cau_noi: "Thứ bổn vương muốn, há có thế không đạt được sao! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Vu_Dong_Tap: {
     title: "Trần Vũ & Đổng Tập",
@@ -1541,6 +1689,8 @@ export const details = {
     cau_noi: "Xin chủ công hãy thoái lui, để chúng tôi đoạn hậu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dong_Trac: {
     title: "Đổng Trác",
@@ -1570,6 +1720,8 @@ export const details = {
       "Đại Hán thiên hạ, duy ta độc tôn; Đại Hán quyền quý, do ta chưởng khống!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lang_Thong: {
     title: "Lăng Thống",
@@ -1592,6 +1744,8 @@ export const details = {
     cau_noi: "Giang Đông hổ uy, hả thị nhĩ đẳng khả phạm?",
     hao_tuong: ["Cam Ninh", "Lăng Tháo"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Luong: {
     title: "Mã Lương",
@@ -1613,6 +1767,8 @@ export const details = {
     cau_noi: "Ta giúp ngươi, cũng như đang giúp ta vậy!",
     hao_tuong: ["Gia Cát Lượng"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Sang: {
     title: "Tào Sảng",
@@ -1629,6 +1785,8 @@ export const details = {
     cau_noi: "Hào lệnh thiên hạ, ai dám bất tuân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tan_Hien_Anh: {
     title: "Tân Hiến Anh",
@@ -1650,6 +1808,8 @@ export const details = {
     cau_noi: "Tuệ giám như gương, chiếu kỳ trung gian!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ha_Hau_Ba: {
     title: "Hạ Hầu Bá",
@@ -1668,6 +1828,8 @@ export const details = {
       "Hôm nay, ta đã có thế đại khai sát giới, chúng tướng sĩ, xông lên!",
     hao_tuong: ["Khương Duy"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dang_Ngai: {
     title: "Đặng Ngải",
@@ -1696,6 +1858,8 @@ export const details = {
     cau_noi: "Thời cơ đã đến, tiên phát chế nhân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tang_Ba: {
     title: "Tang Bá",
@@ -1712,6 +1876,8 @@ export const details = {
     cau_noi: "Vết thương ?Đó cũng chỉ là huân chương của người đàn ông!",
     hao_tuong: ["Trương Liêu"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Dai: {
     title: "Mã Đại",
@@ -1733,6 +1899,8 @@ export const details = {
     cau_noi: "Cầm tặc tiên cầm vương, đả xà đả thất thước!",
     hao_tuong: ["Mã Siêu"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Binh: {
     title: "Vương Bình",
@@ -1750,6 +1918,8 @@ export const details = {
     cau_noi: "Binh lược giả, minh chiến thắng công thủ chi số!",
     hao_tuong: ["Tưởng Uyển & Phí Y"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thach_Thao: {
     title: "Thạch Thao",
@@ -1778,6 +1948,8 @@ export const details = {
     cau_noi: "Ngụy lắm nhân tài thế ư!",
     hao_tuong: ["Từ Thứ", "Khổng Minh"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Hoang: {
     title: "Từ Hoảng",
@@ -1794,6 +1966,8 @@ export const details = {
     cau_noi: "Thanh Đông kích Tây, thiêu kỳ lương thảo!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   To_Mau: {
     title: "Tổ Mậu",
@@ -1816,6 +1990,8 @@ export const details = {
     cau_noi: "Chủ công cứ đi theo đường nhỏ, truy binh để ta chặn hậu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Sea Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Giac: {
     title: "Trương Giác",
@@ -1837,6 +2013,8 @@ export const details = {
     cau_noi: "Hoàng Cân lực lượng, thiên lôi oanh  dã, khả địch thiên quân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quan_Ngan_Binh: {
     title: "Quan Ngân Bình",
@@ -1859,6 +2037,8 @@ export const details = {
     cau_noi: "Mối thù giết cha, di hận khả tiêu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Cung: {
     title: "Trần Cung",
@@ -1881,6 +2061,8 @@ export const details = {
     cau_noi: "Lấy lui làm tiến, lấy lợi ngừa hại!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Banh_Dang: {
     title: "Bành Dạng",
@@ -1902,6 +2084,8 @@ export const details = {
     cau_noi: "Đợi khách đi rồi sẽ cùng anh nói chuyện!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Lo_Ban: {
     title: "Tôn Lỗ Ban",
@@ -1923,6 +2107,8 @@ export const details = {
     cau_noi: "Muốn ta tha cho, hỏi con mèo con của ta có cho phép không!",
     hao_tuong: ["Toàn Tông"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Kien: {
     title: "Tôn Kiên",
@@ -1939,6 +2125,8 @@ export const details = {
     cau_noi: "Loạn thế thanh quân trắc, huy sư phục giang sơn",
     hao_tuong: ["Ngô Quốc Thái"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Bang_Duc: {
     title: "Bàng Đức",
@@ -1960,6 +2148,8 @@ export const details = {
     cau_noi: "Thừa thắng truy kích, giết bọn ngươi không còn manh giáp!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Linh: {
     title: "Lưu Linh",
@@ -1982,6 +2172,8 @@ export const details = {
     cau_noi: "Ta bối chiêu chiêu, chính thủy chi âm hạo dãng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Thien: {
     title: "Lưu Thiện",
@@ -2004,6 +2196,8 @@ export const details = {
     cau_noi: "Đánh đánh giết giết, thật chả có ý nghĩa gì cả!",
     hao_tuong: ["Triệu Vân"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Cap: {
     title: "Trương Cáp",
@@ -2020,6 +2214,8 @@ export const details = {
     cau_noi: "Hành quân đánh trận, phải biết tùy cơ ứng biến!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoa_Ham: {
     title: "Hoa Hâm",
@@ -2041,6 +2237,8 @@ export const details = {
     cau_noi: "Thiên lý vận lương, phi dùng binh chi lợi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Khong_Minh: {
     title: "Khổng Minh",
@@ -2069,6 +2267,8 @@ export const details = {
       "Kế của ngươi đã bị phá rồi! Chút tài mọn cũng dám múa rìu qua mắt thợ?",
     hao_tuong: ["Hoàng Nguyệt Anh", "Bàng Thống"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vu_Cam: {
     title: "Vu Cấm",
@@ -2085,6 +2285,8 @@ export const details = {
     cau_noi: "Có ta tọa trần, há để thế trận sa lầy!",
     hao_tuong: ["Hạ Hầu Đôn"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Huu: {
     title: "Tào Hưu",
@@ -2101,6 +2303,8 @@ export const details = {
     cau_noi: "Tiễn liệp tại dã chi long!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ha_Hau_Thi: {
     title: "Hạ Hầu Thị",
@@ -2122,6 +2326,8 @@ export const details = {
     cau_noi: "Thần tâm bất tự an, nãi quân chi qua dã!",
     hao_tuong: ["Trương Phi", "Hạ Hầu Bá"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Du: {
     title: "Chu Du",
@@ -2144,6 +2350,8 @@ export const details = {
     cau_noi: "Dĩ chân chân giả giả chi kế, loạn tâm trí địch! ",
     hao_tuong: ["Tôn Sách", "Tiểu Kiều", "Hoàng Cái"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Nguyet_Anh: {
     title: "Hoàng Nguyệt Anh",
@@ -2165,6 +2373,8 @@ export const details = {
     cau_noi: "Bác lãm quần thư, tập trí tuệ chi đại thành!",
     hao_tuong: ["Khổng Minh", "Gia Cát Lượng"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuan_Tham: {
     title: "Tuân Thầm",
@@ -2186,6 +2396,8 @@ export const details = {
     cau_noi: "Ai có thế so sánh với chúa công nhà ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Hu: {
     title: "Giả Hủ",
@@ -2214,6 +2426,8 @@ export const details = {
     cau_noi: "Với tất cả kế pháp của tại hạ, há sợ thiên hạ không loạn!",
     hao_tuong: ["Lý Giác & Quách Tỷ", "Trương Tú"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuong_Kham: {
     title: "Tưởng Khâm",
@@ -2236,6 +2450,8 @@ export const details = {
     cau_noi: "Đoạt chiếm tiên cơ, đoạt tận ưu thế!",
     hao_tuong: ["Chu Thái"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Thao: {
     title: "Tào Tháo",
@@ -2253,6 +2469,8 @@ export const details = {
       "Thà ta phụ người trong thiên hạ chứ không để người trong thiên hạ phụ ta!",
     hao_tuong: ["Hứa Chử", "Điển Vi", "Biện Phu Nhân"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tan_Mat: {
     title: "Tần Mật",
@@ -2275,6 +2493,8 @@ export const details = {
     cau_noi: "Ỷ khí dụng sự, phi quân tử chi sở vi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cat_Huyen: {
     title: "Cát Huyền",
@@ -2297,6 +2517,8 @@ export const details = {
     cau_noi: "Dĩ phù vi căn, dĩ tiêu vi pháp!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Ma_Chieu_2: {
     title: "Tư Mã Chiêu",
@@ -2319,6 +2541,8 @@ export const details = {
     cau_noi: "Vương quyền khuynh  triều dã, hồng vọng định giang sơn!",
     hao_tuong: ["Tư Mã Ý"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Due: {
     title: "Tào Duệ",
@@ -2341,6 +2565,8 @@ export const details = {
       "Thiên hạ nhất thống chi công, trẫm sẽ ban thưởng chư vị tướng quân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Di: {
     title: "Vương Dị",
@@ -2363,6 +2589,8 @@ export const details = {
       "Ta tuyệt đối không khuất phục, chớ xem thường chí khí của nữ nhân! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuan_Du: {
     title: "Tuân Du",
@@ -2384,6 +2612,8 @@ export const details = {
     cau_noi: "Kỳ Sách tại đây, ai dám cùng ta tranh phong!",
     hao_tuong: ["Tuân Úc"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Cung_2: {
     title: "Trần Cung",
@@ -2406,6 +2636,8 @@ export const details = {
     cau_noi: "Thế địch thao thao, không nên cùng họ giao phong! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dang_Dan: {
     title: "Đằng Dận",
@@ -2428,6 +2660,8 @@ export const details = {
     cau_noi: "Quốc hữu kỳ tệ, thượng hư dương trần! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dieu_Thuyen: {
     title: "Điêu Thuyền",
@@ -2449,6 +2683,8 @@ export const details = {
       "Tướng quân. Người phải đích thân đi trút giận dùm thiếp đó nhoa! ",
     hao_tuong: ["Lữ Bố"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngo_Quoc_Thai: {
     title: "Ngô Quốc Thái",
@@ -2470,6 +2706,8 @@ export const details = {
     cau_noi: "Mẫu nghi thiên hạ, phúc tận chúng sanh! ",
     hao_tuong: ["Tôn Kiên"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tong_Du: {
     title: "Tông Dự",
@@ -2491,6 +2729,8 @@ export const details = {
     cau_noi: "Đông trần Ba Khâu, Tây phòng Bạch Đế !",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Thuong: {
     title: "Chu Thương",
@@ -2513,6 +2753,8 @@ export const details = {
     cau_noi: "Quan tướng quân, mượn cây đao của ngài ta dùng một lát! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Manh_Hoach: {
     title: "Mạnh Hoạch",
@@ -2535,6 +2777,8 @@ export const details = {
     cau_noi: "Cự tượng trận, nghênh địch! ",
     hao_tuong: ["Chúc Dung"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Ba: {
     title: "Lưu Ba",
@@ -2558,6 +2802,8 @@ export const details = {
       "Đúc tiền giá một trăm, điều hòa giá trị mọi vật, dùng thư lại kiểm soát! ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chung_Hoi: {
     title: "Chung Hội",
@@ -2579,6 +2825,8 @@ export const details = {
     cau_noi: "Thuận ứng thiên thời, tùy ta hành sự!",
     hao_tuong: ["Khương Duy"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luc_Khang: {
     title: "Lục Kháng",
@@ -2600,6 +2848,8 @@ export const details = {
     cau_noi: "Kế phụ chi tiết, khiêm tốn cung hoa!",
     hao_tuong: ["Lục Tốn"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hach_Pho: {
     title: "Hách Phổ",
@@ -2616,6 +2866,8 @@ export const details = {
     cau_noi: "Ngô tuy binh lâm tam quận, Phổ Ninh tử bất hàng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Duc: {
     title: "Trương Dực",
@@ -2632,6 +2884,8 @@ export const details = {
     cau_noi: "Thành trung tạo loạn, sớm diệt địch thủ trước!",
     hao_tuong: ["Liêu Hóa"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Thu: {
     title: "Từ Thứ",
@@ -2654,6 +2908,8 @@ export const details = {
     cau_noi: "Ta có thế dung ngươi, nhưng trời không dung thứ cho người!",
     hao_tuong: ["Khổng Minh", "Triệu Vân"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Nhiem: {
     title: "Trương Nhiệm",
@@ -2676,6 +2932,8 @@ export const details = {
     cau_noi: "Nhất tiễn xuyên tâm, chạy làm sao thoát, haha!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cam_Ninh: {
     title: "Cam Ninh",
@@ -2698,6 +2956,8 @@ export const details = {
     cau_noi: "Tiếp chiêu đi, bài của ngươi quá nhiều rồi!",
     hao_tuong: ["Lăng Thống"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Pham_Cuong_Truong_Dat: {
     title: "Phạm Cương & Trương Đạt",
@@ -2720,6 +2980,8 @@ export const details = {
     cau_noi: "Trương Dực Đức, bọn ta đến báo thù đây!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Manh_Dat: {
     title: "Mạnh Đạt",
@@ -2741,6 +3003,8 @@ export const details = {
     cau_noi: "Thần tâm bất tự an, nãi quân chi qua dã!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Phung_Hy: {
     title: "Phùng Hy",
@@ -2762,6 +3026,8 @@ export const details = {
     cau_noi: "Trắng đen điên đảo, mất chính là mạng người!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Tung Hoành Bãi Nạp",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Yen: {
     title: "Trương Yến",
@@ -2778,6 +3044,8 @@ export const details = {
     cau_noi: "Yến phiêu đề cập tốc quá nhân, địch quân trung hạo nhật phi yến!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Lam_1: {
     title: "Tôn Lâm",
@@ -2802,6 +3070,8 @@ export const details = {
       "Sao ta nghe mùi máu không thuần khiết, người đâu đem đi chém cho ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cong_Ton_Uyen_1: {
     title: "Công Tôn Uyên",
@@ -2824,6 +3094,8 @@ export const details = {
     cau_noi: "Bắt đầu từ ngày hôm nay, ta chính là Yến Vương!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ti_Di_Ho: {
     title: "Ti Di Hô",
@@ -2846,6 +3118,8 @@ export const details = {
     cau_noi: "Đừng phản kháng nữa, tiếp nhận sự thao túng của ta đi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Di: {
     title: "Chu Di",
@@ -2877,6 +3151,8 @@ export const details = {
     cau_noi: "Bình định Lĩnh Nam thảo khấu, cứ để ta lo!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Cao_Thuan: {
     title: "Cao Thuận",
@@ -2899,6 +3175,8 @@ export const details = {
     cau_noi: "Đến đây, sợ kế ngươi không thế thành đấy!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngo_Canh: {
     title: "Ngô Cảnh",
@@ -2921,6 +3199,8 @@ export const details = {
     cau_noi: "Nghe Bá Phù lập nghiệp, nay đến để tương trợ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Bi: {
     title: "Lưu Bị",
@@ -2937,6 +3217,8 @@ export const details = {
     cau_noi: "Dĩ đức phục nhân, dĩ nhân đãi nhân",
     hao_tuong: ["Quan Vũ", "Trương Phi", "Cam Phu Nhân"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dien_Phong: {
     title: "Điền Phong",
@@ -2960,6 +3242,8 @@ export const details = {
       "Tiền tuyến kỳ khai đắc thắng, ta đợi cơ hội thừa thắng truy kích!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Do_Du_1: {
     title: "Đỗ Dự",
@@ -2976,6 +3260,8 @@ export const details = {
     cau_noi: " Kim âu thượng khuyết, tử bất minh mục!",
     hao_tuong: ["Dương Hỗ"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ta_Tu_Hon: {
     title: "Tả Từ",
@@ -2997,6 +3283,8 @@ export const details = {
     cau_noi: "Thần quang bất diệt, tiên lực bất tuyệt!",
     hao_tuong: ["Vu Cát"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Thuan: {
     title: "Tào Thuần",
@@ -3013,6 +3301,8 @@ export const details = {
     cau_noi: "Hổ  báo thống kỵ, giáp binh tự đương thiên hạ!",
     hao_tuong: ["Tào Nhân"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Mi_Phu_Nhan: {
     title: "Mi Phu Nhân",
@@ -3039,6 +3329,8 @@ export const details = {
     cau_noi: "Vì bảo tồn nòi gióng Hoàng Thúc, thiếp cam nguyện nhất tử!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_To: {
     title: "Hoàng Tổ",
@@ -3055,6 +3347,8 @@ export const details = {
     cau_noi: "Vãn cung như nguyệt, khắc định giang hạ",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Li_Dien: {
     title: "Lí Điển",
@@ -3076,6 +3370,8 @@ export const details = {
     cau_noi: "Muốn thành đại sự, chớ câu tiểu tiết!",
     hao_tuong: ["Nhạc Tiến"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lo_Chi: {
     title: "Lỗ Chi",
@@ -3098,6 +3394,8 @@ export const details = {
     cau_noi: "Ngô tâm chiêu chiêu, hà cụ thiên hạ chí khẩu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuong_Can: {
     title: "Tưởng Cán",
@@ -3119,6 +3417,8 @@ export const details = {
     cau_noi: "Để ta xem xem trong đây có cơ mật gì!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ly_Nghiem: {
     title: "Lý Nghiêm",
@@ -3147,6 +3447,8 @@ export const details = {
     cau_noi: "Vận lương đốc chiến, hiểu rõ mối nguy tiền tuyến!",
     hao_tuong: ["Trần Đáo"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngo_Y: {
     title: "Ngô Ý",
@@ -3169,6 +3471,8 @@ export const details = {
       "Canh ba nầu cơm, canh bốn tề quân, canh năm đánh  thẳng địch  doanh !",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Phan_Tuan: {
     title: "Phan Tuấn",
@@ -3191,6 +3495,8 @@ export const details = {
     cau_noi: "Tiết khái cảnh cảnh, công thanh như thủy!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quan_Vu: {
     title: "Quan Vũ",
@@ -3207,6 +3513,8 @@ export const details = {
     cau_noi: "Sách mã huy đao, an thiên hạ, phục Hán Thất!",
     hao_tuong: ["Lưu Bị"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chung_Hoi_2: {
     title: "Chung Hội",
@@ -3223,6 +3531,8 @@ export const details = {
     cau_noi: "Thuận ứng thiên thời, tùy ta hành sự",
     hao_tuong: ["Tư Mã Sư", "Khương Duy"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Phu_Tung: {
     title: "Hoàng Phủ Tung",
@@ -3239,6 +3549,8 @@ export const details = {
     cau_noi: "Muốn định hoàng cân, buộc thay đổi binh chi lực!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lu_Bo: {
     title: "Lữ Bố",
@@ -3256,6 +3568,8 @@ export const details = {
     cau_noi: "Hmm, Tay cầm họa kích, chân cưỡi xích thố, ai dám đến gần ta!",
     hao_tuong: ["Điêu Thuyền"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Cat_Khac: {
     title: "Gia Cát Khác",
@@ -3278,6 +3592,8 @@ export const details = {
     cau_noi: "Truyền lệnh của ta, nhất định phải đem người đuổi cùng giết tận!",
     hao_tuong: ["Đinh Phụng"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thai_Phu_Nhan: {
     title: "Thái Phu Nhân",
@@ -3300,6 +3616,8 @@ export const details = {
     cau_noi: "Lưu Thị thất đức, dương hiến Tào Công!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Sach: {
     title: "Tôn Sách",
@@ -3327,6 +3645,8 @@ export const details = {
     cau_noi: "Tiểu bá vương chi danh hưởng triệt thiên hạ, ai mà không biết?",
     hao_tuong: ["Đại Kiều", "Chu Du", "Thái Sử Từ"],
     ban_mo_rong: "Thế Bị Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quach_Hoai: {
     title: "Quách Hoài",
@@ -3349,6 +3669,8 @@ export const details = {
     cau_noi: "Chiếm được một tấc, tiến thêm một trượng",
     hao_tuong: ["Trương Cáp", "Hạ Hầu Uyên"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chan_Co: {
     title: "Chân Cơ",
@@ -3371,6 +3693,8 @@ export const details = {
       "Phảng phất như mây che bóng nguyệt. Phiêu diêu tựa gió  bay làn tuyết!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vien_Thuat: {
     title: "Viên Thuật",
@@ -3393,6 +3717,8 @@ export const details = {
     cau_noi: "Trẫm là khai quốc chi quân, hahahaha!",
     hao_tuong: ["Kỷ Linh"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nhan_Luong_Van_Xu: {
     title: "Nhan Lương & Văn Xú",
@@ -3410,6 +3736,8 @@ export const details = {
       "Anh em ta định giáo huấn người một khóa, đó là có đi mà không có về!",
     hao_tuong: ["Viên Thiệu"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thuan_Vu_Quynh: {
     title: "Thuần Vu Quỳnh",
@@ -3432,6 +3760,8 @@ export const details = {
     cau_noi: "Mùi rượu thơm phức, tinh thần sảng khoái!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lo_Tuc: {
     title: "Lỗ Túc",
@@ -3453,6 +3783,8 @@ export const details = {
     cau_noi: "Cầm lấy cầm lấy, chớ có khách khí với ca ca",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Tu_Luu_Phong: {
     title: "Tôn Tư & Lưu Phóng",
@@ -3475,6 +3807,8 @@ export const details = {
     cau_noi: "Đây, tất cả điều là ân điển của điện hạ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Doan_Oi: {
     title: "Đoàn Ổi",
@@ -3496,6 +3830,8 @@ export const details = {
     cau_noi: "Quần lang họa loạn thế, nghĩa sĩ định giang sơn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dong_Chieu: {
     title: "Đổng Chiêu",
@@ -3517,6 +3853,8 @@ export const details = {
     cau_noi: "Minh công thụ phong, chính hợp thiên tâm chi ý!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Trieu_Van: {
     title: "Triệu Vân",
@@ -3533,6 +3871,8 @@ export const details = {
     cau_noi: "Chủ động xuất kích giả sống, khiếp đảm giả, chết!",
     hao_tuong: ["Lưu Thiện"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Dao: {
     title: "Trần Đáo",
@@ -3549,6 +3889,8 @@ export const details = {
     cau_noi: "Mãnh tướng chi liệt, thống soái chi sở vãng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Quyen: {
     title: "Tôn Quyền",
@@ -3565,6 +3907,8 @@ export const details = {
     cau_noi: "Không vội, Ngô vương ta vẫn nhất định một đòn chế phục kẻ địch!",
     hao_tuong: ["Chu Thái"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoa_Hung: {
     title: "Hoa Hùng",
@@ -3588,6 +3932,8 @@ export const details = {
     cau_noi: "Liên quân 18 lộ chư hầu các ngươi đều là lũ nhát gan!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luc_Uc_Sinh: {
     title: "Lục Úc Sinh",
@@ -3610,6 +3956,8 @@ export const details = {
     cau_noi: "Chiêu đức đi hành, Sinh bất nãng thị phụng nhị chủ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dai_Kieu: {
     title: "Đại Kiều",
@@ -3631,6 +3979,8 @@ export const details = {
     cau_noi: "Chinh chiến gian khổ, ngươi hãy nghỉ ngơi a!",
     hao_tuong: ["Tôn Sách", "Tiểu Kiều"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Phap_Chinh: {
     title: "Pháp Chính",
@@ -3653,6 +4003,8 @@ export const details = {
     cau_noi: "Thụ quân chi ân, chính định tư báo!",
     hao_tuong: ["Lưu Bị"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Cat_Dan: {
     title: "Gia Cát Đản",
@@ -3675,6 +4027,8 @@ export const details = {
     cau_noi: "Tư Mã thị, định bất công nhỉ tự bại dã!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lu_Linh_Ky: {
     title: "Lữ Linh Kỳ",
@@ -3702,6 +4056,8 @@ export const details = {
     cau_noi: "Vãn thao võ lược, tá phụ xuất chinh",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nam_Hoa_Lao_Tien: {
     title: "Nam Hoa Lão Tiên",
@@ -3729,6 +4085,8 @@ export const details = {
     cau_noi: "Nan đáp chi vấn, tiên nhân chỉ lộ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dinh_Phung: {
     title: "Đinh Phụng",
@@ -3750,6 +4108,8 @@ export const details = {
     cau_noi: "Thiên hạ chi tri tấn tật giả mạc nhược vô kỉ!",
     hao_tuong: ["Từ Thịnh"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Thinh: {
     title: "Từ Thịnh",
@@ -3766,6 +4126,8 @@ export const details = {
     cau_noi: "Đãi mạt tướng bố hạ nghi thành, dĩ thoái Tào tặc!",
     hao_tuong: ["Đinh Phụng"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Bien_Phu_Nhan: {
     title: "Biện Phu Nhân",
@@ -3788,6 +4150,8 @@ export const details = {
     cau_noi: "Thiên mệnh ở họ Tào, ắt có thế gặp dữ hóa lành!",
     hao_tuong: ["Tào Tháo"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Phi: {
     title: "Tào Phi",
@@ -3809,6 +4173,8 @@ export const details = {
     cau_noi: "Sống không đem lại, chết không đem đi",
     hao_tuong: ["Chân Cơ"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Duong_Tu_1: {
     title: "Dương Tu",
@@ -3830,6 +4196,8 @@ export const details = {
     cau_noi: "Gân gà, muốn ăn thì không có thịt, bỏ thì lại tiếc, Haha!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Sea Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Quyen: {
     title: "Hoàng Quyền",
@@ -3852,6 +4220,8 @@ export const details = {
     cau_noi: "Chính là người, mau đưa cờ tế quân cho ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Quần Hùng Cát Cứ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Chieu_Truong_Hoanh: {
     title: "Trương Chiêu & Trương Hoành",
@@ -3873,6 +4243,8 @@ export const details = {
     cau_noi: "Nội tu ngoại nhưỡng, cố chính an bang",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dien_Vi: {
     title: "Điển Vi",
@@ -3889,6 +4261,8 @@ export const details = {
     cau_noi: "Hở ! Thấy mùi vị phi kích của Vi gia gia của người thế nào?",
     hao_tuong: ["Tào Tháo"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hua_Chu: {
     title: "Hứa Chử",
@@ -3905,6 +4279,8 @@ export const details = {
     cau_noi: "Trông bộ dạng của nhà ngươi, ta có thế đánh 10 tên!",
     hao_tuong: ["Tào Tháo"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hi_Chi_Tai: {
     title: "Hí Chí Tài",
@@ -3927,6 +4303,8 @@ export const details = {
     cau_noi: "Nhân sinh có số, thiên cơ bất khả lộ!",
     hao_tuong: ["Quách Gia"],
     ban_mo_rong: "Nhị Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hua_Du: {
     title: "Hứa Du",
@@ -3950,6 +4328,8 @@ export const details = {
       "Trừ đi cân  tuyết trên người, thiên hạ ai có thế xứng với bộ y phục này!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Lo_1: {
     title: "Trương Lỗ",
@@ -3971,6 +4351,8 @@ export const details = {
     cau_noi: "Bố thí hành thiện, nãi đạo nghĩa chi bổn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Lo_2: {
     title: "Trương Lỗ",
@@ -3992,6 +4374,8 @@ export const details = {
     cau_noi: "Bố thí hành thiện, nãi đạo nghĩa chi bổn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Yen: {
     title: "Lưu Yên",
@@ -4014,6 +4398,8 @@ export const details = {
     cau_noi: "Cứ thổ dưỡng long khí, phong quyển tam thiên lý!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Do_Du_2: {
     title: "Đỗ Dự",
@@ -4036,6 +4422,8 @@ export const details = {
       "Khiển rồng nuốt sông thành bình địa, kiếm chỉ đông nam định Giang Đông!",
     hao_tuong: ["Dương Hỗ"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Phi: {
     title: "Trương Phi",
@@ -4053,6 +4441,8 @@ export const details = {
     cau_noi: "Hổ lao tiêu yên khởi, trường bản thủy nghịch lưu!",
     hao_tuong: ["Lưu Bị"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Sa_Ma_Kha: {
     title: "Sa Ma Kha",
@@ -4069,6 +4459,8 @@ export const details = {
     cau_noi: "Đoạt lấy vũ khí, thay Hán Hoàng đánh chúng thành dã nhân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vu_Cat: {
     title: "Vu Cát",
@@ -4086,6 +4478,8 @@ export const details = {
       "Mọi sự như không, ảo tượng phục sinh, Hồn bay khắp chốn, do ác mà sinh!",
     hao_tuong: ["Tả Từ"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoa_Da: {
     title: "Hoa Đà",
@@ -4107,6 +4501,8 @@ export const details = {
     cau_noi: "Diệu thủ nhân tâm, được đảo  bệnh trừ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nguy_Dien: {
     title: "Ngụy Diên",
@@ -4123,6 +4519,8 @@ export const details = {
     cau_noi: "Phản cốt cuồng ngạo, chương hiển bản sắc!",
     hao_tuong: ["Hoàng Trung"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lu_Pham: {
     title: "Lữ Phạm",
@@ -4144,6 +4542,8 @@ export const details = {
     cau_noi: "Trị quân có đường lối mới có thế chiến thắng ngàn dậm!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Thai: {
     title: "Chu Thái",
@@ -4166,6 +4566,8 @@ export const details = {
     cau_noi: "Hóa thân thành thuẫn, hộ vệ Ngô chủ!",
     hao_tuong: ["Tôn Quyền", "Tưởng Khâm"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Ma_Y: {
     title: "Tư Mã Ý",
@@ -4188,6 +4590,8 @@ export const details = {
       "Hiểu rõ địch nhân so với hiểu rõ bản thân thì càng quan trọng hơn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ha_Hau_Don: {
     title: "Hạ Hầu Đôn",
@@ -4204,6 +4608,8 @@ export const details = {
     cau_noi: "Kẻ nào có gan dám tổn thương ta, ta hoàn trả gấp 10 lần!",
     hao_tuong: ["Hạ Hầu Uyên", "Vu Cấm"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dao_Hoang: {
     title: "Đào Hoàng",
@@ -4225,6 +4631,8 @@ export const details = {
     cau_noi: "Con đường phục hưng, tràn đầy ngang trái!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Hoan: {
     title: "Chu Hoàn",
@@ -4241,6 +4649,8 @@ export const details = {
     cau_noi: "Thế địch hung hãn, chỉ có thế dũng cảm đương đấu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thai_Mao_Truong_Doan: {
     title: "Thái Mạo & Trương Doãn",
@@ -4264,6 +4674,8 @@ export const details = {
     cau_noi: "Thao luyện thủy quân, di nghênh Đông Ngô!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Tac: {
     title: "Mã Tắc",
@@ -4285,6 +4697,8 @@ export const details = {
     cau_noi: "Hồi kỳ tri, an kỳ dân, nhi hậu quy tâm!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Duong_Uyen: {
     title: "Dương Uyển",
@@ -4306,6 +4720,8 @@ export const details = {
     cau_noi: "Phu quân nắm lấy thương, thành công báo thù mối hận!",
     hao_tuong: ["Mã Siêu"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ky_Linh: {
     title: "Kỷ Linh",
@@ -4323,6 +4739,8 @@ export const details = {
       "Trọng quốc đại tướng Kỷ Linh tại đây, nếm thử tam tiêm lưỡng nhận đao!",
     hao_tuong: ["Viên Thuật"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nguyen_Tich: {
     title: "Nguyễn Tịch",
@@ -4344,6 +4762,8 @@ export const details = {
     cau_noi: "Ta bối chiêu chiêu, chính thủy chi âm hạo dãng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Phu_Nhan: {
     title: "Lưu Phu Nhân",
@@ -4366,6 +4786,8 @@ export const details = {
     cau_noi: "Phàm gặp nữ tử, tuyệt bất lưu tình!",
     hao_tuong: ["Viên Thiệu"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Huu_Ma_Thiet: {
     title: "Mã Hưu & Mã Thiết",
@@ -4387,6 +4809,8 @@ export const details = {
     cau_noi: "Chọn binh tuyển tướng, nhất kích đã quét sạch!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ly_Phong: {
     title: "Lý Phong",
@@ -4408,6 +4832,8 @@ export const details = {
     cau_noi: "Quản đốn lương thảo, mới có thế đối kháng lâu dài!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luc_Uc_Sinh_2: {
     title: "Lục Úc Sinh",
@@ -4429,6 +4855,8 @@ export const details = {
     cau_noi: "Thệ nhi bất hứa, nghĩa tâm cố vu kim thạch!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thai_Su_Tu: {
     title: "Thái Sử Từ",
@@ -4450,6 +4878,8 @@ export const details = {
     cau_noi: "Tin nghĩa vi tiên, báo ân vi tắc",
     hao_tuong: ["Tôn Sách"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Khuong_Duy: {
     title: "Khương Duy",
@@ -4478,6 +4908,8 @@ export const details = {
     cau_noi: "Bắc định trung nguyên, khôi phục Hán thất!",
     hao_tuong: ["Gia Cát Lượng"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Lieu_Hoa: {
     title: "Liêu Hóa",
@@ -4495,6 +4927,8 @@ export const details = {
     cau_noi: "Nhất mã dương tiên, phấn đúng sát địch!",
     hao_tuong: ["Quan Vũ"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Huong_Lang: {
     title: "Hướng Lãng",
@@ -4516,6 +4950,8 @@ export const details = {
     cau_noi: "Thế gian học vấn, giai tài điển biên chi thượng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Thuong_Huong: {
     title: "Tôn Thượng Hương",
@@ -4537,6 +4973,8 @@ export const details = {
     cau_noi: "Ai bảo nữ nhân không thế so với đàn ông!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bản gốc",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tuong_Uyen_Phi_Y: {
     title: "Tưởng Uyển & Phí Y",
@@ -4558,6 +4996,8 @@ export const details = {
     cau_noi: "Quốc thái dân an, mưa thuận gió hòa!",
     hao_tuong: ["Gia Cát Lượng", "Vương Bình"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Toan_Tong: {
     title: "Toàn Tông",
@@ -4580,6 +5020,8 @@ export const details = {
     cau_noi: "Lương thực sung túc, không sầu quốc vận!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Tac: {
     title: "Trương Tắc",
@@ -4602,6 +5044,8 @@ export const details = {
     cau_noi: "Hổ nằm chờ mồi, chỉ chờ thời cơ! ",
     hao_tuong: ["Trần Huệ Khiêm"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tran_Hue_Khiem: {
     title: "Trần Huệ Khiêm",
@@ -4623,6 +5067,8 @@ export const details = {
     cau_noi: "Triết lý cương liệt, thông tuệ ám minh! ",
     hao_tuong: ["Trương Tắc"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Dao_Vuong_Duyet: {
     title: "Vương Đào & Vương Duyệt",
@@ -4646,6 +5092,8 @@ export const details = {
     cau_noi: "Hoa rơi trong sân xuân, gặp người lòng ta rung động! ",
     hao_tuong: ["Quan Sách", "Quan Ngân Binh"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Cu: {
     title: "Chu Cư",
@@ -4667,6 +5115,8 @@ export const details = {
     cau_noi: "Cố quyết tiến quân, không hẹn với non sông! ",
     hao_tuong: ["Tôn Lỗ Dục"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Lo_Duc: {
     title: "Tôn Lỗ Dục",
@@ -4688,6 +5138,8 @@ export const details = {
     cau_noi: "Gió thoảng mang hương phấn, bóng nàng soi hoa bên nước!",
     hao_tuong: ["Chu Cư"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Thuc: {
     title: "Tào Thực",
@@ -4709,6 +5161,8 @@ export const details = {
     cau_noi: "Hoa rơi trên giấy trắng, bút vung như trời khéo! ",
     hao_tuong: ["Thôi Phi", "Dương Tu"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thoi_Phi: {
     title: "Thôi Phi",
@@ -4732,6 +5186,8 @@ export const details = {
       "Thiếp sinh trong nhà nghìn vàng, lẽ xứng đôi cùng bậc ngự giá vạn cỗ! ",
     hao_tuong: ["Tào Thực"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quan_Sach: {
     title: "Quan Sách",
@@ -4761,6 +5217,8 @@ export const details = {
       "Một mình giữ Nam Quan, tung hoành khắp địch thủ mà chưa dùng hết sức!",
     hao_tuong: ["Vương Đào & Vương Duyệt"],
     ban_mo_rong: "Khánh Lệ Tình Thâm",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Lang_1: {
     title: "Vương Lăng",
@@ -4777,6 +5235,8 @@ export const details = {
     cau_noi: "Chủ thượng âm nhược, nên lựa minh chủ thị chi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Thập Niên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Ma_Huy: {
     title: "Tư Mã Huy",
@@ -4799,6 +5259,8 @@ export const details = {
     cau_noi: "Thu phục được cả hai kỳ tài, ắt định được giang  sơn!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoang_Thua_Ngan: {
     title: "Hoàng Thừa Ngạn",
@@ -4822,6 +5284,8 @@ export const details = {
       "Nam Dương có Ngọa Long, sánh đôi được với Bạch Nguyệt Quang nha ta!",
     hao_tuong: ["Hoàng Nguyệt Anh"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Quan: {
     title: "Chu Quần",
@@ -4843,6 +5307,8 @@ export const details = {
     cau_noi: "Thủy Hoàng biến long khí nhi tuần thủ thiên hạ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dong_Phu: {
     title: "Đổng Phù",
@@ -4864,6 +5330,8 @@ export const details = {
     cau_noi: "Mậu An, nơi này khí tượng thế nào?",
     hao_tuong: ["Lưu Yên"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Thuy_Chu: {
     title: "Thùy Chu",
@@ -4886,6 +5354,8 @@ export const details = {
       "Người đời sau ất chỉ nhớ tội khuyên hàng, quên công cứu dân toàn mạng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Nhien: {
     title: "Chu Nhiên",
@@ -4902,6 +5372,8 @@ export const details = {
     cau_noi: "Cứu thành nguy nan, ta quyết phải tận toàn lực",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Thập Niên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Ky_Anh: {
     title: "Trương Kỳ Anh",
@@ -4924,6 +5396,8 @@ export const details = {
       "Một pháp dẫn thiên khí, một lòng mộ tiên hiền, một tay điểm hóa muôn linh!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Cat_Qua: {
     title: "Gia Cát Quả",
@@ -4946,6 +5420,8 @@ export const details = {
     cau_noi: "Âm nhạc cảm thiên địa, nhưng tri âm thưa thớt!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Tan_1: {
     title: "Lưu Tấn",
@@ -4962,6 +5438,8 @@ export const details = {
     cau_noi: "Xông pha không ngớt, bước bước theo kịp quân hàng!'",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Chưa cập nhật",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Lang: {
     title: "Tôn Lang",
@@ -4984,6 +5462,8 @@ export const details = {
     cau_noi: "Kháng địch nghìn quân, ứng tiếp thụ mệnh!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_The_Binh_To_Song: {
     title: "Trương Thế Bình & Tô Song",
@@ -5005,6 +5485,8 @@ export const details = {
     cau_noi: "Ngàn vàng đổi ngựa báu, muốn mua thì phải nhanh!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ve_Tu: {
     title: "Vệ Tư",
@@ -5028,6 +5510,8 @@ export const details = {
       "Giặc nghịch dấy loạn, ta nên vì nghĩa mà xông vào nơi dầu sôi lửa bổng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Tri: {
     title: "Chu Trị",
@@ -5044,6 +5528,8 @@ export const details = {
     cau_noi: "An bang định quốc, ổn định Giang Đông!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Bao_Tin: {
     title: "Bào Tín",
@@ -5061,6 +5547,8 @@ export const details = {
     cau_noi: "Sinh tử quyết chiến, mở cho Mạnh Đức một đường sống!",
     hao_tuong: ["Vu Cấm"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngo_Pham: {
     title: "Ngô Phạm",
@@ -5078,6 +5566,8 @@ export const details = {
     cau_noi: "Hễ có hung cát, Hiền suy số mà tỏ bày!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
     Vuong_Lang: {
     title: "Vương Lãng",
@@ -5101,6 +5591,8 @@ export const details = {
       "Lưỡi ta, từng nếm trăm vị, từng quát lui nghìn quân!",
     hao_tuong: ["Hoa Hâm"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Tuyen: {
     title: "Chu Tuyên",
@@ -5119,6 +5611,8 @@ export const details = {
       "Ngân hà của kẻ ấy, chính là trang sử của ta!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Lam: {
     title: "Tôn Lâm",
@@ -5142,6 +5636,8 @@ export const details = {
       "Sao ta nghe mùi máu không thuần khiết, người đâu đem đi chém cho ta",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Binh Tình Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Hoa_Man: {
     title: "Hoa Man",
@@ -5165,6 +5661,8 @@ export const details = {
       "Sức mạnh của Cự Tượng, đừng tưởng ta nữ nhi mà không biết nhé!",
     hao_tuong: ["Quan Sách"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luc_Khai: {
     title: "Lục Khải",
@@ -5188,6 +5686,8 @@ export const details = {
       "Quân giả, chưa chết thì chiến, dùng chết thí luyện!",
     hao_tuong: ["Lục Kháng"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Pho_Dung: {
     title: "Phó Dung",
@@ -5205,6 +5705,8 @@ export const details = {
       "Từ xưa đến nay chỉ có chiến đấu đến chết, chứ không có kẻ quỳ gối đầu hàng",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngot_Dot_Cot: {
     title: "Ngột Đột Cốt",
@@ -5228,6 +5730,8 @@ export const details = {
       "Đao thương không thủng, chỉ sợ lửa dữ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_So: {
     title: "Trương Sở",
@@ -5256,6 +5760,8 @@ export const details = {
       "Đại hiền chi duệ, hoàng thiên độ chúng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ma_Nguyen_Nghia: {
     title: "Mã Nguyên Nghĩa",
@@ -5279,6 +5785,8 @@ export const details = {
       "Tướng quân yên tâm, việc trù bị cho khởi nghĩa cứ để ta lo!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Bach_Linh_Quan: {
     title: "Bách Linh Quân",
@@ -5301,6 +5809,8 @@ export const details = {
       "Người trí khó qua sông ái tình, gươm tuệ chẳng thèm đứt tơ tình!",
     hao_tuong: ["Tư Mã Ý"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Vuong_Song: {
     title: "Vương Song",
@@ -5324,6 +5834,8 @@ export const details = {
       "Chút sức lực cỡ người mầ đòi đối phó với đại gia ta đây, còn chưa đủ đâu!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quach_Chieu: {
     title: "Quách Chiếu",
@@ -5347,6 +5859,8 @@ export const details = {
       "Ba nghìn giai lệ hậu cung, chỉ mình ta độc hưởng thành sủng!",
     hao_tuong: ["Tào Phi"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tao_Hong: {
     title: "Tào Hồng",
@@ -5375,6 +5889,8 @@ export const details = {
       "Thí hạ tính mệnh, cũng phải bảo hộ chủ công an toàn!",
     hao_tuong: ["Tào Nhân"],
     ban_mo_rong: "Cửu Biến Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Dong_Bach: {
     title: "Đổng Bạch",
@@ -5398,6 +5914,8 @@ export const details = {
       "Khai mau đổng đảng ra, thì tội vẫn chưa đến mức phải chết!!",
     hao_tuong: ["Đổng Trác"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Quan_Lo: {
     title: "Quản Lộ",
@@ -5420,6 +5938,8 @@ export const details = {
       "Rùa để bói, thẻ để đoán, chỉ một phép tính là rõ thiên cơ!",
     hao_tuong: ["Vương Cơ"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Tu_Thi: {
     title: "Từ Thị",
@@ -5442,6 +5962,8 @@ export const details = {
       "Mối thù sát phu, chu sát phản tặc!",
     hao_tuong: ["Tôn Dực"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_On: {
     title: "Trương Ôn",
@@ -5464,6 +5986,8 @@ export const details = {
       "Đất Thục quân minh dân lạc, thật là thái bình chi trị!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Chu_Thien: {
     title: "Chu Thiện",
@@ -5486,6 +6010,8 @@ export const details = {
       "Sóng giận nấu vàng, khí phách ngút trời, sóng dữ dẹp trong tay!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nguu_Kim: {
     title: "Ngưu Kim",
@@ -5509,6 +6035,8 @@ export const details = {
       "Có nhiêu đều giao ra hết cho ta, cẩn thận ta lấy mạng ngươi!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Nghiem_Nhan: {
     title: "Nghiêm Nhan",
@@ -5527,6 +6055,8 @@ export const details = {
       "Đóng cửa thành tạ chiến, tìm kiếm lương cơ!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Thập Niên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ly_Mat: {
     title: "Lý Mật",
@@ -5550,6 +6080,8 @@ export const details = {
       "Bí mật theo dõi, tựa quạ giám quân!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Tan: {
     title: "Lưu Tán",
@@ -5567,6 +6099,8 @@ export const details = {
       "Xông pha không ngớt, bước bước theo kịp quân hàng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Bất Thần Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ta_Tu_The_Than: {
     title: "Tả Từ",
@@ -5589,6 +6123,8 @@ export const details = {
       "Thần quang bất diệt, tiên lực bất tuyệt!",
     hao_tuong: ["Vu Cát"],
     ban_mo_rong: "Special Pack",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Han_Hoa: {
     title: "Tôn Hàn Hoa",
@@ -5612,6 +6148,8 @@ export const details = {
       "Tinh thì ẩn tu cầu đạo, động thì thành thiện tích đức!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Ẩn Thế Diệu Tiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Gia_Nam_Phong: {
     title: "Giả Nam Phong",
@@ -5640,6 +6178,8 @@ export const details = {
       "Nắm lấy long thủ, do ta mà quyết!",
     hao_tuong: ["Tướng Nam bất kỳ"],
     ban_mo_rong: "Quần Lâm Thiên Hạ",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ngo_Hien: {
     title: "Ngô Hiện",
@@ -5663,6 +6203,8 @@ export const details = {
       "Kéo vàng cắt bùa đào, phượng rực rỡ bay đôi điểm trang lầu các!",
     hao_tuong: ["Lưu Bị"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Ton_Duc: {
     title: "Tôn Dực",
@@ -5685,6 +6227,8 @@ export const details = {
       "Quẻ bói nhảm nhí, ta sẽ sớm về, nàng đừng lo!",
     hao_tuong: ["Từ Thị"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Luu_Kham: {
     title: "Lưu Kham",
@@ -5708,6 +6252,8 @@ export const details = {
       "Đấng nam nhi bảy thước, có chiến chứ không hàng!",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
   Truong_Ninh: {
     title: "Trương Ninh",
@@ -5731,5 +6277,7 @@ export const details = {
       "Thuận theo ý trời thì sống, nghịch ý trời thì vong",
     hao_tuong: ["Không có"],
     ban_mo_rong: "Mặc Tử Thiên",
+    cach_choi: "Chưa có thông tin",
+    pro_tip: "Chưa có thông tin",
   },
 };
