@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import defaultImg from "../assets/default-card.png";
 
 // Khung chung: nền tối, header, nút đóng, ảnh bên trái
 const Khung = ({ title, badge, img, onClose, bookmark, wide, children }) => (
@@ -322,7 +323,7 @@ const CHAT = {
 };
 
 export const Modal_bai_danh = ({ card, onClose }) => {
-  const chat = CHAT[card.chat];
+  const la_bai = card.la_bai ?? (card.chat ? [{ chat: card.chat, so: card.so }] : []);
   return (
     <Khung
       title={card.title ?? card.name}
@@ -360,14 +361,22 @@ export const Modal_bai_danh = ({ card, onClose }) => {
         </Muc>
       )}
       <Muc label="Chất bài / Số">
-        {chat ? (
-          <span
-            className={`inline-flex items-center gap-2 rounded-lg bg-white px-4 py-1 text-2xl font-bold ${
-              chat.do ? "text-red-600" : "text-slate-900"
-            }`}
-          >
-            {card.so} {chat.icon}
-          </span>
+        {la_bai.length ? (
+          <div className="flex flex-wrap gap-2">
+            {la_bai.map((l, i) => {
+              const chat = CHAT[l.chat];
+              return (
+                <span
+                  key={i}
+                  className={`inline-flex items-center gap-1 rounded-md bg-white px-2.5 py-0.5 text-base font-bold ${
+                    chat?.do ? "text-red-600" : "text-slate-900"
+                  }`}
+                >
+                  {l.so} {chat?.icon}
+                </span>
+              );
+            })}
+          </div>
         ) : (
           "-"
         )}

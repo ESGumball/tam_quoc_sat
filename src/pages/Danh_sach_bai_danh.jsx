@@ -50,11 +50,35 @@ const Danh_sach_bai_danh = () => {
   const soLoc =
     chonLoai.length + chonChat.length + chonSo.length + chonBan.length;
   const q = keyword.trim();
+  
   const ds = bai_danh.filter((item) => {
+    const la_bai = item.la_bai ?? [];
     const ten = item.title ?? item.name;
     if (chonLoai.length && !chonLoai.includes(item.phan_loai)) return false;
-    if (chonChat.length && !chonChat.includes(item.chat)) return false;
-    if (chonSo.length && !chonSo.includes(String(item.so))) return false;
+    if (
+      chonChat.length &&
+      !la_bai.some((l) =>
+        chonChat.includes(
+          String(l.chat ?? "")
+            .toLowerCase()
+            .trim(),
+        ),
+      )
+    ) {
+      return false;
+    }
+    if (
+      chonSo.length &&
+      !la_bai.some((l) =>
+        chonSo.includes(
+          String(l.so ?? "")
+            .trim()
+            .toUpperCase(),
+        ),
+      )
+    ) {
+      return false;
+    }
     if (chonBan.length && !chonBan.includes(item.ban_mo_rong)) return false;
     if (q && !bo_dau(ten).includes(bo_dau(q))) return false;
     return true;
