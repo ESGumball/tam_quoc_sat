@@ -215,8 +215,8 @@ export const details = {
     ban_mo_rong: "Chưa cập nhật",
     hieu_ung: [],
   },
-  Tam_Thien_Luong_Nhan_Dao: {
-    title: "Tam Thiên Lưỡng Nhận Đao",
+  Tam_Tiem_Luong_Nhan_Dao: {
+    title: "Tam Tiêm Lưỡng Nhận Đao",
     phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích : 3]\n\nSau khi bạn sử dụng [Sát] gây sát thương lên mục tiêu, bạn có thể bỏ đi 1 thẻ trên tay. sau đó bạn gây sát thương đối với 1 người khác có khoảng cách 1 của họ.",
     la_bai: [

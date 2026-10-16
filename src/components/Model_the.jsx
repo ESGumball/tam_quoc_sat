@@ -314,6 +314,10 @@ const PHAN_LOAI = {
   co_ban: "Cơ bản",
   cam_nang: "Cẩm nang",
   trang_bi: "Trang bị",
+  trang_bi_phong_cu: "Trang bị - Phòng Cụ",
+  trang_bi_vu_khi: "Trang bị - Vũ Khí",
+  trang_bi_bao_vat: "Trang bị - Bảo Vật",
+  trang_bi_toa_ky: "Trang bị - Tọa Kỵ",
 };
 const CHAT = {
   ro: { icon: "♦", ten: "Rô", do: true },
