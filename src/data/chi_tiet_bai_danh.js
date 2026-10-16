@@ -13,7 +13,7 @@ export const details = {
   },
   Linh_Xa_Bao_Chau: {
     title: "Linh Xà Bảo Châu",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Mỗi lượt giới hạn 1 lần, khi bạn cần sử dụng 1 thẻ bài, bạn có thể chọn 1 thẻ cùng tên nhưng có điểm số lớn nhất trong chồng bài bỏ, sau đó bạn thực hiện lật mở thẻ dưới cùng của chồng bài rút và bỏ đi thẻ đó. Nếu như thẻ đó có số điểm lớn hơn thẻ bài bạn cần dùng, bạn thu lấy thẻ bạn cần từ chồng bài bỏ đồng thời sử dụng thẻ đó",
     la_bai: [
       {
@@ -62,7 +62,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: " Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
@@ -217,7 +217,7 @@ export const details = {
   },
   Tam_Thien_Luong_Nhan_Dao: {
     title: "Tam Thiên Lưỡng Nhận Đao",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích : 3]\n\nSau khi bạn sử dụng [Sát] gây sát thương lên mục tiêu, bạn có thể bỏ đi 1 thẻ trên tay. sau đó bạn gây sát thương đối với 1 người khác có khoảng cách 1 của họ.",
     la_bai: [
       {
@@ -438,7 +438,7 @@ export const details = {
   },
   Thanh_Cong_Kiem: {
     title: "Thanh Công Kiếm",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 2]\n\n[Tỏa Định Kỹ] Khi bạn sử dụng [Sát] xác định mục tiêu, bỏ qua hiệu quả [Phòng Cụ] của mục tiêu.",
     la_bai: [
       {
@@ -452,7 +452,7 @@ export const details = {
   },
   Nu_Trang: {
     title: "Nữ Trang",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Khi thẻ này tiến vào hoặc rời khỏi [vùng trang bị] của 1 người chơi, Nếu người chơi này là giới tính [Nam], họ phải tự bỏ 1 thẻ của họ, trừ thẻ [Nữ Trang].",
     la_bai: [
       {
@@ -465,13 +465,13 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: "Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
   Tu_Hai_Kim_Tien: {
     title: "Tứ Hải Kim Tiền",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, bạn có thể chọn 1 người chơi tính toán khoảng cách đến bạn lớn hơn 1, đồng thời trong [vùng chơi] của họ lựa chọn chỉ định 1 thẻ bài. Sau đó bạn đem thẻ này trong [vùng trang bị] giao cho họ và thu lấy thẻ đã chỉ định.",
     la_bai: [
       {
@@ -567,7 +567,7 @@ export const details = {
   },
   Ho_Tam_Kinh: {
     title: "Hộ Tâm Kính",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "Khi bạn nhận sát thương lớn hơn 1 hoặc sát thương có thể dẫn đến hấp hối, bạn có thể đem thẻ bài này trong [vùng trang bị] đưa vào chồng bài bỏ, Nếu bạn làm vậy, chặn sát thương này lại.\nGiai đoạn hành động, bạn có thể đem [Hộ Tâm Kính] trên tay lắp vào vùng trang bị trống của 1 người chơi khác.",
     la_bai: [
       {
@@ -581,7 +581,7 @@ export const details = {
   },
   Hac_Quang_Khai: {
     title: "Hắc Quang Khải",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Khi bạn trở thành mục tiêu của [Sát]. [Cẩm Nang] loại gây sát thương hoặc [Cẩm Nang phổ thông sắc đen], nếu bạn không phải là mục tiêu duy nhất, những thẻ đó đối với bạn vô hiệu",
     la_bai: [
       {
@@ -595,7 +595,7 @@ export const details = {
   },
   Dang_Giap: {
     title: "Đằng Giáp",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] [Nam Man Nhập Xâm], [Vạn Tiễn Tề Phát ], [Xuất Kỳ Bất Ý] và [Sát] phổ thông không có hiệu quả đối với bạn. Khi bạn nhận sát thương hệ [Hoả], sát thương này +1.",
     la_bai: [
       {
@@ -734,7 +734,7 @@ export const details = {
   },
   Y_Thien_Kiem: {
     title: "Ỷ Thiên Kiếm",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 2]\n\n[Toả Định Kỹ] Mỗi lượt 1 lần, sau khi bạn thu được thẻ [Sát] ngoài lượt, bạn có thể lật mở đồng thời sử dụng thẻ đó.\n[Toả Định Kỹ] Mỗi lượt 1 lần, sau khi bạn gây sát thương bởi thẻ [Sát], nếu bạn đã bị thương. bạn có thể bỏ đi 1 thẻ trong [vùng trang bị], sau đó bạn hồi phục 1 sinh lực,",
     la_bai: [
       {
@@ -787,7 +787,7 @@ export const details = {
     hieu_ung: [],
   },
   Vo_Giai_Kha_Kich_2: {
-    title: "Vô Giải Khả Kích",
+    title: "Vô Giải Khả Kích - Không Sào",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Trước khi 1 thẻ [Cẩm Nang] có hiệu lực lên 1 mục tiêu, bạn có thể sử dụng thẻ này để triệt tiêu hiệu quả lên mục tiêu đó [Thường]",
     la_bai: [
@@ -807,8 +807,8 @@ export const details = {
   },
   Gia_Cat_Lien_No: {
     title: "Gia Cát Liên Nỏ",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
-    mo_ta: "Pham vi công kích: 1\nTrong giai đoạn hành động. bạn có thể sử dụng không giới hạn thẻ [Sát]",
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
+    mo_ta: "[Pham vi công kích: 1]\n\nTrong giai đoạn hành động. bạn có thể sử dụng không giới hạn thẻ [Sát]",
     la_bai: [
       {
         chat: "ro", // ro | co | chuon | bich
@@ -883,8 +883,8 @@ export const details = {
   },
   Quan_Thach_Phu: {
     title: "Quán Thạch Phủ",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
-    mo_ta: "Pham vi công kích: 3\nSau khi sử dụng [Sát] xác định mục tiêu. Nếu mục tiêu sử dụng [Né] để triệt tiêu, bạn có thể bỏ 2 thẻ bài để thẻ [Sát] gây sát thương cho mục tiêu.",
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
+    mo_ta: "[Pham vi công kích: 3]\n\nSau khi sử dụng [Sát] xác định mục tiêu. Nếu mục tiêu sử dụng [Né] để triệt tiêu, bạn có thể bỏ 2 thẻ bài để thẻ [Sát] gây sát thương cho mục tiêu.",
     la_bai: [
       {
         chat: "ro", // ro | co | chuon | bich
@@ -897,7 +897,7 @@ export const details = {
   },
   Hon_Thien_Nghi: {
     title: "Hỗn Thiên Nghi",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Sau khi bạn nhận sát thương, nếu trên [Hỗn Thiên Nghi] chưa có bài, bạn có thể đặt thẻ gây sát thương lên thẻ này: Sau khi thẻ này rời khỏi [vùng trang bị] và trên thẻ này có bài. bạn rút 2 thẻ đồng thời lật mở 2 thẻ đó, nếu trong 2 thẻ đó không có thẻ cùng phân loại thẻ được đặt lên, bạn rút thêm 1 thẻ.",
     la_bai: [
       {
@@ -911,7 +911,7 @@ export const details = {
   },
   Ngo_Luc_Kiem: {
     title: "Ngô Lục Kiếm",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 2]\n\n[Tỏa Định Kỹ] Phạm vi công kích của người chơi khác cùng thế lực với bạn +1",
     la_bai: [
       {
@@ -1013,7 +1013,7 @@ export const details = {
   },
   Thai_Binh_Yeu_Thuat: {
     title: "Thái Bình Yêu Thuật",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Tỏa Định Kỹ] khi bạn nhận sát thương thuộc tính, bạn chặn lại sát thương này. Giới hạn trữ bài của bạn [+X] ([X] là số thế lực trên bàn chơi -1). Sau khi [vùng trang bị] của bạn mất đi [Thái Bình Yêu Thuật], bạn rút 2 thẻ. Sau đó nếu sinh lực của bạn > 1, bạn tự giảm 1 sinh lực.",
     la_bai: [
       {
@@ -1027,7 +1027,7 @@ export const details = {
   },
   Dinh_Lan_Da_Minh_Chau: {
     title: "Định Lan Dạ Minh Châu",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Bạn xem như có kỹ năng [Chế Hành]. Nếu bạn đã có kỹ năng [Chế Hành], bạn hủy bỏ giới hạn số bài được bỏ của kỹ năng này.",
     la_bai: [
       {
@@ -1041,8 +1041,8 @@ export const details = {
   },
   Phi_Long_Doat_Phuong: {
     title: "Phi Long Đoạt Phượng",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
-    mo_ta: "Phạm vi công kích: ...]\n\nSau khi bạn sử dụng [Sát] xác định mục tiêu, bạn có thể lệnh mục tiêu tự bỏ 1 thẻ bài. Khi bạn sử dụng [Sát] khiến mục tiêu rơi vào trạng thái hấp hối, bạn có thể thu lấy 1 thẻ bài trên tay mục tiêu.",
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
+    mo_ta: "[Phạm vi công kích: 2]\n\nSau khi bạn sử dụng [Sát] xác định mục tiêu, bạn có thể lệnh mục tiêu tự bỏ 1 thẻ bài. Khi bạn sử dụng [Sát] khiến mục tiêu rơi vào trạng thái hấp hối, bạn có thể thu lấy 1 thẻ bài trên tay mục tiêu.",
     la_bai: [
       {
         chat: "bich", // ro | co | chuon | bich
@@ -1055,7 +1055,7 @@ export const details = {
   },
   Luc_Long_Tham_Gia: {
     title: "Lục Long Tham Giá",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách : -1 / +1]\n\n[Toả Định Kỹ] Khi thẻ [Lục Long Tham Giá] tiến vào [vùng trang bị] của bạn, bạn bỏ tất cả các [Tọa Kỵ] trong [vùng trang bị]. Khi bạn đang trang bị [Lục Long Tham Giá], các thẻ [Toạ Kỵ] khác không thể vào [vùng trang bị] của bạn.",
     la_bai: [
       {
@@ -1097,7 +1097,7 @@ export const details = {
   },
   Bach_Ngan_Su_Tu: {
     title: "Bạch Ngân Sư Tử",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Khi bạn nhận sát thương, nếu số điểm sát thương bạn nhận > 1, giảm số điểm sát thương bạn nhận còn 1.\n[Toả Định Kỹ] khi thẻ bài này rời [vùng trang bị] của bạn, bạn được hồi phục 1 sinh lực.",
     la_bai: [
       {
@@ -1111,7 +1111,7 @@ export const details = {
   },
   Bat_Quai_Do: {
     title: "Bát Quái Đỏ",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "Khi bạn cần sử dụng hoặc đánh ra thẻ [Né] bạn có thể tiến hành lật 1 thẻ phán xét. Nếu kết quả của phán xét là [Đỏ] thì bạn coi như đã sử dụng hoặc đánh ra lá [Né]",
     la_bai: [
       {
@@ -1174,7 +1174,7 @@ export const details = {
     ],
   },
   Truc_Can_Khi_Vien: {
-    title: "Trục Cận Khí Viễn",
+    title: "Trục Cận Khí Viễn - Trợ Chiến",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, sử dụng đối với 1 người khác.\nNếu khoảng cách của bạn và họ lớn hơn 1, bạn có thể bỏ 1 thẻ trong [khu vực chơi] của họ.\nNếu khoảng cách của bạn và họ bằng 1, bạn có thể thu 1 thẻ trong [khu vực chơi] của họ.",
     la_bai: [
@@ -1192,12 +1192,12 @@ export const details = {
     hieu_ung: [
       {
         ten: "Trợ chiến",
-        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng Biến]: hiệu quả [Ứng Biến] - mục tiêu chấp hành cả 2 hạng mục",
+        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng Biến]: hiệu quả [Trợ chiến] - mục tiêu chấp hành cả 2 hạng mục",
       },
     ],
   },
   Xuat_Ky_Bat_Y: {
-    title: "Xuất Kỳ Bất Ý",
+    title: "Xuất Kỳ Bất Ý - Trợ Chiến",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, sử dụng lên 1 người chơi. Bạn mở ra 1 thẻ bài trên tay của họ. Nếu thẻ đó khác chất với thẻ [Xuất Kỳ Bất Ý] này bạn gây 1 sát thương đối với họ.",
     la_bai: [
@@ -1215,12 +1215,12 @@ export const details = {
     hieu_ung: [
       {
         ten: "Trợ chiến",
-        mo_ta: "",
+        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng Biến]: hiệu quả [Trợ Chiến] - mục tiêu +1",
       },
     ],
   },
   Hoa_Cong: {
-    title: "Hỏa Công",
+    title: "Hỏa Công - Trợ Chiến",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, sử dụng lên người chơi có bài trên tay. Họ mở ra 1 thẻ bài trên tay. Nếu bạn bỏ 1 thẻ cùng chất với thẻ họ mở, bạn gây sát thương hệ [Hoả] cho họ.",
     la_bai: [
@@ -1238,12 +1238,12 @@ export const details = {
     hieu_ung: [
       {
         ten: "Trợ chiến",
-        mo_ta: "",
+        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng Biến]: hiệu quả [Trợ Chiến] - mục tiêu +1",
       },
     ],
   },
   Thuy_Yem_That_Quan: {
-    title: "Thủy Yêm Thất Quân",
+    title: "Thủy Yêm Thất Quân - Trợ Chiến",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, sử dụng lên 1 người chơi khác có bài trong [vùng trang bị], Lệnh mục tiêu chọn :\n1. Tự bỏ hết bài trong [Vùng trang bị] (tối thiểu 1).\n2. Nhận 1 sát thương thuộc tính [Lôi] từ bạn.",
     la_bai: [
@@ -1261,12 +1261,12 @@ export const details = {
     hieu_ung: [
       {
         ten: "Trợ chiến",
-        mo_ta: "",
+        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng Biến]: hiệu quả [Trợ chiến] - mục tiêu chấp hành cả 2 hạng mục",
       },
     ],
   },
   Nam_Man_Nhap_Xam: {
-    title: "Nam Man Nhập Xâm",
+    title: "Nam Man Nhập Xâm - Phú Giáp",
     phan_loai: "cam_nang", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động, sử dụng đối với tất cả người chơi khác. Mỗi mục tiêu được yêu cầu đánh ra 1 thẻ [Sát] để triệt tiêu. Nếu không họ nhận 1 sát thương từ bạn.",
     la_bai: [
@@ -1284,13 +1284,13 @@ export const details = {
     hieu_ung: [
       {
         ten: "Phú Giáp",
-        mo_ta: "",
+        mo_ta: "Khi sử dụng lá bài này, số lá trên tay nhiều nhất bàn chơi: hiệu quả [Phú Giáp] - Mục tiêu -1",
       },
     ],
   },
   Thai_Cong_Am_Phu: {
     title: "Thái Công Âm Phù",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Bắt đầu giai đoạn hành động. bạn có thể lệnh cho 1 người chơi xoay ngang hoặc xoay dọc võ tướng. Khi kết thúc giai đoạn hành động, bạn có thể [Trọng Chú] 1 thẻ bài trên tay.",
     la_bai: [
       {
@@ -1323,7 +1323,7 @@ export const details = {
   },
   Tuyet_Anh: {
     title: "Tuyệt Ảnh",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách : +1]",
     la_bai: [
       {
@@ -1400,13 +1400,13 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: "Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
   Ky_Lan_Cung: {
     title: "Kỳ Lân Cung",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích : 5]\n\nKhi bạn sử dụng thẻ [Sát] gây sát thương cho mục tiêu. Nếu mục tiêu có trang bị [Tọa Kỵ], bạn có thể bỏ đi 1 [Tọa Kỵ] trong [khu trang bị] của họ.",
     la_bai: [
       {
@@ -1420,7 +1420,7 @@ export const details = {
   },
   Trao_Hoang_Phi_Dien: {
     title: "Trảo Hoàng Phi Điện",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách : +1]",
     la_bai: [
       {
@@ -1434,7 +1434,7 @@ export const details = {
   },
   Xich_Tho: {
     title: "Xích Thố",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách : -1]",
     la_bai: [
       {
@@ -1462,7 +1462,7 @@ export const details = {
   },
   Nhan_Vuong_Thuan: {
     title: "Nhân Vương Thuần",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Thẻ [Sát] [sắc Đen] không có hiệu quả đối với bạn.",
     la_bai: [
       {
@@ -1476,7 +1476,7 @@ export const details = {
   },
   Bat_Truong_Xa_Mau: {
     title: "Bát Trượng Xà Mâu",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích : 3]\n\nBạn có thể đem 2 lá bài trên tay sử dụng hoặc đánh ra xem như thẻ [Sát].",
     la_bai: [
       {
@@ -1490,7 +1490,7 @@ export const details = {
   },
   Dong_Tuoc: {
     title: "Đổng Tước",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Trong lượt của bất kỳ người chơi, khi bạn lần đầu sử dụng thẻ bài mang hiệu quả cường hoá sẽ bỏ qua điều kiện phát động và trực tiếp phát động hiệu quả [Ứng Biến].",
     la_bai: [
       {
@@ -1517,7 +1517,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Phú Giáp",
-        mo_ta: "",
+        mo_ta: "Khi sử dụng lá bài này, số lá trên tay nhiều nhất bàn chơi: hiệu quả [Phú Giáp] - Mục tiêu không thể hưởng ứng",
       },
     ],
   },
@@ -1546,7 +1546,7 @@ export const details = {
   },
   Ngu_Hanh_Hac_Linh_Phien: {
     title: "Ngũ Hành Hạc Linh Phiến",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 4]\n\nBạn có thể đem 1 thẻ [Sát] thuộc tính chuyển hoá thành 1 thẻ [Sát] thuộc tính tuỳ ý để sử dụng.",
     la_bai: [
       {
@@ -1609,7 +1609,7 @@ export const details = {
   },
   Bach_Ky_Lan: {
     title: "Bạch Kỳ Lân",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách: +2]\n\n[Toả Định Kỹ] Khi bạn sử dụng thẻ này. bạn gây 1 điểm sát thương hệ [Lôi] cho tất cả người chơi sinh lực hơn bạn.",
     la_bai: [
       {
@@ -1636,7 +1636,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: "Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
@@ -1660,7 +1660,7 @@ export const details = {
   },
   Quy_Dung_Tu: {
     title: "Quỷ Dung Tử",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Bắt đầu giai đoạn hành động, bạn chọn 1 người chơi khác, sau đó lệnh họ rời khỏi bàn chơi cho đến hết lượt này.\n[Toả Định Kỹ] Giai đoạn kết thúc, bạn rút 1 thẻ đồng thời lệnh cho người có lượt tiếp theo, vào giai đoạn rút bài của họ rút ít đi 1 thẻ.",
     la_bai: [
       {
@@ -1673,7 +1673,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: "Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
@@ -1727,7 +1727,7 @@ export const details = {
   },
   Tu_Tuynh: {
     title: "Tử Tuynh",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách: -1]",
     la_bai: [
       {
@@ -1769,8 +1769,8 @@ export const details = {
   },
   Chiet_Kich: {
     title: "Chiết Kích",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
-    mo_ta: "Pham vi công kích: 0\nĐây chỉ là 1 thanh vũ khí bị đứt gãy mà thôi..... bạn trông đợi điều gì từ nó chứ! T…",
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
+    mo_ta: "[Pham vi công kích: 0]\n\nĐây chỉ là 1 thanh vũ khí bị đứt gãy mà thôi..... bạn trông đợi điều gì từ nó chứ! T…",
     la_bai: [
       {
         chat: "chuon", // ro | co | chuon | bich
@@ -1782,13 +1782,13 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tặng",
-        mo_ta: "",
+        mo_ta: "Lá bài có ký hiệu này có thể đem cho người khác. Nếu lá cho là [Trang bị] thì nó sẽ đi thẳng vào [khu trang bị] và thay thế [trang bị] hiện có.",
       },
     ],
   },
   Thu_Hung_Song_Co_Kiem: {
     title: "Thư Hùng Song Cổ Kiếm",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 2]\n\nSau khi bạn sử dụng [Sát] chỉ định mục tiêu [khác giới tính], bạn có thể lệnh họ lựa chọn:\n1. Họ chọn bỏ 1 thẻ trên tay:\n2. Họ lệnh bạn rút 1 thẻ bài.",
     la_bai: [
       {
@@ -1834,7 +1834,7 @@ export const details = {
   },
   Thien_Co_Do: {
     title: "Thiên Cơ Đồ",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả định kỹ] Khi [Thiên Cơ Đồ] tiến vào [vùng Trang Bị] của bạn, bạn bỏ đi 1 thẻ khác của bạn trừ thẻ này. Khi thẻ này rời khỏi [vùng Trang Bị], bạn bổ sung bài trên tay đến 5 thẻ.",
     la_bai: [
       {
@@ -1848,7 +1848,7 @@ export const details = {
   },
   O_Thiec_Toa_Lien: {
     title: "Ô Thiếc Tỏa Liên",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Toả Định Kỹ] Sau khi bạn sử dụng [Sát] chỉ định mục tiêu: Nếu mục tiêu chưa xoay ngang tướng, bạn xoay ngang tướng họ.",
     la_bai: [
       {
@@ -1862,7 +1862,7 @@ export const details = {
   },
   Hoa_Hoan_Y: {
     title: "Hỏa Hoàn Y",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_phong_cu", // co_ban | cam_nang | trang_bi
     mo_ta: "Khi bạn nhận sát thương thuộc tính, ngăn chặn sát thương này lại. Sau khi bạn trở thành mục tiêu của thẻ [Sát], bạn có thể bỏ 1 thẻ trên tay, sau đó gây 1 điểm sát thương hệ [Hoả] cho người sử dụng thẻ [Sát].",
     la_bai: [
       {
@@ -1876,7 +1876,7 @@ export const details = {
   },
   Duong_Toai_Thuong: {
     title: "Dương Toại Thương",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích: 3]\n\n[Tỏa Định Kỹ] Sau khi bạn gây sát thương cho mục tiêu bằng thẻ [Sát]. mục tiêu nhận thêm 1 điểm sát thương hệ [Hoả] không nguồn.",
     la_bai: [
       {
@@ -1890,7 +1890,7 @@ export const details = {
   },
   Don_Giap_Thien_Thu: {
     title: "Độn Giáp Thiên Thư",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Giai đoạn hành động giới hạn 2 lần, bạn có thể tiến hành thay đổi [Phó Tướng].",
     la_bai: [
       {
@@ -1952,7 +1952,7 @@ export const details = {
   },
   Cuu_Trau_Dinh: {
     title: "Cửu Trâu Đỉnh",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Trước khi chia thẻ bài khởi đầu hoặc sau khi xào lại chồng bài, đặt thẻ này từ chồng bài (nếu có) vào chồng bài bỏ.\n[Toả Định Kỹ]. Nếu [vùng trang bị] của bạn có 4 thẻ [Kỳ Trân], thế lực của bạn giành chiến thắng.",
     la_bai: [
       {
@@ -1966,7 +1966,7 @@ export const details = {
   },
   Anh_Vu_Boi: {
     title: "Anh Vũ Bôi",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
     mo_ta: "Mỗi lượt giới hạn 9 lần, bạn có thể đem 1 thẻ trên đầu chồng bài rút xem như thẻ [Tửu] để sử dụng.",
     la_bai: [
       {
@@ -1980,7 +1980,7 @@ export const details = {
   },
   Thien_Loc: {
     title: "Thiên Lộc",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_toa_ky", // co_ban | cam_nang | trang_bi
     mo_ta: "[Khoảng cách : -3]\n\nNếu thế lực của bạn không có [Quân Chủ] trên bàn, xem như có [Quân Chủ Kỹ] của thế lực của bạn.",
     la_bai: [
       {
@@ -1994,7 +1994,7 @@ export const details = {
   },
   Tram_Xa_Kiem: {
     title: "Trảm Xà Kiếm",
-    phan_loai: "trang_bi", // co_ban | cam_nang | trang_bi
+    phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
     mo_ta: "[Phạm vi công kích : 2]\n\nSau khi bạn sử dụng [Sát] gây ra sát thương cho mục tiêu, bạn hồi phục 1 điểm sinh lực. Nếu người đó là [Quân Chủ] hoặc [Dã Tâm Gia], giết chết người chơi đó.",
     la_bai: [
       {

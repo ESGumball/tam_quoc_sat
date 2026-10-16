@@ -5,7 +5,10 @@ import { Modal_bai_danh } from "../components/Model_the";
 const LOAI = [
   { v: "co_ban", t: "Cơ bản" },
   { v: "cam_nang", t: "Cẩm nang" },
-  { v: "trang_bi", t: "Trang bị" },
+  { v: "trang_bi_phong_cu", t: "Trang bị - Phòng cụ" },
+  { v: "trang_bi_vu_khi", t: "Trang bị - Vũ khí" },
+  { v: "trang_bi_toa_ky", t: "Trang bị - Tọa kỵ" },
+  { v: "trang_bi_bao_vat", t: "Trang bị - Bảo vật" },
 ];
 const CHAT = [
   { v: "ro", t: "♦ Rô" },
