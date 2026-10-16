@@ -93,7 +93,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Phản Sát",
-        mo_ta: "",
+        mo_ta: "Sau khi bạn nhận sát thương từ 1 người chơi khác, bạn có thể sử dụng thẻ này lên họ.\n[Tỏa Định Kỹ] Sau khi thẻ này được sử dụng ngoài lượt và gây ra sát thương, bạn chọn rút 2 thẻ hoặc bỏ 2 thẻ của mục tiêu.\n[Tỏa Định Kỹ] Sau khi thẻ này bị bỏ bởi người khác, bạn sử dụng thẻ này lên họ",
       },
     ],
   },
@@ -361,7 +361,12 @@ export const details = {
     ],
     hien_thi: "4 Rô, 4 Cơ",
     ban_mo_rong: "Chưa cập nhật",
-    hieu_ung: [],
+    hieu_ung: [
+      {
+        ten: "Tàn Khu",
+        mo_ta: "Sau khi bạn sử dụng thẻ này, nếu khi đó bạn còn 1 sinh lực. Hiệu quả [Tàn Khu] - số sát thương +1",
+      },
+    ],
   },
   Dao: {
     title: "Đào",
@@ -655,7 +660,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Không sào",
-        mo_ta: "",
+        mo_ta: "Sau khi bạn sử dụng thẻ bài này, mà bạn không còn bài trên tay. Hiệu quả [Không Sào] - bạn rút 1 thẻ từ chồng bài",
       },
     ],
   },
@@ -1300,7 +1305,7 @@ export const details = {
   Sat_5: {
     title: "Sát - Trợ Chiến",
     phan_loai: "co_ban", // co_ban | cam_nang | trang_bi
-    mo_ta: "",
+    mo_ta: "Giai đoạn hành động, bạn có thể sử dụng lá bài này lên 1 người chơi khác nằm trong phạm vi công kích của bạn, sau đó mục tiêu lựa chọn có hoặc không sử dụng 1 lá [Né], nếu người đó lựa chọn không, bạn gây 1 điểm sát thương cho người chơi này.",
     la_bai: [
       {
         chat: "co", // ro | co | chuon | bich
@@ -1312,7 +1317,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Trợ chiến",
-        mo_ta: "",
+        mo_ta: "Sau khi chỉ định mục tiêu, người khác có thể tự bỏ 1 thẻ cùng loại để phát động hiệu quả [Ứng biến]. Hiệu quả [Trợ chiến] - Số mục tiêu của thẻ này +1",
       },
     ],
   },
@@ -1519,7 +1524,7 @@ export const details = {
   Sat_6: {
     title: "Sát - Tàn Khu",
     phan_loai: "co_ban", // co_ban | cam_nang | trang_bi
-    mo_ta: "",
+    mo_ta: "Giai đoạn hành động, bạn có thể sử dụng lá bài này lên 1 người chơi khác nằm trong phạm vi công kích của bạn, sau đó mục tiêu lựa chọn có hoặc không sử dụng 1 lá [Né], nếu người đó lựa chọn không, bạn gây 1 điểm sát thương cho người chơi này.",
     la_bai: [
       {
         chat: "bich", // ro | co | chuon | bich
@@ -1535,7 +1540,7 @@ export const details = {
     hieu_ung: [
       {
         ten: "Tàn Khu",
-        mo_ta: "Sau khi bạn sử dụng thẻ này, nếu khi đó bạn còn 1 sinh lực. Hiệu quả [Tàn Khu] - số mục tiêu của thẻ này +1/ số sát thương +1",
+        mo_ta: "Sau khi bạn sử dụng thẻ này, nếu khi đó bạn còn 1 sinh lực. Hiệu quả [Tàn Khu] - số mục tiêu của thẻ này +1",
       },
     ],
   },
@@ -1574,7 +1579,7 @@ export const details = {
   Ne_3: {
     title: "Né - Né Lược",
     phan_loai: "co_ban", // co_ban | cam_nang | trang_bi
-    mo_ta: "",
+    mo_ta: "Bạn có thể sử dụng lá bài này khi bắt đầu giải quyết hiệu quả của lá [Sát], chỉ định bạn làm mục tiêu, để triệt tiêu hiệu quả của lá [Sát] này lên bạn.",
     la_bai: [
       {
         chat: "co", // ro | co | chuon | bich
