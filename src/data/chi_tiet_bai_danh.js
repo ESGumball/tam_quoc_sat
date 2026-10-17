@@ -1,16 +1,4 @@
 export const details = {
-  Sat: {
-    title: "Sát",
-    phan_loai: "co_ban", // co_ban | cam_nang | trang_bi
-    mo_ta: "",
-    chat: "co", // ro | co | chuon | bich
-    so: "Q", // A, 2-10, J, Q, K
-    ban_mo_rong: "Bản gốc",
-    hieu_ung: [
-      { ten: "Cường hóa", mo_ta: "Khi [Sát] này gây sát thương, ..." },
-      { ten: "Hợp", mo_ta: "Rút thêm 1 thẻ nếu ..." },
-    ],
-  },
   Linh_Xa_Bao_Chau: {
     title: "Linh Xà Bảo Châu",
     phan_loai: "trang_bi_bao_vat", // co_ban | cam_nang | trang_bi
@@ -716,19 +704,19 @@ export const details = {
     mo_ta: "Giai đoạn hành động, bạn có thể sử dụng lá bài này, sau đó số điểm sát thương cơ bản của lá [Sát] tiếp theo mà bạn sử dụng trong lượt này +1.\nKhi bạn trong trạng thái hấp hối, bạn có thể sử dụng lá bài này để hồi phục 1 điểm sinh lực.",
     la_bai: [
       {
-        chat: "tram", // ro | co | chuon | bich
+        chat: "bich", // ro | co | chuon | bich
         so: "9", // A, 2-10, J, Q, K
       },
       {
-        chat: "", // ro | co | chuon | bich
+        chat: "chuon", // ro | co | chuon | bich
         so: "9", // A, 2-10, J, Q, K
       },
       {
-        chat: "", // ro | co | chuon | bich
+        chat: "ro", // ro | co | chuon | bich
         so: "9", // A, 2-10, J, Q, K
       },
     ],
-    hien_thi: "9 tram, 9, 9",
+    hien_thi: "9 Bích, 9 Chuồn, 9 Rô ",
     ban_mo_rong: "Chưa cập nhật",
     hieu_ung: [],
   },
@@ -808,7 +796,7 @@ export const details = {
   Gia_Cat_Lien_No: {
     title: "Gia Cát Liên Nỏ",
     phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
-    mo_ta: "[Pham vi công kích: 1]\n\nTrong giai đoạn hành động. bạn có thể sử dụng không giới hạn thẻ [Sát]",
+    mo_ta: "[Phạm vi công kích: 1]\n\nTrong giai đoạn hành động. bạn có thể sử dụng không giới hạn thẻ [Sát]",
     la_bai: [
       {
         chat: "ro", // ro | co | chuon | bich
@@ -884,7 +872,7 @@ export const details = {
   Quan_Thach_Phu: {
     title: "Quán Thạch Phủ",
     phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
-    mo_ta: "[Pham vi công kích: 3]\n\nSau khi sử dụng [Sát] xác định mục tiêu. Nếu mục tiêu sử dụng [Né] để triệt tiêu, bạn có thể bỏ 2 thẻ bài để thẻ [Sát] gây sát thương cho mục tiêu.",
+    mo_ta: "[Phạm vi công kích: 3]\n\nSau khi sử dụng [Sát] xác định mục tiêu. Nếu mục tiêu sử dụng [Né] để triệt tiêu, bạn có thể bỏ 2 thẻ bài để thẻ [Sát] gây sát thương cho mục tiêu.",
     la_bai: [
       {
         chat: "ro", // ro | co | chuon | bich
@@ -1770,7 +1758,7 @@ export const details = {
   Chiet_Kich: {
     title: "Chiết Kích",
     phan_loai: "trang_bi_vu_khi", // co_ban | cam_nang | trang_bi
-    mo_ta: "[Pham vi công kích: 0]\n\nĐây chỉ là 1 thanh vũ khí bị đứt gãy mà thôi..... bạn trông đợi điều gì từ nó chứ! T…",
+    mo_ta: "[Phạm vi công kích: 0]\n\nĐây chỉ là 1 thanh vũ khí bị đứt gãy mà thôi..... bạn trông đợi điều gì từ nó chứ! T…",
     la_bai: [
       {
         chat: "chuon", // ro | co | chuon | bich

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import defaultImg from "../assets/default-card.png";
 
 // Khung chung: nền tối, header, nút đóng, ảnh bên trái
 const Khung = ({ title, badge, img, onClose, bookmark, wide, children }) => (

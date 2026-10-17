@@ -58,29 +58,13 @@ const Danh_sach_bai_danh = () => {
     const la_bai = item.la_bai ?? [];
     const ten = item.title ?? item.name;
     if (chonLoai.length && !chonLoai.includes(item.phan_loai)) return false;
-    if (
-      chonChat.length &&
-      !la_bai.some((l) =>
-        chonChat.includes(
-          String(l.chat ?? "")
-            .toLowerCase()
-            .trim(),
-        ),
-      )
-    ) {
-      return false;
-    }
-    if (
-      chonSo.length &&
-      !la_bai.some((l) =>
-        chonSo.includes(
-          String(l.so ?? "")
-            .trim()
-            .toUpperCase(),
-        ),
-      )
-    ) {
-      return false;
+    if (chonChat.length || chonSo.length) {
+      const khop = (item.la_bai ?? []).some(
+        (l) =>
+          (!chonChat.length || chonChat.includes(l.chat)) &&
+          (!chonSo.length || chonSo.includes(String(l.so))),
+      );
+      if (!khop) return false;
     }
     if (chonBan.length && !chonBan.includes(item.ban_mo_rong)) return false;
     if (q && !bo_dau(ten).includes(bo_dau(q))) return false;
